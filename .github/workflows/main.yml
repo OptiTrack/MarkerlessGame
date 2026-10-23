@@ -26,6 +26,12 @@ jobs:
           git add .
           git reset --hard
 
+      - name: Clear GameCI CLI cache
+        run: |
+          rm -rf /tmp/game-ci-cli-cache
+          rm -rf /home/runner/.cache/game-ci
+          echo "GameCI cache cleared"
+
       - uses: actions/cache@v3
         with:
           path: src/MarkerlessGame/Library
