@@ -4,7 +4,7 @@ Thank you for your interest in contributing to this project! This document provi
 
 ## Table of Contents
 
-- [Prerequisites](#prerequisites)
+- [Prerequisites](#prerequisites)c
 - [Local Setup](#local-setup)
 - [Development Workflow](#development-workflow)
 - [Running CI Locally](#running-ci-locally)
@@ -18,7 +18,7 @@ Thank you for your interest in contributing to this project! This document provi
 
 ### Required Software
 
-- **Game Engine** - Information
+- **Unity** - Game Engine
 - **Git** - For version control
 
 ### Optional Tools
@@ -31,14 +31,15 @@ Thank you for your interest in contributing to this project! This document provi
 ### 1. Clone the Repository
 
 ```bash
-git clone [Insert]
-cd [Insert]
+git clone git@github.com:OptiTrack/MarkerlessGame.git
+cd MarkerlessGame
 ```
 
-### 2. Install Game Engine
+### 2. Install Unity
 
-1. Download the Game Engine
-2. Options needed or version?
+1. Download Unity Hub
+2. Create a free Unity account or log in with an existing one
+3. Download editor version 6000.5.2f1
 
 ### 3. Install Motive
 
@@ -137,18 +138,23 @@ Before submitting a PR, verify:
 
 ### File Organization
 
-[Insert information]
+Below is the folder structure of the project
+Any folders that aren't mentioned are managed by the Unity Engine and should not be directly modified.
 ```
 project/
-├── src/
-│   ├── controllers/     # Business logic controllers
-│   ├── models/          # Data models
-│   ├── network/         # Network communication
-│   ├── utils/           # Utility functions
-│   └── widgets/         # UI widgets
-├── docs/                # Documentation
-├── paths/               # Sample flight paths
-└── CMakeLists.txt       # Build configuration
+├── src/MarkerlessGame/
+│   ├── Assets/
+│   │   ├── CustomAssets/
+│   │   │   ├── Audio/       # Music and SFX
+│   │   │   ├── GameObjects/ # 3D models and their animations
+│   │   │   ├── Prefabs/     # Game objects with scripts attached and options configured
+│   │   │   ├── Scenes/      # Worlds that have game objects placed in them
+│   │   │   ├── Scripts/     # C# scripts containing most of the game logic
+│   │   │   ├── Tests/       # Unit and Integration tests
+│   │   │   ├── UI/          # 2D images used on a canvas to make the UI
+│   │   ├── UnityAssets/     # Game Objects, materials and scripts provided by Unity, may be useful
+├── docs/                    # Documentation
+
 ```
 
 ## Contribution Process
@@ -245,7 +251,7 @@ A contribution is considered complete when:
 ### Where to Report
 
 Report bugs by creating a new issue on GitHub:
-**[Insert Link]
+**(https://github.com/OptiTrack/MarkerlessGame/issues/new)
 
 ### Bug Report Template
 
