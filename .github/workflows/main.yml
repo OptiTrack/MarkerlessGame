@@ -27,6 +27,7 @@ jobs:
           git reset --hard
 
       - name: Clear GameCI CLI cache
+        shell: bash
         run: |
           rm -rf /tmp/game-ci-cli-cache
           rm -rf /home/runner/.cache/game-ci
