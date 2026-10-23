@@ -4,8 +4,8 @@
 #
 .utmp/
 src/MarkerlessGame/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
+src/MarkerlessGame/[Tt]emp/
+src/MarkerlessGame/[Oo]bj/
 src/MarkerlessGame/[Ll]ogs/
 src/MarkerlessGame/[Uu]ser[Ss]ettings/
 *.log
@@ -57,7 +57,6 @@ ExportedObj/
 *.pidb.meta
 *.pdb.meta
 *.mdb.meta
-*.meta
 
 # Unity3D generated file on crash reports
 sysinfo.txt
@@ -110,3 +109,5 @@ InitTestScene*.unity*
 /Assets/_Recovery
 /Assets/_Recovery.meta
 /core.*
+
+src/MarkerlessGame/Library/Search/*

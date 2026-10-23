@@ -4,7 +4,7 @@ Thank you for your interest in contributing to this project! This document provi
 
 ## Table of Contents
 
-- [Prerequisites](#prerequisites)
+- [Prerequisites](#prerequisites)c
 - [Local Setup](#local-setup)
 - [Development Workflow](#development-workflow)
 - [Running CI Locally](#running-ci-locally)
