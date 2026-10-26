@@ -7,11 +7,13 @@
 | Deciders | Project Team and Project Partner |
 | Superseded By | N/A |
 
+
 ## Problem and Context
 
 We are developing a Video Game where players fight giant monster enemies as a giant robot mech. Before any work can be made on this project we first need to decide which game engine we will use to develop the game. The game engine acts as the game's foundation and its workshop. Many game engines share common features, but they each have unique tools and specialties that can affect how easy or difficult a game is to make.
 
 It is imperative that we decide on which game engine to use as soon as possible because before that decision is made no other work relating to the game's assets or codebase can begin. If we procrastinate this decision, we delay how quickly we can begin making our project tangible, which delays the project as a whole.
+
 
 ## Options
 
@@ -31,28 +33,28 @@ Just like the other engines, Godot is free, but it's also open source. Godot is 
 
 Abstaining from choosing a game engine delays everything. We can't begin building a codebase structure or game assets without knowing what kind of files will be involved. We can't begin building a codebase without knowing what language we'll be writing it in. Choosing a game engine is one of the first decisions to be made when developing a video game and the cost of not making that decision is immediate. However long it takes to choose a game engine is exactly how much longer it will take to start making the project tangible.
 
+
 ## Analysis
 
-The technical tradeoffs that matter for this decision: performance, complexity, maintainability, security, cost. Argue from evidence (benchmarks, prototypes, documentation, prior art) and cite what you relied on so a reviewer can check it. Acknowledge what you are uncertain about.
-
+We know from our project partner that this game is meant to be a 3D, small-scale, minimum-viable-product, with an emphasis on using this game as a sort of demo to show off the company's technology. Our team composition also consists of several people who don't have a ton of game making experience, so we want our game engine to be easy to use and beginner friendly. We're not concerned with our game being super detailed because, again, our game is meant to used as a demo and not a standalone product. 
 
 
 ## Recommendation and Verification Plan
 
-Which option you propose and why it wins the analysis above. Then, concretely: how will the team know it worked? List the tests, metrics, or acceptance criteria that would detect failure, and when they will be checked.
+Looking at the pros and cons of the game engines that we've considered, Unity seems to fit the best. It has all of the qualities that we're looking for in a game engine. It's fairly easy to use and beginner friendly, which makes it easier for all of our team members to learn the engine quickly. It's adept at making smaller 3D style games, which is exactly the type of game we will be creating. We'll be able to see the benefits of working in Unity as soon as we can begin working in it. Team members can view quick video tutorials on how to navigate the software, and all of our team members have experience in writing C and/or C#, which is the coding language that Unity uses.
+
 
 ## Constraints
 
-Licensing, data use, IP, and the partner confidentiality boundary as they bear on this decision. If none apply, say so explicitly and briefly explain why.
+There are no constraints tied to using Unity as our game engine. The choice of which game engine to use was left entirely to us as a team by our project partners, and as it was mentioned above, Unity has no licensing or use fee that pertains to our project. 
+
 
 ## Delegation and Validation
 
-- **What you handed to AI tools** on this decision, whether that was the analysis, the prototype, the tests, or the writing.
-- **What checks made that reasonable**: tests, CI, review gates, a staging environment, a rollback path. Name the ones that actually exist in your repo, not the ones you intend to build.
-- **Where you stopped and validated the result yourself, and why those points.** If this decision is hard to reverse, say what you personally checked before committing to it.
-
-What is assessed is in the [AI policy](https://capstone.alexulbrich.com/assignments/introduction/#ai-policy-applies-to-every-assignment).
+- No AI use was involved in this decision. We made this decision as a team.
+- There are no tests located in our repo that are tied to this decision, as this decision was almost purely a design choice. We made our decision based on the criteria that was listed above.
+- The validation of our decision came from our unanimous agreement as a team to learn and use Unity as our game engine of choice. We have already set up basic tests in Unity, and some of our members have begun looking at tutorials as well.
 
 ## Decision
 
-Proposed, until your team decides. Then accepted, rejected, or superseded, with the date and who chaired the decision. If superseded, link the RFC that replaces this one.
+Accepted
