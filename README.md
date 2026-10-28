@@ -18,8 +18,11 @@ Track a person markerlessly using OptiTrack, then play a game where the person i
 
 
 ## How to Access or Try It
-
+To Play:
 [See the Releases Section]
+
+To Develop:
+[See the Contributing Section]
 
 **System requirements:**
 
