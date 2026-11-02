@@ -1,21 +1,7 @@
-# Hard to Reverse Decisions
+# Risks
 
-## 1. Game Engine
-  - Options: Unity, Godot, or Unreal
-  - Decision: Unity
-  - Reasoning: Team familiarity, file size, 3D support
-  
-## 2. Game Theming
-  - Options: Tavern Brawl, Gladiator Fight, Mech Battle
-  - Decision: Mech Battle
-  - Reasoning: One on one fights are preferable due to limited mobility. Showing the player on screen can be done seamlessly
-  
-## 3. Codebase Structure
-  - Options: Seperate Materials, Models etc. folders, or each Game Object has it's related items in the same folder
-  - Decisions: Sort by asset type
-  - Reasoning: Unity's recommended organization structure, easy to find assets
-  
-## 4. Coding Style
-  - Options: case, variable names, bracket placement
-  - Decisions: Pascal for Methods and Classes, camelCase for variables, brackets on new line, meaningful var names (except math), no variable prefixes
-  - Reasoning: Recomended by Unity, easy to follow and remember
+R-1 team, H/M (issues filled in after the fact; difficult to coordinate tasks that rely on each other). Github issues are often filled in after the fact or when the task in question is almost complete, so checking what someone is working on or how much progress they have made is often impossible. Owner: Michael. Eliminate: Proactively make github issues during weekly team meetings and after meetings with the project partner. Trigger: Github issues not up to date during weekly meeting 
+
+R-2 technical, M/H (waiting on release of input device; limited testing until device is released). Testing the game with the required input device waits until it is released by our project partner; until then, testing is limited to placeholders that may not find all bugs that are present. Owner: Brett. Mitigate: Test our build as thoroughly as possible using placeholders to minimize the cleanup that is needed after transitioning. Trigger: Many new edge cases come up while integrating the input device 
+
+R-3 team, L/M (Only an issue if half the team is unavailable; would make testing more difficult). Brett and Tiffany can't download Motive on their computers because they use non-windows machines, meaning they are unable to perform tasks that require using motive. Owner: Brett. Accept, because getting access to windows machines for them for development would be more expensive than it's worth, and that was what the project partner recommended. Trigger: Brett or Tiffany are the only people available to work on something that requires Motive access.
