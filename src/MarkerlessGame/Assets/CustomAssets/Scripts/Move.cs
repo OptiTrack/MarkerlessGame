@@ -26,6 +26,7 @@ public class Move
         height=h;
     }
     public Move(Height h, State s1): this(h,Side.none,s1){}
+    public Move(Side s2, State s1): this(Height.none,s2,s1){}
     public Move(State s1): this(Height.none,Side.none,s1){}
 
 }
