@@ -40,6 +40,7 @@ public class EnemyBehaviorTest
     }
 
     [Test]
+
     [TestCase(100,100,100,Height.low,Side.left,State.guard)]
     [TestCase(100,100,0,Height.low,Side.left,State.attack)]
     [TestCase(100,0,100,Height.low,Side.right,State.dodge)]
