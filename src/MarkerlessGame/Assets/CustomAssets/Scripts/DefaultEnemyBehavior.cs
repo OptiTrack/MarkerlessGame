@@ -35,9 +35,9 @@ public class DefaultEnemyBehavior : MonoBehaviour
     {
         lastMove=new Move(State.idle);
     }
-    private void OnTriggerEnter(GameObject obj)
+    public void OnTriggerEnter(Collider col)
     {
-        if(obj.tag=="player")
+        if(col.gameObject.tag=="player")
         {
             //if force threshold reached
             Debug.Log("I was hit");
@@ -51,7 +51,7 @@ public class DefaultEnemyBehavior : MonoBehaviour
         }
     }
 
-    private void Transition(Move m)
+    public void Transition(Move m)
     {
         //gradually switch to anim
         lastMove=currentMove;

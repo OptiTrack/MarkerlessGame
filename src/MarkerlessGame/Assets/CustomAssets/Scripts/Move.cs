@@ -2,7 +2,7 @@ public class Move
 {
     public enum State
     {
-        stagger,idle,guard,dodge,attack,none
+        stagger,idle,guard,dodge,attack,broken,none
     }
     public enum Side
     {

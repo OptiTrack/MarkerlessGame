@@ -19,13 +19,14 @@ public class CoreBotBehavior:DefaultEnemyBehavior
             }
         }else
         {
-            health-=10;
+            //health-=10;
         }
     }
+    /*
     public new void Start()
     {
         lastMove=new Move(State.idle);
-        health=100;
-    }
+        //health=100;
+        }*/
 
 }
