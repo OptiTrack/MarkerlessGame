@@ -260,7 +260,7 @@ GameObject:
   - component: {fileID: 371170410}
   - component: {fileID: 371170409}
   - component: {fileID: 371170408}
-  - component: {fileID: 371170407}
+  - component: {fileID: 371170414}
   m_Layer: 0
   m_Name: Sphere (2)
   m_TagString: Untagged
@@ -268,22 +268,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &371170407
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 371170406}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4f1df522b99fc243b50c47cd0f2cce6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BoundsCheck
-  LowerYAxisBound: -2
-  ResetOnBoundExit: 1
-  InitialPosition: {x: 0, y: 0, z: 0}
-  rb: {fileID: 371170409}
 --- !u!114 &371170408
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -296,7 +280,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 741cf744761d30f4c97c2e6becb9d8d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Hurtbox
-  attack: {fileID: 11400000, guid: 5267d6fde3236234190b26d99c88eda0, type: 2}
+  _attack: {fileID: 11400000, guid: e303dfde78ec8a3438b936948a84c544, type: 2}
 --- !u!54 &371170409
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -411,12 +395,25 @@ Transform:
   m_GameObject: {fileID: 371170406}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.938599, y: 7.86, z: -0.37}
+  m_LocalPosition: {x: -4.938599, y: 7.33, z: -0.37}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &371170414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 371170406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0335fe2f83e47244dab2fb55dc2aae42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: CustomAssets::SpeedCalculator
+  ObjectSpeed: 0
 --- !u!1 &515751647
 GameObject:
   m_ObjectHideFlags: 0
@@ -450,7 +447,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04b656a83a306894e840575cdf1f4ffe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HealthComponent
-  MaxHealth: 2
+  _maxHealth: 4
 --- !u!114 &515751649
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -463,7 +460,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46c857d5ed27ebe489f29dd316c17e7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Hitbox
-  IsInvuln: 0
+  _damageMultiplier: 1
 --- !u!65 &515751650
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -683,7 +680,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46c857d5ed27ebe489f29dd316c17e7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Hitbox
-  IsInvuln: 0
+  _damageMultiplier: 1
 --- !u!114 &697927631
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -696,7 +693,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04b656a83a306894e840575cdf1f4ffe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HealthComponent
-  MaxHealth: 2
+  _maxHealth: 4
 --- !u!1 &938588608
 GameObject:
   m_ObjectHideFlags: 0
@@ -709,9 +706,9 @@ GameObject:
   - component: {fileID: 938588612}
   - component: {fileID: 938588611}
   - component: {fileID: 938588610}
-  - component: {fileID: 938588609}
   - component: {fileID: 938588614}
-  - component: {fileID: 938588615}
+  - component: {fileID: 938588616}
+  - component: {fileID: 938588617}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -719,33 +716,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!54 &938588609
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 938588608}
-  serializedVersion: 5
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!135 &938588610
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -832,13 +802,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 938588608}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.44, y: 2.66, z: -0.37}
+  m_LocalRotation: {x: -0.041353256, y: -0, z: -0, w: 0.9991446}
+  m_LocalPosition: {x: -10.44, y: 3.04, z: -0.37}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -4.74, y: 0, z: 0}
 --- !u!114 &938588614
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -851,23 +821,47 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 741cf744761d30f4c97c2e6becb9d8d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Hurtbox
-  attack: {fileID: 11400000, guid: 5267d6fde3236234190b26d99c88eda0, type: 2}
---- !u!114 &938588615
+  _attack: {fileID: 11400000, guid: e303dfde78ec8a3438b936948a84c544, type: 2}
+--- !u!114 &938588616
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 938588608}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4f1df522b99fc243b50c47cd0f2cce6, type: 3}
+  m_Script: {fileID: 11500000, guid: 0335fe2f83e47244dab2fb55dc2aae42, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BoundsCheck
-  LowerYAxisBound: 0
-  ResetOnBoundExit: 0
-  InitialPosition: {x: 0, y: 0, z: 0}
-  rb: {fileID: 938588609}
+  m_EditorClassIdentifier: CustomAssets::SpeedCalculator
+  ObjectSpeed: 0
+--- !u!54 &938588617
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938588608}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1277818535
 GameObject:
   m_ObjectHideFlags: 0
@@ -882,7 +876,7 @@ GameObject:
   - component: {fileID: 1277818539}
   - component: {fileID: 1277818538}
   - component: {fileID: 1277818537}
-  - component: {fileID: 1277818536}
+  - component: {fileID: 1277818543}
   m_Layer: 0
   m_Name: Sphere (1)
   m_TagString: Untagged
@@ -890,22 +884,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1277818536
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1277818535}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4f1df522b99fc243b50c47cd0f2cce6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BoundsCheck
-  LowerYAxisBound: 0
-  ResetOnBoundExit: 0
-  InitialPosition: {x: 0, y: 0, z: 0}
-  rb: {fileID: 1277818538}
 --- !u!114 &1277818537
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -918,7 +896,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 741cf744761d30f4c97c2e6becb9d8d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Hurtbox
-  attack: {fileID: 11400000, guid: 5267d6fde3236234190b26d99c88eda0, type: 2}
+  _attack: {fileID: 11400000, guid: e303dfde78ec8a3438b936948a84c544, type: 2}
 --- !u!54 &1277818538
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1039,6 +1017,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1277818543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1277818535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0335fe2f83e47244dab2fb55dc2aae42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: CustomAssets::SpeedCalculator
+  ObjectSpeed: 0
 --- !u!1 &1979094848
 GameObject:
   m_ObjectHideFlags: 0
@@ -1072,7 +1063,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04b656a83a306894e840575cdf1f4ffe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HealthComponent
-  MaxHealth: 2
+  _maxHealth: 4
 --- !u!114 &1979094850
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1085,7 +1076,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46c857d5ed27ebe489f29dd316c17e7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Hitbox
-  IsInvuln: 0
+  _damageMultiplier: 1
 --- !u!65 &1979094851
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -5,5 +5,14 @@ public class Attack : ScriptableObject
 {
     public float BaseDamage;
     public float MaxDamage;
-    public float SpeedBonusPercent;
+    public AnimationCurve BonusDamageScalingCurve = AnimationCurve.EaseInOut(0f, 0f, 9f, 5f);
+
+    private void OnValidate()
+    {
+        if (BaseDamage > MaxDamage)
+        {
+            BaseDamage = MaxDamage;
+        }
+    }
+
 }

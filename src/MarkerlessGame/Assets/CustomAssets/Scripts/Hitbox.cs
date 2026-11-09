@@ -1,28 +1,39 @@
 using UnityEngine;
-using UnityEngine.Rendering;
 
 public class Hitbox : MonoBehaviour
 {
-    public bool IsInvuln = false;
+    [SerializeField] private Attack _attack;
+    private SpeedCalculator _speedCalculator;
 
-    private HealthComponent _healthComponent;
+    private void Start() => _speedCalculator = GetComponent<SpeedCalculator>();
 
-    void Start()
+    void OnTriggerEnter(Collider other)
     {
-        _healthComponent = GetComponent<HealthComponent>();
-    }
+        Debug.Log("Hitbox collided with " + other.gameObject.name);
 
-    public bool RecieveHit(Attack attack, float speed)
-    {
-        if (!IsInvuln)
+        // Create and send a hit context to a hurtbox if detected
+        if (other.TryGetComponent<Hurtbox>(out Hurtbox hurtbox))
         {
-            float damageTaken = Mathf.Clamp(attack.BaseDamage + (speed * attack.SpeedBonusPercent), attack.BaseDamage, attack.MaxDamage);
-            Debug.Log("Taking this much damage: " + damageTaken);
-            _healthComponent.AdjustHealth(-damageTaken);
-            return true;
-        }
+            Debug.Log("Hurtbox detected, attempting to damage");
 
-        return false;
+            float attackDamage = _attack.BaseDamage;
+
+            if (_speedCalculator)
+            {
+                attackDamage += _attack.BonusDamageScalingCurve.Evaluate(_speedCalculator.ObjectSpeed);
+            }
+
+            attackDamage = Mathf.Clamp(attackDamage, 0, _attack.MaxDamage);
+
+            HitContext context = new HitContext
+            {
+                Attacker = gameObject,
+                Victim = other.gameObject,
+                BaseDamage = attackDamage
+            };
+
+            Debug.Log("Sending " + attackDamage + " to hurtbox");
+            hurtbox.RecieveHit(context);
+        }
     }
-   
 }

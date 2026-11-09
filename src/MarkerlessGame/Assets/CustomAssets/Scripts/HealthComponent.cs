@@ -1,23 +1,18 @@
 using UnityEngine;
 
-public class HealthComponent : MonoBehaviour
+public class HealthComponent : MonoBehaviour, IHitResponder
 {
 
-    public float MaxHealth;
+    [SerializeField] private float _maxHealth;
     private float _currentHealth;
 
-    void Start()
-    {
-        _currentHealth = MaxHealth;
-    }
+    private void Awake() => _currentHealth = _maxHealth;
 
-    public void AdjustHealth(float amount)
+    // Method required by IHitResponder interface; accepts a hit context sent by hurtbox
+    public void HandleHit(HitContext context)
     {
-        // Set health to clamped, adjusted value: 0 <= _currentHealth <= MaxHealth
-        _currentHealth = Mathf.Clamp(_currentHealth + amount, 0, MaxHealth);
-        Debug.Log("Current health: " + _currentHealth);
+        _currentHealth -= context.BaseDamage;
 
-        // Trigger 'OnDeath' if health at 0
         if (_currentHealth <= 0)
         {
             OnDeath();
@@ -26,8 +21,13 @@ public class HealthComponent : MonoBehaviour
 
     void OnDeath()
     {
-        // Write to console and destroy this game object
         Debug.Log("Health at 0, object is dead");
-        Destroy(gameObject);
+
+        DefeatEvent defeatEvent = new DefeatEvent
+        {
+            Victim = gameObject
+        };
+
+        GameEventBus.Raise(defeatEvent);
     }
 }

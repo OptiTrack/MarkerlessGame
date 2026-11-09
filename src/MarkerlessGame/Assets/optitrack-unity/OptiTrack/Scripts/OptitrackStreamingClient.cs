@@ -23,9 +23,9 @@ using UnityEngine;
 using NaturalPoint;
 using NaturalPoint.NatNetLib;
 using UnityEditor;
-using UnityEditor.UIElements;
-using UnityEngine;
-using UnityEngine.UIElements;
+//using UnityEditor.UIElements;
+//using UnityEngine;
+//using UnityEngine.UIElements;
 using static TMPro.SpriteAssetUtilities.TexturePacker_JsonArray;
 
 

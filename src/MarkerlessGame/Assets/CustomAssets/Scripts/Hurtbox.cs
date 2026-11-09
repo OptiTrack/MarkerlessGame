@@ -1,31 +1,29 @@
+using System;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
+using UnityEngine.Rendering;
 
 public class Hurtbox : MonoBehaviour
 {
-    public Attack attack;
-    private Rigidbody _rb;
+    [SerializeField] private float _damageMultiplier = 1f;
 
-    void Start()
+    private IHitResponder[] responders;
+
+    private void Awake()
     {
-        _rb = GetComponent<Rigidbody>();
+        // Cache all components on this object (or parent) that can respond to hits
+        responders = GetComponentsInParent<IHitResponder>();
     }
 
-    void OnTriggerEnter(Collider other)
+    public void RecieveHit(HitContext context)
     {
-        Debug.Log("Hurtbox collided with " + other.gameObject.name);
-        Hitbox hitbox = other.GetComponent<Hitbox>();
+        context.BaseDamage *= _damageMultiplier;
 
-        if (hitbox != null)
+        // Route the hit context to every registered responder
+        foreach (var responder in responders)
         {
-            Debug.Log("Hitbox detected, attempting to damage");
-
-            float speed = Vector3.Magnitude(_rb.linearVelocity);
-            Debug.Log("Punching moving at this speed: " + speed);
-
-            if (hitbox.RecieveHit(attack, speed))
-            {
-                Debug.Log("Hit successful");
-            }
+            responder.HandleHit(context);
         }
     }
 }
