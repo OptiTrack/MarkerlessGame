@@ -1,0 +1,160 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Figma/Untitled/Original---city-cockpit.uss?fileID=7433441132597879392&amp;guid=ee23c82df7666439aa665f65fdf659be&amp;type=3#Original---city-cockpit"/>
+    <ui:VisualElement name="VisualElement" style="width: 960px; height: 1442px; background-image: url(&quot;project://database/Assets/Figma/Untitled/images/img-lpxg7up9d5q7-38089.png?fileID=2800000&amp;guid=b0293ac7e44ad41c1b7fee10ef4b3ea2&amp;type=3#img-lpxg7up9d5q7-38089&quot;); background-position-x: 50%; background-position-y: 50%; background-size: 100% 99.861%; background-repeat: no-repeat; flex-shrink: 0;"/>
+    <ui:VisualElement name="Control_Panel" style="width: 920px; height: 260px; position: absolute; left: 20px; top: 1170px; bottom: 0;">
+        <ui:VisualElement style="width: 920px; height: 260px; background-color: rgb(6, 6, 8); position: absolute; left: 0; top: 0;">
+            <ui:VisualElement style="width: 180px; height: 244px; border-radius: 3px; border-width: 1px; border-color: rgb(204, 17, 17); background-color: rgba(0, 0, 0, 0); position: absolute; left: 0; top: 0;"/>
+        </ui:VisualElement>
+        <ui:VisualElement style="width: 920px; height: 1px; background-color: rgb(51, 17, 17); position: absolute; left: 0; top: 4px;"/>
+        <ui:VisualElement style="width: 920px; height: 1px; background-color: rgb(51, 17, 17); position: absolute; left: 0; top: 259px;"/>
+        <ui:VisualElement style="width: 1px; height: 244px; background-color: rgb(34, 34, 34); position: absolute; left: 185px; top: 8px;"/>
+        <ui:VisualElement style="width: 1px; height: 244px; background-color: rgb(34, 34, 34); position: absolute; left: 365px; top: 8px;"/>
+        <ui:VisualElement style="width: 1px; height: 244px; background-color: rgb(34, 34, 34); position: absolute; left: 555px; top: 8px;"/>
+        <ui:VisualElement style="width: 1px; height: 244px; background-color: rgb(34, 34, 34); position: absolute; left: 735px; top: 8px;"/>
+        <ui:VisualElement style="display: none; width: 920px; height: 260px; background-color: rgba(0, 0, 0, 0.18); position: absolute; left: 0; top: 0;"/>
+        <ui:VisualElement style="width: 162px; height: 162px; border-radius: 81px; position: absolute; left: 10px; top: 12px;">
+            <ui:VisualElement style="width: 162px; height: 162px; position: absolute; left: 0; top: 0; background-image: url(&quot;project://database/Assets/Figma/Untitled/images/img-44styl1dmig0t-164724.png?fileID=2800000&amp;guid=21cfb703efe44410f8d36762ef2c1de8&amp;type=3#img-44styl1dmig0t-164724&quot;); -unity-background-scale-mode: scale-and-crop;"/>
+        </ui:VisualElement>
+        <ui:VisualElement style="width: 150px; height: 18px; border-radius: 2px; background-color: rgb(17, 0, 0); position: absolute; left: 16px; top: 178px;"/>
+        <ui:Label text="STRUCT INTEGRITY" class="unity-label" style="width: 150px; height: 16px; color: rgb(204, 34, 34); font-size: 9px; -unity-font-style: bold; -unity-text-align: middle-center; white-space: normal; position: absolute; left: 16px; top: 174px;"/>
+        <ui:Label text="087%" class="unity-label" style="width: 150px; height: 22px; color: rgb(238, 238, 238); font-size: 18px; -unity-font-style: bold; -unity-text-align: middle-center; white-space: normal; position: absolute; left: 16px; top: 196px;"/>
+        <ui:VisualElement style="width: 6px; height: 6px; border-radius: 6px; background-color: rgb(204, 34, 34); position: absolute; left: 56px; top: 224px;"/>
+        <ui:VisualElement style="width: 6px; height: 6px; border-radius: 6px; background-color: rgb(204, 34, 34); position: absolute; left: 66px; top: 224px;"/>
+        <ui:VisualElement style="width: 6px; height: 6px; border-radius: 6px; background-color: rgb(68, 68, 68); position: absolute; left: 76px; top: 224px;"/>
+        <ui:VisualElement style="width: 6px; height: 6px; border-radius: 6px; background-color: rgb(68, 68, 68); position: absolute; left: 86px; top: 224px;"/>
+        <ui:VisualElement style="width: 6px; height: 6px; border-radius: 6px; background-color: rgb(68, 68, 68); position: absolute; left: 96px; top: 224px;"/>
+        <ui:Label text="SYS A — NOMINAL" class="unity-label" style="width: 150px; height: 12px; color: rgb(85, 85, 85); font-size: 8px; -unity-text-align: middle-center; white-space: normal; position: absolute; left: 16px; top: 233px;"/>
+        <ui:VisualElement style="width: 158px; height: 158px; border-radius: 79px; position: absolute; left: 196px; top: 12px;">
+            <ui:VisualElement style="width: 158px; height: 158px; position: absolute; left: 0; top: 0; background-image: url(&quot;project://database/Assets/Figma/Untitled/images/img-i71ut41iwib8o-326045.png?fileID=2800000&amp;guid=704c2e5ffc46d45e79d517af500f635e&amp;type=3#img-i71ut41iwib8o-326045&quot;); -unity-background-scale-mode: scale-and-crop;"/>
+        </ui:VisualElement>
+        <ui:VisualElement style="width: 150px; height: 18px; border-radius: 2px; background-color: rgb(17, 0, 0); position: absolute; left: 200px; top: 174px;"/>
+        <ui:Label text="POWER OUTPUT" class="unity-label" style="width: 150px; height: 16px; color: rgb(204, 34, 34); font-size: 9px; -unity-font-style: bold; -unity-text-align: middle-center; white-space: normal; position: absolute; left: 200px; top: 175px;"/>
+        <ui:Label text="072%" class="unity-label" style="width: 150px; height: 22px; color: rgb(238, 238, 238); font-size: 18px; -unity-font-style: bold; -unity-text-align: middle-center; white-space: normal; position: absolute; left: 200px; top: 194px;"/>
+        <ui:VisualElement style="width: 12px; height: 28px; border-radius: 1px; background-color: rgb(204, 34, 34); position: absolute; left: 206px; top: 220px;"/>
+        <ui:VisualElement style="width: 12px; height: 24px; border-radius: 1px; background-color: rgb(204, 34, 34); position: absolute; left: 221px; top: 224px;"/>
+        <ui:VisualElement style="width: 12px; height: 29px; border-radius: 1px; background-color: rgb(136, 34, 0); position: absolute; left: 236px; top: 219px;"/>
+        <ui:VisualElement style="width: 12px; height: 26px; border-radius: 1px; background-color: rgb(170, 17, 0); position: absolute; left: 251px; top: 222px;"/>
+        <ui:VisualElement style="width: 12px; height: 22px; border-radius: 1px; background-color: rgb(51, 51, 51); position: absolute; left: 266px; top: 226px;"/>
+        <ui:VisualElement style="width: 12px; height: 18px; border-radius: 1px; background-color: rgb(51, 51, 51); position: absolute; left: 281px; top: 230px;"/>
+        <ui:VisualElement style="width: 12px; height: 20px; border-radius: 1px; background-color: rgb(51, 51, 51); position: absolute; left: 296px; top: 228px;"/>
+        <ui:VisualElement style="width: 12px; height: 16px; border-radius: 1px; background-color: rgb(34, 34, 34); position: absolute; left: 311px; top: 232px;"/>
+        <ui:Label text="REACTOR CORE" class="unity-label" style="width: 150px; height: 10px; color: rgb(85, 85, 85); font-size: 7px; -unity-text-align: middle-center; white-space: normal; position: absolute; left: 200px; top: 249px;"/>
+        <ui:VisualElement style="display: none; width: 180px; height: 244px; position: absolute; left: 370px; top: 8px;">
+            <ui:VisualElement style="width: 180px; height: 244px; border-radius: 3px; background-color: rgb(10, 10, 12); position: absolute; left: 0; top: 0;"/>
+            <ui:VisualElement style="width: 180px; height: 244px; border-radius: 3px; border-width: 1px; border-color: rgb(204, 17, 17); background-color: rgba(0, 0, 0, 0); position: absolute; left: 0; top: 0;"/>
+            <ui:VisualElement style="width: 172px; height: 14px; border-radius: 2px; background-color: rgb(204, 17, 17); position: absolute; left: 4px; top: 5px;"/>
+            <ui:Label text="HULL INTEGRITY" class="unity-label" style="width: 172px; height: 12px; color: rgb(255, 255, 255); font-size: 8px; -unity-font-style: bold; -unity-text-align: middle-center; white-space: normal; position: absolute; left: 4px; top: 6px;"/>
+            <ui:VisualElement style="width: 168px; height: 48px; border-radius: 2px; background-color: rgb(13, 0, 0); position: absolute; left: 6px; top: 22px;"/>
+            <ui:Label text="087" class="unity-label" style="width: 168px; height: 40px; color: rgb(255, 34, 34); font-size: 36px; -unity-font-style: bold; -unity-text-align: middle-center; white-space: normal; position: absolute; left: 6px; top: 25px;"/>
+            <ui:Label text="%" class="unity-label" style="width: 168px; height: 40px; color: rgb(136, 34, 34); font-size: 10px; -unity-text-align: middle-right; white-space: normal; position: absolute; left: 6px; top: 25px;"/>
+            <ui:VisualElement style="width: 168px; height: 10px; border-radius: 2px; background-color: rgb(26, 0, 0); position: absolute; left: 6px; top: 74px;"/>
+            <ui:VisualElement style="width: 147px; height: 10px; border-radius: 2px; background-color: rgb(204, 17, 17); position: absolute; left: 6px; top: 74px;"/>
+            <ui:Label text="HP 087 / 100" class="unity-label" style="width: 168px; height: 10px; color: rgb(102, 51, 51); font-size: 7px; -unity-text-align: middle-center; white-space: normal; position: absolute; left: 6px; top: 86px;"/>
+            <ui:VisualElement style="width: 172px; height: 1px; background-color: rgb(51, 17, 17); position: absolute; left: 4px; top: 100px;"/>
+            <ui:VisualElement style="width: 172px; height: 14px; border-radius: 2px; background-color: rgb(26, 26, 46); position: absolute; left: 4px; top: 105px;"/>
+            <ui:Label text="MISSION CLOCK" class="unity-label" style="width: 172px; height: 12px; color: rgb(68, 153, 255); font-size: 8px; -unity-font-style: bold; -unity-text-align: middle-center; white-space: normal; position: absolute; left: 4px; top: 106px;"/>
+            <ui:VisualElement style="width: 168px; height: 48px; border-radius: 2px; background-color: rgb(0, 13, 26); position: absolute; left: 6px; top: 122px;"/>
+            <ui:Label text="14:37:08" class="unity-label" style="width: 168px; height: 40px; color: rgb(17, 119, 255); font-size: 27px; -unity-font-style: bold; -unity-text-align: middle-center; white-space: normal; position: absolute; left: 6px; top: 125px;"/>
+            <ui:VisualElement style="width: 50px; height: 12px; border-radius: 1px; background-color: rgb(0, 51, 0); position: absolute; left: 6px; top: 174px;"/>
+            <ui:Label text="ACTIVE" class="unity-label" style="width: 50px; height: 10px; color: rgb(0, 204, 68); font-size: 7px; -unity-font-style: bold; -unity-text-align: middle-center; white-space: normal; position: absolute; left: 6px; top: 175px;"/>
+            <ui:VisualElement style="width: 56px; height: 12px; border-radius: 1px; background-color: rgb(0, 26, 51); position: absolute; left: 62px; top: 174px;"/>
+            <ui:Label text="ZONE-4B" class="unity-label" style="width: 56px; height: 10px; color: rgb(68, 136, 255); font-size: 7px; -unity-font-style: bold; -unity-text-align: middle-center; white-space: normal; position: absolute; left: 62px; top: 175px;"/>
+            <ui:VisualElement style="width: 52px; height: 12px; border-radius: 1px; background-color: rgb(51, 0, 0); position: absolute; left: 124px; top: 174px;"/>
+            <ui:Label text="ALERT" class="unity-label" style="width: 52px; height: 10px; color: rgb(204, 34, 34); font-size: 7px; -unity-font-style: bold; -unity-text-align: middle-center; white-space: normal; position: absolute; left: 124px; top: 175px;"/>
+            <ui:Label text="N 40°42&apos;46&quot; // W 074°00&apos;22&quot;" class="unity-label" style="width: 172px; height: 10px; color: rgb(51, 51, 68); font-size: 7px; -unity-text-align: middle-center; white-space: normal; position: absolute; left: 4px; top: 190px;"/>
+            <ui:VisualElement style="width: 30px; height: 30px; position: absolute; left: 40px; top: 204px;">
+                <ui:VisualElement style="width: 30px; height: 30px; position: absolute; left: 0; top: 0; background-image: url(&quot;project://database/Assets/Figma/Untitled/images/img-llm1q314ph6uw-3396.png?fileID=2800000&amp;guid=47d76131eda904e1bb863cdc51139c87&amp;type=3#img-llm1q314ph6uw-3396&quot;); -unity-background-scale-mode: scale-and-crop;"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement style="width: 158px; height: 158px; border-radius: 79px; position: absolute; left: 562px; top: 12px;">
+            <ui:VisualElement style="width: 158px; height: 158px; position: absolute; left: 0; top: 0; background-image: url(&quot;project://database/Assets/Figma/Untitled/images/img-1djdnotc4rnuu-338147.png?fileID=2800000&amp;guid=95cb5a66a3a4c46f2b6fbf83e758f25d&amp;type=3#img-1djdnotc4rnuu-338147&quot;); -unity-background-scale-mode: scale-and-crop;"/>
+        </ui:VisualElement>
+        <ui:VisualElement style="width: 150px; height: 18px; border-radius: 2px; background-color: rgb(17, 0, 0); position: absolute; left: 566px; top: 174px;"/>
+        <ui:Label text="RADAR / THREAT" class="unity-label" style="width: 150px; height: 16px; color: rgb(204, 34, 34); font-size: 9px; -unity-font-style: bold; -unity-text-align: middle-center; white-space: normal; position: absolute; left: 566px; top: 175px;"/>
+        <ui:Label text="03 TGT" class="unity-label" style="width: 150px; height: 22px; color: rgb(238, 238, 238); font-size: 18px; -unity-font-style: bold; -unity-text-align: middle-center; white-space: normal; position: absolute; left: 566px; top: 194px;"/>
+        <ui:VisualElement style="width: 14px; height: 6px; border-radius: 1px; background-color: rgb(204, 34, 34); position: absolute; left: 572px; top: 220px;"/>
+        <ui:VisualElement style="width: 14px; height: 6px; border-radius: 1px; background-color: rgb(204, 34, 34); position: absolute; left: 590px; top: 220px;"/>
+        <ui:VisualElement style="width: 14px; height: 6px; border-radius: 1px; background-color: rgb(136, 34, 0); position: absolute; left: 608px; top: 220px;"/>
+        <ui:VisualElement style="width: 14px; height: 6px; border-radius: 1px; background-color: rgb(92, 26, 0); position: absolute; left: 626px; top: 220px;"/>
+        <ui:VisualElement style="width: 14px; height: 6px; border-radius: 1px; background-color: rgb(51, 51, 51); position: absolute; left: 644px; top: 220px;"/>
+        <ui:VisualElement style="width: 14px; height: 6px; border-radius: 1px; background-color: rgb(34, 34, 34); position: absolute; left: 662px; top: 220px;"/>
+        <ui:VisualElement style="width: 14px; height: 6px; border-radius: 1px; background-color: rgb(151, 151, 151); position: absolute; left: 680px; top: 220px;"/>
+        <ui:VisualElement style="width: 14px; height: 6px; border-radius: 1px; background-color: rgb(151, 151, 151); position: absolute; left: 698px; top: 220px;"/>
+        <ui:Label text="THREAT LVL: MODERATE" class="unity-label" style="width: 150px; height: 10px; color: rgb(85, 85, 85); font-size: 7px; -unity-text-align: middle-center; white-space: normal; position: absolute; left: 566px; top: 228px;"/>
+        <ui:Label text="SCAN: 360° — 2.4s" class="unity-label" style="width: 150px; height: 10px; color: rgb(51, 68, 85); font-size: 7px; -unity-text-align: middle-center; white-space: normal; position: absolute; left: 566px; top: 240px;"/>
+        <ui:VisualElement style="width: 176px; height: 38px; border-radius: 2px; position: absolute; left: 740px; top: 8px;">
+            <ui:VisualElement style="width: 176px; height: 38px; position: absolute; left: 0; top: 0; background-image: url(&quot;project://database/Assets/Figma/Untitled/images/img-1k6dtq019rlfss-27369.png?fileID=2800000&amp;guid=e9d48527a868243c7a3c15ce3596ac4c&amp;type=3#img-1k6dtq019rlfss-27369&quot;); -unity-background-scale-mode: scale-and-crop;"/>
+        </ui:VisualElement>
+        <ui:Label text="COMBAT ACTIVE" class="unity-label" style="display: none; width: 200px; height: 9px; color: rgb(204, 17, 17); font-size: 7px; -unity-font-style: bold; -unity-text-align: middle-center; white-space: normal; position: absolute; left: 360px; top: 247px;"/>
+        <ui:Label text="VER 4.1.2 // SN:MK7-0094" class="unity-label" style="display: none; width: 200px; height: 9px; color: rgb(51, 51, 85); font-size: 7px; -unity-text-align: middle-right; white-space: normal; position: absolute; left: 712px; top: 247px;"/>
+        <ui:VisualElement style="width: 135.611px; height: 124.58px; position: absolute; left: 760px; top: 80px;">
+            <ui:VisualElement style="width: 3.401px; height: 122.45px; background-color: rgb(102, 102, 102); position: absolute; left: 10px; top: 2px;"/>
+            <ui:VisualElement style="width: 3.401px; height: 122.45px; background-color: rgb(102, 102, 102); position: absolute; left: 32px; top: 2px;"/>
+            <ui:VisualElement style="width: 3.401px; height: 122.45px; background-color: rgb(102, 102, 102); position: absolute; left: 55px; top: 2px;"/>
+            <ui:VisualElement style="width: 3.401px; height: 122.45px; background-color: rgb(102, 102, 102); position: absolute; left: 78px; top: 2px;"/>
+            <ui:VisualElement style="width: 3.401px; height: 122.45px; background-color: rgb(102, 102, 102); position: absolute; left: 121px; top: 2px;"/>
+            <ui:VisualElement style="width: 3.401px; height: 122.45px; background-color: rgb(102, 102, 102); position: absolute; left: 99px; top: 2px;"/>
+            <ui:VisualElement style="width: 23.809px; height: 3.622px; position: absolute; left: 22px; top: 96px;">
+                <ui:VisualElement style="width: 23.809px; height: 3.622px; position: absolute; left: 0; top: 0; background-image: url(&quot;project://database/Assets/Figma/Untitled/images/img-cdfeyp0djox-186.png?fileID=2800000&amp;guid=fd2e2556676ef4102ba5fdd138a22166&amp;type=3#img-cdfeyp0djox-186&quot;); -unity-background-scale-mode: scale-to-fit;"/>
+                <ui:VisualElement style="width: 20.975px; height: 0; position: absolute; left: 1px; top: 2px; background-image: url(&quot;project://database/Assets/Figma/Untitled/images/img-1xzxqj13v8ymn-162.png?fileID=2800000&amp;guid=92a56c0e06cbe4ddc9dc293e007c5bfe&amp;type=3#img-1xzxqj13v8ymn-162&quot;); -unity-background-scale-mode: scale-to-fit;"/>
+            </ui:VisualElement>
+            <ui:VisualElement style="width: 23.809px; height: 3.622px; position: absolute; left: 46px; top: 28px;">
+                <ui:VisualElement style="width: 23.809px; height: 3.622px; position: absolute; left: 0; top: 0; background-image: url(&quot;project://database/Assets/Figma/Untitled/images/img-cdfeyp0djox-186.png?fileID=2800000&amp;guid=fd2e2556676ef4102ba5fdd138a22166&amp;type=3#img-cdfeyp0djox-186&quot;); -unity-background-scale-mode: scale-to-fit;"/>
+                <ui:VisualElement style="width: 20.975px; height: 0; position: absolute; left: 1px; top: 2px; background-image: url(&quot;project://database/Assets/Figma/Untitled/images/img-1xzxqj13v8ymn-162.png?fileID=2800000&amp;guid=92a56c0e06cbe4ddc9dc293e007c5bfe&amp;type=3#img-1xzxqj13v8ymn-162&quot;); -unity-background-scale-mode: scale-to-fit;"/>
+            </ui:VisualElement>
+            <ui:VisualElement style="width: 23.809px; height: 3.622px; position: absolute; left: 68px; top: 0;">
+                <ui:VisualElement style="width: 23.809px; height: 3.622px; position: absolute; left: 0; top: 0; background-image: url(&quot;project://database/Assets/Figma/Untitled/images/img-cdfeyp0djox-186.png?fileID=2800000&amp;guid=fd2e2556676ef4102ba5fdd138a22166&amp;type=3#img-cdfeyp0djox-186&quot;); -unity-background-scale-mode: scale-to-fit;"/>
+                <ui:VisualElement style="width: 20.975px; height: 0; position: absolute; left: 1px; top: 2px; background-image: url(&quot;project://database/Assets/Figma/Untitled/images/img-1xzxqj13v8ymn-162.png?fileID=2800000&amp;guid=92a56c0e06cbe4ddc9dc293e007c5bfe&amp;type=3#img-1xzxqj13v8ymn-162&quot;); -unity-background-scale-mode: scale-to-fit;"/>
+            </ui:VisualElement>
+            <ui:VisualElement style="width: 23.809px; height: 3.622px; position: absolute; left: 89px; top: 63px;">
+                <ui:VisualElement style="width: 23.809px; height: 3.622px; position: absolute; left: 0; top: 0; background-image: url(&quot;project://database/Assets/Figma/Untitled/images/img-cdfeyp0djox-186.png?fileID=2800000&amp;guid=fd2e2556676ef4102ba5fdd138a22166&amp;type=3#img-cdfeyp0djox-186&quot;); -unity-background-scale-mode: scale-to-fit;"/>
+                <ui:VisualElement style="width: 20.975px; height: 0; position: absolute; left: 1px; top: 2px; background-image: url(&quot;project://database/Assets/Figma/Untitled/images/img-1xzxqj13v8ymn-162.png?fileID=2800000&amp;guid=92a56c0e06cbe4ddc9dc293e007c5bfe&amp;type=3#img-1xzxqj13v8ymn-162&quot;); -unity-background-scale-mode: scale-to-fit;"/>
+            </ui:VisualElement>
+            <ui:VisualElement style="width: 23.809px; height: 3.622px; position: absolute; left: 112px; top: 87px;">
+                <ui:VisualElement style="width: 23.809px; height: 3.622px; position: absolute; left: 0; top: 0; background-image: url(&quot;project://database/Assets/Figma/Untitled/images/img-cdfeyp0djox-186.png?fileID=2800000&amp;guid=fd2e2556676ef4102ba5fdd138a22166&amp;type=3#img-cdfeyp0djox-186&quot;); -unity-background-scale-mode: scale-to-fit;"/>
+                <ui:VisualElement style="width: 20.975px; height: 0; position: absolute; left: 1px; top: 2px; background-image: url(&quot;project://database/Assets/Figma/Untitled/images/img-1xzxqj13v8ymn-162.png?fileID=2800000&amp;guid=92a56c0e06cbe4ddc9dc293e007c5bfe&amp;type=3#img-1xzxqj13v8ymn-162&quot;); -unity-background-scale-mode: scale-to-fit;"/>
+            </ui:VisualElement>
+            <ui:VisualElement style="width: 22.36px; height: 3.401px; position: absolute; left: 0; top: 45px;">
+                <ui:VisualElement style="width: 22.36px; height: 3.401px; position: absolute; left: 0; top: 0; background-image: url(&quot;project://database/Assets/Figma/Untitled/images/img-v45umz1lvnta5-180.png?fileID=2800000&amp;guid=5d3656ef76fb9425983b8bf6818ed5f1&amp;type=3#img-v45umz1lvnta5-180&quot;); -unity-background-scale-mode: scale-to-fit;"/>
+                <ui:VisualElement style="width: 19.699px; height: 0; position: absolute; left: 1px; top: 2px; background-image: url(&quot;project://database/Assets/Figma/Untitled/images/img-1a55u6pkc6njk-172.png?fileID=2800000&amp;guid=2046d60759ae546c3a495941e1f3fbac&amp;type=3#img-1a55u6pkc6njk-172&quot;); -unity-background-scale-mode: scale-to-fit;"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement style="width: 920px; height: 11px; position: absolute; left: 0; top: 261px; background-image: url(&quot;project://database/Assets/Figma/Untitled/images/img-a4jhpe1vpfmx0-149.png?fileID=2800000&amp;guid=2f56c4f07376f4ff38d033343c1384e5&amp;type=3#img-a4jhpe1vpfmx0-149&quot;); -unity-background-scale-mode: scale-to-fit;"/>
+    </ui:VisualElement>
+    <ui:VisualElement name="health_stats" style="width: 180px; height: 244px; flex-shrink: 0;">
+        <ui:VisualElement style="width: 180px; height: 244px; border-radius: 3px; background-color: rgb(10, 10, 12); position: absolute; left: 0; top: 0;"/>
+        <ui:VisualElement style="width: 172px; height: 14px; border-radius: 2px; background-color: rgb(204, 17, 17); position: absolute; left: 4px; top: 5px;">
+            <ui:Label text="HULL INTEGRITY" class="unity-label" style="width: 172px; height: 12px; color: rgb(255, 255, 255); font-size: 8px; -unity-font-style: bold; -unity-text-align: middle-center; white-space: normal; position: absolute; left: -2px; top: -4px;"/>
+        </ui:VisualElement>
+        <ui:VisualElement style="width: 168px; height: 48px; border-radius: 2px; background-color: rgb(13, 0, 0); position: absolute; left: 6px; top: 22px;"/>
+        <ui:Label text="087" class="unity-label" style="width: 168px; height: 40px; color: rgb(255, 34, 34); font-size: 36px; -unity-font-style: bold; -unity-text-align: middle-center; white-space: normal; position: absolute; left: 6px; top: 25px;"/>
+        <ui:Label text="%" class="unity-label" style="width: 168px; height: 40px; color: rgb(136, 34, 34); font-size: 10px; -unity-text-align: middle-right; white-space: normal; position: absolute; left: 6px; top: 25px;"/>
+        <ui:VisualElement style="width: 168px; height: 10px; border-radius: 2px; background-color: rgb(26, 0, 0); position: absolute; left: 6px; top: 74px;"/>
+        <ui:VisualElement style="width: 147px; height: 10px; border-radius: 2px; background-color: rgb(204, 17, 17); position: absolute; left: 6px; top: 74px;"/>
+        <ui:Label text="HP 087 / 100" class="unity-label" style="width: 168px; height: 10px; color: rgb(102, 51, 51); font-size: 7px; -unity-text-align: middle-center; white-space: normal; position: absolute; left: 6px; top: 86px;"/>
+        <ui:VisualElement style="width: 172px; height: 1px; background-color: rgb(51, 17, 17); position: absolute; left: 4px; top: 100px;"/>
+        <ui:VisualElement style="width: 172px; height: 14px; border-radius: 2px; background-color: rgb(26, 26, 46); position: absolute; left: 4px; top: 105px;"/>
+        <ui:Label text="MISSION CLOCK" class="unity-label" style="width: 172px; height: 12px; color: rgb(68, 153, 255); font-size: 8px; -unity-font-style: bold; -unity-text-align: middle-center; white-space: normal; position: absolute; left: 4px; top: 102px;"/>
+        <ui:VisualElement style="width: 168px; height: 48px; border-radius: 2px; background-color: rgb(0, 13, 26); position: absolute; left: 6px; top: 122px;"/>
+        <ui:Label text="14:37:08" class="unity-label" style="width: 168px; height: 40px; color: rgb(17, 119, 255); font-size: 27px; -unity-font-style: bold; -unity-text-align: middle-center; white-space: normal; position: absolute; left: 6px; top: 125px;"/>
+        <ui:VisualElement style="width: 50px; height: 12px; border-radius: 1px; background-color: rgb(0, 51, 0); position: absolute; left: 6px; top: 174px;"/>
+        <ui:Label text="ACTIVE" class="unity-label" style="width: 50px; height: 10px; color: rgb(0, 204, 68); font-size: 7px; -unity-font-style: bold; -unity-text-align: middle-center; white-space: normal; position: absolute; left: 4px; top: 171px;"/>
+        <ui:VisualElement style="width: 56px; height: 12px; border-radius: 1px; background-color: rgb(0, 26, 51); position: absolute; left: 62px; top: 174px;"/>
+        <ui:Label text="ZONE-4B" class="unity-label" style="width: 56px; height: 10px; color: rgb(68, 136, 255); font-size: 7px; -unity-font-style: bold; -unity-text-align: middle-center; white-space: normal; position: absolute; left: 61px; top: 172px;"/>
+        <ui:VisualElement style="width: 52px; height: 12px; border-radius: 1px; background-color: rgb(51, 0, 0); position: absolute; left: 124px; top: 174px;"/>
+        <ui:Label text="ALERT" class="unity-label" style="width: 52px; height: 10px; color: rgb(204, 34, 34); font-size: 7px; -unity-font-style: bold; -unity-text-align: middle-center; white-space: normal; position: absolute; left: 120px; top: 172px;"/>
+        <ui:Label text="N 40°42&apos;46&quot; // W 074°00&apos;22&quot;" class="unity-label" style="width: 172px; height: 10px; color: rgb(51, 51, 68); font-size: 7px; -unity-text-align: middle-center; white-space: normal; position: absolute; left: 4px; top: 190px;"/>
+        <ui:VisualElement style="display: flex; align-items: stretch; flex-direction: row; position: absolute; left: 29px; top: 204px; width: 125px;">
+            <ui:VisualElement style="width: 30px; height: 30px; flex-shrink: 0;">
+                <ui:VisualElement style="width: 30px; height: 30px; position: absolute; left: 0; top: 0; background-image: url(&quot;project://database/Assets/Figma/Capstone-Mockup/images/img-u135wc1e8vx34-3959.png?fileID=2800000&amp;guid=25ffc0c8026fb4b88bc74e8d13a070d4&amp;type=3#img-u135wc1e8vx34-3959&quot;); -unity-background-scale-mode: scale-and-crop;"/>
+            </ui:VisualElement>
+            <ui:VisualElement style="width: 30px; height: 30px; flex-shrink: 0;">
+                <ui:VisualElement style="width: 30px; height: 30px; position: absolute; left: 0; top: 0; background-image: url(&quot;project://database/Assets/Figma/Capstone-Mockup/images/img-llm1q314ph6uw-3396.png?fileID=2800000&amp;guid=3ba2be19092df450ea7dcd7c8d107af9&amp;type=3#img-llm1q314ph6uw-3396&quot;); -unity-background-scale-mode: scale-and-crop;"/>
+            </ui:VisualElement>
+            <ui:VisualElement style="width: 30px; height: 30px; flex-shrink: 0;">
+                <ui:VisualElement style="width: 30px; height: 30px; position: absolute; left: 0; top: 0; background-image: url(&quot;project://database/Assets/Figma/Capstone-Mockup/images/img-1l4l2pjid9iqk-12044.png?fileID=2800000&amp;guid=87b1e04fa55094525b313816e909ba1f&amp;type=3#img-1l4l2pjid9iqk-12044&quot;); -unity-background-scale-mode: scale-and-crop;"/>
+            </ui:VisualElement>
+            <ui:VisualElement style="width: 30px; height: 30px; flex-shrink: 0; background-image: url(&quot;project://database/Assets/Figma/Capstone-Mockup/images/img-11yym0lhya6x2-3416.png?fileID=2800000&amp;guid=8ef73b90388774e788818e0052e2596b&amp;type=3#img-11yym0lhya6x2-3416&quot;); -unity-background-scale-mode: scale-and-crop;"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
