@@ -1,0 +1,4599 @@
+{
+    "fileName": "Untitled",
+    "tokens": [],
+    "screens": [
+        {
+            "assetName": "mech-interior",
+            "rootNodeId": "1:6",
+            "contentHash": "88f7979059530476",
+            "generated": [
+                "images/img-lpxg7up9d5q7-38089.png",
+                "images/img-a4jhpe1vpfmx0-149.png",
+                "images/img-7bcs822q9das-4960.png",
+                "mech-interior.uss",
+                "mech-interior.uxml"
+            ],
+            "tokens": [],
+            "nodes": [
+                {
+                    "figmaNodeId": "1:6",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "mech-interior",
+                    "path": "1",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "960px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "1442px"
+                        },
+                        {
+                            "k": "background-image",
+                            "v": "url(\"project://database/Assets/Figma/Untitled/images/img-lpxg7up9d5q7-38089.png?fileID=2800000&guid=b0293ac7e44ad41c1b7fee10ef4b3ea2&type=3#img-lpxg7up9d5q7-38089\")"
+                        },
+                        {
+                            "k": "background-position-x",
+                            "v": "50%"
+                        },
+                        {
+                            "k": "background-position-y",
+                            "v": "50%"
+                        },
+                        {
+                            "k": "background-size",
+                            "v": "100% 99.861%"
+                        },
+                        {
+                            "k": "background-repeat",
+                            "v": "no-repeat"
+                        },
+                        {
+                            "k": "flex-shrink",
+                            "v": "0"
+                        }
+                    ]
+                }
+            ],
+            "components": [],
+            "states": [],
+            "templateNames": [],
+            "classNames": [
+                {
+                    "key": "93027e0650a3bf3e5a2ad0ed951f87c9928214f1",
+                    "name": "rectangle-3"
+                }
+            ]
+        },
+        {
+            "assetName": "Original---city-cockpit",
+            "rootNodeId": "1:4",
+            "contentHash": "76bf74585a3b8e9f",
+            "generated": [
+                "images/img-lpxg7up9d5q7-38089.png",
+                "images/img-a4jhpe1vpfmx0-149.png",
+                "images/img-1qpjfdc1nmalpw-4886.png",
+                "images/img-1amze1iz1fr3v-4964.png",
+                "images/img-44styl1dmig0t-164724.png",
+                "images/img-i71ut41iwib8o-326045.png",
+                "images/img-llm1q314ph6uw-3396.png",
+                "images/img-1djdnotc4rnuu-338147.png",
+                "images/img-1k6dtq019rlfss-27369.png",
+                "images/img-cdfeyp0djox-186.png",
+                "images/img-1xzxqj13v8ymn-162.png",
+                "images/img-v45umz1lvnta5-180.png",
+                "images/img-1a55u6pkc6njk-172.png",
+                "images/img-1usc3wbb405n4-23585.png",
+                "images/img-7bcs822q9das-4960.png",
+                "Original---city-cockpit.uss",
+                "Original---city-cockpit.uxml"
+            ],
+            "tokens": [],
+            "nodes": [
+                {
+                    "figmaNodeId": "1:4",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "1440px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "960px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#FFF"
+                        },
+                        {
+                            "k": "flex-shrink",
+                            "v": "0"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:6",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/1",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "960px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "1442px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "240px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "-241px"
+                        },
+                        {
+                            "k": "background-image",
+                            "v": "url(\"project://database/Assets/Figma/Untitled/images/img-lpxg7up9d5q7-38089.png?fileID=2800000&guid=b0293ac7e44ad41c1b7fee10ef4b3ea2&type=3#img-lpxg7up9d5q7-38089\")"
+                        },
+                        {
+                            "k": "background-position-x",
+                            "v": "50%"
+                        },
+                        {
+                            "k": "background-position-y",
+                            "v": "50%"
+                        },
+                        {
+                            "k": "background-size",
+                            "v": "100% 99.861%"
+                        },
+                        {
+                            "k": "background-repeat",
+                            "v": "no-repeat"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:11",
+                    "cssClass": "",
+                    "styleClass": "rectangle-3",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/2",
+                    "tag": "VisualElement",
+                    "classes": "rectangle-3",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "464.5px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "212.5px"
+                        },
+                        {
+                            "k": "opacity",
+                            "v": "0.65"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "240px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "-240px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "I1:11;6:112",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/2/1",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "472.5px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "224px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "-6px"
+                        },
+                        {
+                            "k": "background-image",
+                            "v": "url(\"project://database/Assets/Figma/Untitled/images/img-1qpjfdc1nmalpw-4886.png?fileID=2800000&guid=24c8d7c6325d84b57bd205c8486de86c&type=3#img-1qpjfdc1nmalpw-4886\")"
+                        },
+                        {
+                            "k": "background-position-x",
+                            "v": "50%"
+                        },
+                        {
+                            "k": "background-position-y",
+                            "v": "80%"
+                        },
+                        {
+                            "k": "background-size",
+                            "v": "100% 96.652%"
+                        },
+                        {
+                            "k": "background-repeat",
+                            "v": "no-repeat"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:12",
+                    "cssClass": "",
+                    "styleClass": "rectangle-3",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/3",
+                    "tag": "VisualElement",
+                    "classes": "rectangle-3",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "464.5px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "212.5px"
+                        },
+                        {
+                            "k": "opacity",
+                            "v": "0.65"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "735px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "-240px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "I1:12;6:112",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/3/1",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "472.5px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "224px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "-8px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "-6px"
+                        },
+                        {
+                            "k": "background-image",
+                            "v": "url(\"project://database/Assets/Figma/Untitled/images/img-1amze1iz1fr3v-4964.png?fileID=2800000&guid=019c23943a1d84bada9b365c862b7a3b&type=3#img-1amze1iz1fr3v-4964\")"
+                        },
+                        {
+                            "k": "background-position-x",
+                            "v": "50%"
+                        },
+                        {
+                            "k": "background-position-y",
+                            "v": "80%"
+                        },
+                        {
+                            "k": "background-size",
+                            "v": "100% 96.652%"
+                        },
+                        {
+                            "k": "background-repeat",
+                            "v": "no-repeat"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:13",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "920px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "260px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "260px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "913px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:14",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/1",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "920px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "260px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#060608"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "0px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:15",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/2",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "920px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#311"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "4px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:17",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/3",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "920px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#311"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "259px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:19",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/4",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "244px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#222"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "185px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "8px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:20",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/5",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "244px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#222"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "365px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "8px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:21",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/6",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "244px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#222"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "555px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "8px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:22",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/7",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "244px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#222"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "735px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "8px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:23",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/8",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "display",
+                            "v": "none"
+                        },
+                        {
+                            "k": "width",
+                            "v": "920px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "260px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "rgba(0, 0, 0, 0.18)"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "0px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:24",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/9",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "162px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "162px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "81px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "10px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "12px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:25",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/9/1",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "162px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "162px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "background-image",
+                            "v": "url(\"project://database/Assets/Figma/Untitled/images/img-44styl1dmig0t-164724.png?fileID=2800000&guid=21cfb703efe44410f8d36762ef2c1de8&type=3#img-44styl1dmig0t-164724\")"
+                        },
+                        {
+                            "k": "-unity-background-scale-mode",
+                            "v": "scale-and-crop"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:26",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/10",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "150px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "18px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "2px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#100"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "16px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "178px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:27",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/11",
+                    "tag": "Label",
+                    "classes": "unity-label",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "150px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "16px"
+                        },
+                        {
+                            "k": "color",
+                            "v": "#C22"
+                        },
+                        {
+                            "k": "font-size",
+                            "v": "9px"
+                        },
+                        {
+                            "k": "-unity-font-style",
+                            "v": "bold"
+                        },
+                        {
+                            "k": "-unity-text-align",
+                            "v": "middle-center"
+                        },
+                        {
+                            "k": "white-space",
+                            "v": "normal"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "16px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "174px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:28",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/12",
+                    "tag": "Label",
+                    "classes": "unity-label",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "150px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "22px"
+                        },
+                        {
+                            "k": "color",
+                            "v": "#EEE"
+                        },
+                        {
+                            "k": "font-size",
+                            "v": "18px"
+                        },
+                        {
+                            "k": "-unity-font-style",
+                            "v": "bold"
+                        },
+                        {
+                            "k": "-unity-text-align",
+                            "v": "middle-center"
+                        },
+                        {
+                            "k": "white-space",
+                            "v": "normal"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "16px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "196px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:29",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/13",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#C22"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "56px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "224px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:30",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/14",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#C22"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "66px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "224px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:31",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/15",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#444"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "76px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "224px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:32",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/16",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#444"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "86px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "224px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:33",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/17",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#444"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "96px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "224px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:34",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/18",
+                    "tag": "Label",
+                    "classes": "unity-label",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "150px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "12px"
+                        },
+                        {
+                            "k": "color",
+                            "v": "#555"
+                        },
+                        {
+                            "k": "font-size",
+                            "v": "8px"
+                        },
+                        {
+                            "k": "-unity-text-align",
+                            "v": "middle-center"
+                        },
+                        {
+                            "k": "white-space",
+                            "v": "normal"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "16px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "233px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:35",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/19",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "158px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "158px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "79px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "196px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "12px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:36",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/19/1",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "158px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "158px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "background-image",
+                            "v": "url(\"project://database/Assets/Figma/Untitled/images/img-i71ut41iwib8o-326045.png?fileID=2800000&guid=704c2e5ffc46d45e79d517af500f635e&type=3#img-i71ut41iwib8o-326045\")"
+                        },
+                        {
+                            "k": "-unity-background-scale-mode",
+                            "v": "scale-and-crop"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:37",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/20",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "150px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "18px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "2px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#100"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "200px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "174px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:38",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/21",
+                    "tag": "Label",
+                    "classes": "unity-label",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "150px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "16px"
+                        },
+                        {
+                            "k": "color",
+                            "v": "#C22"
+                        },
+                        {
+                            "k": "font-size",
+                            "v": "9px"
+                        },
+                        {
+                            "k": "-unity-font-style",
+                            "v": "bold"
+                        },
+                        {
+                            "k": "-unity-text-align",
+                            "v": "middle-center"
+                        },
+                        {
+                            "k": "white-space",
+                            "v": "normal"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "200px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "175px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:39",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/22",
+                    "tag": "Label",
+                    "classes": "unity-label",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "150px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "22px"
+                        },
+                        {
+                            "k": "color",
+                            "v": "#EEE"
+                        },
+                        {
+                            "k": "font-size",
+                            "v": "18px"
+                        },
+                        {
+                            "k": "-unity-font-style",
+                            "v": "bold"
+                        },
+                        {
+                            "k": "-unity-text-align",
+                            "v": "middle-center"
+                        },
+                        {
+                            "k": "white-space",
+                            "v": "normal"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "200px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "194px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:40",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/23",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "12px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "28px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#C22"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "206px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "220px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:41",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/24",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "12px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "24px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#C22"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "221px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "224px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:42",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/25",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "12px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "29px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#820"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "236px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "219px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:43",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/26",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "12px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "26px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#A10"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "251px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "222px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:44",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/27",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "12px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "22px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#333"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "266px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "226px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:45",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/28",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "12px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "18px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#333"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "281px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "230px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:46",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/29",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "12px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "20px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#333"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "296px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "228px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:47",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/30",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "12px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "16px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#222"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "311px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "232px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:48",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/31",
+                    "tag": "Label",
+                    "classes": "unity-label",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "150px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "10px"
+                        },
+                        {
+                            "k": "color",
+                            "v": "#555"
+                        },
+                        {
+                            "k": "font-size",
+                            "v": "7px"
+                        },
+                        {
+                            "k": "-unity-text-align",
+                            "v": "middle-center"
+                        },
+                        {
+                            "k": "white-space",
+                            "v": "normal"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "200px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "249px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "5:6",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/32",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "display",
+                            "v": "none"
+                        },
+                        {
+                            "k": "width",
+                            "v": "180px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "244px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "370px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "8px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:49",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/32/1",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "180px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "244px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "3px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#0A0A0C"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "0px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:50",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/32/2",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "180px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "244px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "3px"
+                        },
+                        {
+                            "k": "border-width",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "border-color",
+                            "v": "#C11"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "rgba(0, 0, 0, 0.00)"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "0px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:51",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/32/3",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "172px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "14px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "2px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#C11"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "4px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "5px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:52",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/32/4",
+                    "tag": "Label",
+                    "classes": "unity-label",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "172px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "12px"
+                        },
+                        {
+                            "k": "color",
+                            "v": "#FFF"
+                        },
+                        {
+                            "k": "font-size",
+                            "v": "8px"
+                        },
+                        {
+                            "k": "-unity-font-style",
+                            "v": "bold"
+                        },
+                        {
+                            "k": "-unity-text-align",
+                            "v": "middle-center"
+                        },
+                        {
+                            "k": "white-space",
+                            "v": "normal"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "4px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "6px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:53",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/32/5",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "168px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "48px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "2px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#0D0000"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "22px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:54",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/32/6",
+                    "tag": "Label",
+                    "classes": "unity-label",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "168px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "40px"
+                        },
+                        {
+                            "k": "color",
+                            "v": "#F22"
+                        },
+                        {
+                            "k": "font-size",
+                            "v": "36px"
+                        },
+                        {
+                            "k": "-unity-font-style",
+                            "v": "bold"
+                        },
+                        {
+                            "k": "-unity-text-align",
+                            "v": "middle-center"
+                        },
+                        {
+                            "k": "white-space",
+                            "v": "normal"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "25px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:55",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/32/7",
+                    "tag": "Label",
+                    "classes": "unity-label",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "168px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "40px"
+                        },
+                        {
+                            "k": "color",
+                            "v": "#822"
+                        },
+                        {
+                            "k": "font-size",
+                            "v": "10px"
+                        },
+                        {
+                            "k": "-unity-text-align",
+                            "v": "middle-right"
+                        },
+                        {
+                            "k": "white-space",
+                            "v": "normal"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "25px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:56",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/32/8",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "168px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "10px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "2px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#1A0000"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "74px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:57",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/32/9",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "147px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "10px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "2px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#C11"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "74px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:58",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/32/10",
+                    "tag": "Label",
+                    "classes": "unity-label",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "168px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "10px"
+                        },
+                        {
+                            "k": "color",
+                            "v": "#633"
+                        },
+                        {
+                            "k": "font-size",
+                            "v": "7px"
+                        },
+                        {
+                            "k": "-unity-text-align",
+                            "v": "middle-center"
+                        },
+                        {
+                            "k": "white-space",
+                            "v": "normal"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "86px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:59",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/32/11",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "172px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#311"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "4px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "100px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:60",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/32/12",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "172px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "14px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "2px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#1A1A2E"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "4px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "105px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:61",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/32/13",
+                    "tag": "Label",
+                    "classes": "unity-label",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "172px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "12px"
+                        },
+                        {
+                            "k": "color",
+                            "v": "#49F"
+                        },
+                        {
+                            "k": "font-size",
+                            "v": "8px"
+                        },
+                        {
+                            "k": "-unity-font-style",
+                            "v": "bold"
+                        },
+                        {
+                            "k": "-unity-text-align",
+                            "v": "middle-center"
+                        },
+                        {
+                            "k": "white-space",
+                            "v": "normal"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "4px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "106px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:62",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/32/14",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "168px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "48px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "2px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#000D1A"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "122px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:63",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/32/15",
+                    "tag": "Label",
+                    "classes": "unity-label",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "168px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "40px"
+                        },
+                        {
+                            "k": "color",
+                            "v": "#17F"
+                        },
+                        {
+                            "k": "font-size",
+                            "v": "27px"
+                        },
+                        {
+                            "k": "-unity-font-style",
+                            "v": "bold"
+                        },
+                        {
+                            "k": "-unity-text-align",
+                            "v": "middle-center"
+                        },
+                        {
+                            "k": "white-space",
+                            "v": "normal"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "125px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:64",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/32/16",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "50px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "12px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#030"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "174px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:65",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/32/17",
+                    "tag": "Label",
+                    "classes": "unity-label",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "50px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "10px"
+                        },
+                        {
+                            "k": "color",
+                            "v": "#0C4"
+                        },
+                        {
+                            "k": "font-size",
+                            "v": "7px"
+                        },
+                        {
+                            "k": "-unity-font-style",
+                            "v": "bold"
+                        },
+                        {
+                            "k": "-unity-text-align",
+                            "v": "middle-center"
+                        },
+                        {
+                            "k": "white-space",
+                            "v": "normal"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "175px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:66",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/32/18",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "56px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "12px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#001A33"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "62px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "174px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:67",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/32/19",
+                    "tag": "Label",
+                    "classes": "unity-label",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "56px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "10px"
+                        },
+                        {
+                            "k": "color",
+                            "v": "#48F"
+                        },
+                        {
+                            "k": "font-size",
+                            "v": "7px"
+                        },
+                        {
+                            "k": "-unity-font-style",
+                            "v": "bold"
+                        },
+                        {
+                            "k": "-unity-text-align",
+                            "v": "middle-center"
+                        },
+                        {
+                            "k": "white-space",
+                            "v": "normal"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "62px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "175px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:68",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/32/20",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "52px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "12px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#300"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "124px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "174px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:69",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/32/21",
+                    "tag": "Label",
+                    "classes": "unity-label",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "52px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "10px"
+                        },
+                        {
+                            "k": "color",
+                            "v": "#C22"
+                        },
+                        {
+                            "k": "font-size",
+                            "v": "7px"
+                        },
+                        {
+                            "k": "-unity-font-style",
+                            "v": "bold"
+                        },
+                        {
+                            "k": "-unity-text-align",
+                            "v": "middle-center"
+                        },
+                        {
+                            "k": "white-space",
+                            "v": "normal"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "124px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "175px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:70",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/32/22",
+                    "tag": "Label",
+                    "classes": "unity-label",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "172px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "10px"
+                        },
+                        {
+                            "k": "color",
+                            "v": "#334"
+                        },
+                        {
+                            "k": "font-size",
+                            "v": "7px"
+                        },
+                        {
+                            "k": "-unity-text-align",
+                            "v": "middle-center"
+                        },
+                        {
+                            "k": "white-space",
+                            "v": "normal"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "4px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "190px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:71",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/32/23",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "30px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "30px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "40px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "204px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:72",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/32/23/1",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "30px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "30px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "background-image",
+                            "v": "url(\"project://database/Assets/Figma/Untitled/images/img-llm1q314ph6uw-3396.png?fileID=2800000&guid=47d76131eda904e1bb863cdc51139c87&type=3#img-llm1q314ph6uw-3396\")"
+                        },
+                        {
+                            "k": "-unity-background-scale-mode",
+                            "v": "scale-and-crop"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:73",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/33",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "158px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "158px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "79px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "562px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "12px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:74",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/33/1",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "158px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "158px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "background-image",
+                            "v": "url(\"project://database/Assets/Figma/Untitled/images/img-1djdnotc4rnuu-338147.png?fileID=2800000&guid=95cb5a66a3a4c46f2b6fbf83e758f25d&type=3#img-1djdnotc4rnuu-338147\")"
+                        },
+                        {
+                            "k": "-unity-background-scale-mode",
+                            "v": "scale-and-crop"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:75",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/34",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "150px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "18px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "2px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#100"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "566px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "174px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:76",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/35",
+                    "tag": "Label",
+                    "classes": "unity-label",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "150px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "16px"
+                        },
+                        {
+                            "k": "color",
+                            "v": "#C22"
+                        },
+                        {
+                            "k": "font-size",
+                            "v": "9px"
+                        },
+                        {
+                            "k": "-unity-font-style",
+                            "v": "bold"
+                        },
+                        {
+                            "k": "-unity-text-align",
+                            "v": "middle-center"
+                        },
+                        {
+                            "k": "white-space",
+                            "v": "normal"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "566px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "175px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:77",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/36",
+                    "tag": "Label",
+                    "classes": "unity-label",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "150px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "22px"
+                        },
+                        {
+                            "k": "color",
+                            "v": "#EEE"
+                        },
+                        {
+                            "k": "font-size",
+                            "v": "18px"
+                        },
+                        {
+                            "k": "-unity-font-style",
+                            "v": "bold"
+                        },
+                        {
+                            "k": "-unity-text-align",
+                            "v": "middle-center"
+                        },
+                        {
+                            "k": "white-space",
+                            "v": "normal"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "566px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "194px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:78",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/37",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "14px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#C22"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "572px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "220px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:79",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/38",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "14px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#C22"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "590px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "220px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:80",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/39",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "14px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#820"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "608px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "220px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:81",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/40",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "14px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#5C1A00"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "626px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "220px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:82",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/41",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "14px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#333"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "644px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "220px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:83",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/42",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "14px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#222"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "662px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "220px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "5:13",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/43",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "14px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#979797"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "680px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "220px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "5:15",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/44",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "14px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#979797"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "698px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "220px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:84",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/45",
+                    "tag": "Label",
+                    "classes": "unity-label",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "150px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "10px"
+                        },
+                        {
+                            "k": "color",
+                            "v": "#555"
+                        },
+                        {
+                            "k": "font-size",
+                            "v": "7px"
+                        },
+                        {
+                            "k": "-unity-text-align",
+                            "v": "middle-center"
+                        },
+                        {
+                            "k": "white-space",
+                            "v": "normal"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "566px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "228px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:85",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/46",
+                    "tag": "Label",
+                    "classes": "unity-label",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "150px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "10px"
+                        },
+                        {
+                            "k": "color",
+                            "v": "#345"
+                        },
+                        {
+                            "k": "font-size",
+                            "v": "7px"
+                        },
+                        {
+                            "k": "-unity-text-align",
+                            "v": "middle-center"
+                        },
+                        {
+                            "k": "white-space",
+                            "v": "normal"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "566px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "240px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:86",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/47",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "176px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "38px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "2px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "740px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "8px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:87",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/47/1",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "176px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "38px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "background-image",
+                            "v": "url(\"project://database/Assets/Figma/Untitled/images/img-1k6dtq019rlfss-27369.png?fileID=2800000&guid=e9d48527a868243c7a3c15ce3596ac4c&type=3#img-1k6dtq019rlfss-27369\")"
+                        },
+                        {
+                            "k": "-unity-background-scale-mode",
+                            "v": "scale-and-crop"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:90",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/48",
+                    "tag": "Label",
+                    "classes": "unity-label",
+                    "props": [
+                        {
+                            "k": "display",
+                            "v": "none"
+                        },
+                        {
+                            "k": "width",
+                            "v": "200px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "9px"
+                        },
+                        {
+                            "k": "color",
+                            "v": "#C11"
+                        },
+                        {
+                            "k": "font-size",
+                            "v": "7px"
+                        },
+                        {
+                            "k": "-unity-font-style",
+                            "v": "bold"
+                        },
+                        {
+                            "k": "-unity-text-align",
+                            "v": "middle-center"
+                        },
+                        {
+                            "k": "white-space",
+                            "v": "normal"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "360px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "247px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:91",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/49",
+                    "tag": "Label",
+                    "classes": "unity-label",
+                    "props": [
+                        {
+                            "k": "display",
+                            "v": "none"
+                        },
+                        {
+                            "k": "width",
+                            "v": "200px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "9px"
+                        },
+                        {
+                            "k": "color",
+                            "v": "#335"
+                        },
+                        {
+                            "k": "font-size",
+                            "v": "7px"
+                        },
+                        {
+                            "k": "-unity-text-align",
+                            "v": "middle-right"
+                        },
+                        {
+                            "k": "white-space",
+                            "v": "normal"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "712px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "247px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:92",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/50",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "135.611px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "124.58px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "760px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "80px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:93",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/50/1",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "3.401px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "122.45px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#666"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "10px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "2px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:94",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/50/2",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "3.401px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "122.45px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#666"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "32px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "2px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:95",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/50/3",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "3.401px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "122.45px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#666"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "55px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "2px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:96",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/50/4",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "3.401px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "122.45px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#666"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "78px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "2px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:97",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/50/5",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "3.401px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "122.45px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#666"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "121px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "2px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:98",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/50/6",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "3.401px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "122.45px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#666"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "99px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "2px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:99",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/50/7",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "23.809px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "3.622px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "22px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "96px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:100",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/50/7/1",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "23.809px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "3.622px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "background-image",
+                            "v": "url(\"project://database/Assets/Figma/Untitled/images/img-cdfeyp0djox-186.png?fileID=2800000&guid=fd2e2556676ef4102ba5fdd138a22166&type=3#img-cdfeyp0djox-186\")"
+                        },
+                        {
+                            "k": "-unity-background-scale-mode",
+                            "v": "scale-to-fit"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:101",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/50/7/2",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "20.975px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "2px"
+                        },
+                        {
+                            "k": "background-image",
+                            "v": "url(\"project://database/Assets/Figma/Untitled/images/img-1xzxqj13v8ymn-162.png?fileID=2800000&guid=92a56c0e06cbe4ddc9dc293e007c5bfe&type=3#img-1xzxqj13v8ymn-162\")"
+                        },
+                        {
+                            "k": "-unity-background-scale-mode",
+                            "v": "scale-to-fit"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:102",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/50/8",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "23.809px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "3.622px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "46px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "28px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:103",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/50/8/1",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "23.809px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "3.622px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "background-image",
+                            "v": "url(\"project://database/Assets/Figma/Untitled/images/img-cdfeyp0djox-186.png?fileID=2800000&guid=fd2e2556676ef4102ba5fdd138a22166&type=3#img-cdfeyp0djox-186\")"
+                        },
+                        {
+                            "k": "-unity-background-scale-mode",
+                            "v": "scale-to-fit"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:104",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/50/8/2",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "20.975px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "2px"
+                        },
+                        {
+                            "k": "background-image",
+                            "v": "url(\"project://database/Assets/Figma/Untitled/images/img-1xzxqj13v8ymn-162.png?fileID=2800000&guid=92a56c0e06cbe4ddc9dc293e007c5bfe&type=3#img-1xzxqj13v8ymn-162\")"
+                        },
+                        {
+                            "k": "-unity-background-scale-mode",
+                            "v": "scale-to-fit"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:105",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/50/9",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "23.809px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "3.622px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "68px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "0px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:106",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/50/9/1",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "23.809px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "3.622px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "background-image",
+                            "v": "url(\"project://database/Assets/Figma/Untitled/images/img-cdfeyp0djox-186.png?fileID=2800000&guid=fd2e2556676ef4102ba5fdd138a22166&type=3#img-cdfeyp0djox-186\")"
+                        },
+                        {
+                            "k": "-unity-background-scale-mode",
+                            "v": "scale-to-fit"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:107",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/50/9/2",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "20.975px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "2px"
+                        },
+                        {
+                            "k": "background-image",
+                            "v": "url(\"project://database/Assets/Figma/Untitled/images/img-1xzxqj13v8ymn-162.png?fileID=2800000&guid=92a56c0e06cbe4ddc9dc293e007c5bfe&type=3#img-1xzxqj13v8ymn-162\")"
+                        },
+                        {
+                            "k": "-unity-background-scale-mode",
+                            "v": "scale-to-fit"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:108",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/50/10",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "23.809px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "3.622px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "89px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "63px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:109",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/50/10/1",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "23.809px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "3.622px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "background-image",
+                            "v": "url(\"project://database/Assets/Figma/Untitled/images/img-cdfeyp0djox-186.png?fileID=2800000&guid=fd2e2556676ef4102ba5fdd138a22166&type=3#img-cdfeyp0djox-186\")"
+                        },
+                        {
+                            "k": "-unity-background-scale-mode",
+                            "v": "scale-to-fit"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:110",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/50/10/2",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "20.975px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "2px"
+                        },
+                        {
+                            "k": "background-image",
+                            "v": "url(\"project://database/Assets/Figma/Untitled/images/img-1xzxqj13v8ymn-162.png?fileID=2800000&guid=92a56c0e06cbe4ddc9dc293e007c5bfe&type=3#img-1xzxqj13v8ymn-162\")"
+                        },
+                        {
+                            "k": "-unity-background-scale-mode",
+                            "v": "scale-to-fit"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:111",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/50/11",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "23.809px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "3.622px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "112px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "87px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:112",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/50/11/1",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "23.809px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "3.622px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "background-image",
+                            "v": "url(\"project://database/Assets/Figma/Untitled/images/img-cdfeyp0djox-186.png?fileID=2800000&guid=fd2e2556676ef4102ba5fdd138a22166&type=3#img-cdfeyp0djox-186\")"
+                        },
+                        {
+                            "k": "-unity-background-scale-mode",
+                            "v": "scale-to-fit"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:113",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/50/11/2",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "20.975px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "2px"
+                        },
+                        {
+                            "k": "background-image",
+                            "v": "url(\"project://database/Assets/Figma/Untitled/images/img-1xzxqj13v8ymn-162.png?fileID=2800000&guid=92a56c0e06cbe4ddc9dc293e007c5bfe&type=3#img-1xzxqj13v8ymn-162\")"
+                        },
+                        {
+                            "k": "-unity-background-scale-mode",
+                            "v": "scale-to-fit"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:114",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/50/12",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "22.36px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "3.401px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "45px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:115",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/50/12/1",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "22.36px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "3.401px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "background-image",
+                            "v": "url(\"project://database/Assets/Figma/Untitled/images/img-v45umz1lvnta5-180.png?fileID=2800000&guid=5d3656ef76fb9425983b8bf6818ed5f1&type=3#img-v45umz1lvnta5-180\")"
+                        },
+                        {
+                            "k": "-unity-background-scale-mode",
+                            "v": "scale-to-fit"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:116",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/50/12/2",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "19.699px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "2px"
+                        },
+                        {
+                            "k": "background-image",
+                            "v": "url(\"project://database/Assets/Figma/Untitled/images/img-1a55u6pkc6njk-172.png?fileID=2800000&guid=2046d60759ae546c3a495941e1f3fbac&type=3#img-1a55u6pkc6njk-172\")"
+                        },
+                        {
+                            "k": "-unity-background-scale-mode",
+                            "v": "scale-to-fit"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:88",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/4/51",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "920px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "11px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "261px"
+                        },
+                        {
+                            "k": "background-image",
+                            "v": "url(\"project://database/Assets/Figma/Untitled/images/img-a4jhpe1vpfmx0-149.png?fileID=2800000&guid=2f56c4f07376f4ff38d033343c1384e5&type=3#img-a4jhpe1vpfmx0-149\")"
+                        },
+                        {
+                            "k": "-unity-background-scale-mode",
+                            "v": "scale-to-fit"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:117",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/5",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "322px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "209.3px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "878px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "-240px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "1:118",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Original---city-cockpit",
+                    "path": "1/5/1",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "327.534px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "214.331px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "-2px"
+                        },
+                        {
+                            "k": "background-image",
+                            "v": "url(\"project://database/Assets/Figma/Untitled/images/img-1usc3wbb405n4-23585.png?fileID=2800000&guid=7a677ab388faa4f0f80ba7f512c597c2&type=3#img-1usc3wbb405n4-23585\")"
+                        },
+                        {
+                            "k": "background-position-x",
+                            "v": "0%"
+                        },
+                        {
+                            "k": "background-position-y",
+                            "v": "41.655%"
+                        },
+                        {
+                            "k": "background-size",
+                            "v": "98.31% 97.746%"
+                        },
+                        {
+                            "k": "background-repeat",
+                            "v": "no-repeat"
+                        }
+                    ]
+                }
+            ],
+            "components": [],
+            "states": [],
+            "templateNames": [],
+            "classNames": [
+                {
+                    "key": "93027e0650a3bf3e5a2ad0ed951f87c9928214f1",
+                    "name": "rectangle-3"
+                }
+            ]
+        }
+    ],
+    "matchedMappings": [],
+    "foreign": []
+}
