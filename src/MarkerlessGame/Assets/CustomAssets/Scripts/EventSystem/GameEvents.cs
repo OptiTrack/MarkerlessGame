@@ -11,7 +11,7 @@ public struct HitContext : IEventPayload
 {
     public GameObject Attacker;
     public GameObject Victim;
-    public float BaseDamage;
+    public float baseDamage;
 }
 
 public struct DefeatEvent : IEventPayload

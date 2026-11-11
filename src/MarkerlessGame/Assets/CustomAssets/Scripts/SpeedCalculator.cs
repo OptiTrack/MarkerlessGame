@@ -2,9 +2,9 @@ using UnityEngine;
 
 public class SpeedCalculator : MonoBehaviour
 {
-    const float k_Scaler = 50.0f;
+    const float k_scaler = 50.0f;
 
-    public float ObjectSpeed;
+    public float currentSpeed;
 
     private Vector3 _previousPosition;
 
@@ -16,7 +16,7 @@ public class SpeedCalculator : MonoBehaviour
     private void FixedUpdate()
     {
         Vector3 positionDelta = transform.position - _previousPosition;
-        ObjectSpeed = Mathf.Abs(positionDelta.magnitude) * k_Scaler;
+        currentSpeed = Mathf.Abs(positionDelta.magnitude) * k_scaler;
         _previousPosition = transform.position;
     }
 }

@@ -2,10 +2,36 @@ using UnityEngine;
 
 public class Hitbox : MonoBehaviour
 {
-    [SerializeField] private Attack _attack;
-    private SpeedCalculator _speedCalculator;
+    public Attack attack;
+    public SpeedCalculator speedCalculator;
 
-    private void Start() => _speedCalculator = GetComponent<SpeedCalculator>();
+    private void Start() {if (!speedCalculator) speedCalculator = GetComponent<SpeedCalculator>();}
+
+    public HitContext SendHit(Hurtbox target)
+    {
+        float attackDamage = attack.baseDamage;
+
+        if (speedCalculator)
+        {
+            attackDamage += attackDamage * attack.bonusDamageScalingCurve.Evaluate(speedCalculator.currentSpeed);
+
+            Debug.Log("Attack going at " + speedCalculator.currentSpeed + " speed, so damage now up to " + attackDamage);
+        }
+
+        attackDamage = Mathf.Clamp(attackDamage, 0, attack.maxDamage);
+
+        HitContext context = new HitContext
+        {
+            Attacker = gameObject,
+            Victim = target.gameObject,
+            baseDamage = attackDamage
+        };
+
+        Debug.Log("Sending " + attackDamage + " to hurtbox");
+        target.RecieveHit(context);
+
+        return context;
+    }
 
     void OnTriggerEnter(Collider other)
     {
@@ -16,24 +42,7 @@ public class Hitbox : MonoBehaviour
         {
             Debug.Log("Hurtbox detected, attempting to damage");
 
-            float attackDamage = _attack.BaseDamage;
-
-            if (_speedCalculator)
-            {
-                attackDamage += _attack.BonusDamageScalingCurve.Evaluate(_speedCalculator.ObjectSpeed);
-            }
-
-            attackDamage = Mathf.Clamp(attackDamage, 0, _attack.MaxDamage);
-
-            HitContext context = new HitContext
-            {
-                Attacker = gameObject,
-                Victim = other.gameObject,
-                BaseDamage = attackDamage
-            };
-
-            Debug.Log("Sending " + attackDamage + " to hurtbox");
-            hurtbox.RecieveHit(context);
+            SendHit(hurtbox);
         }
     }
 }

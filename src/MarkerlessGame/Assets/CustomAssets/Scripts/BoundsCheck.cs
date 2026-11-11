@@ -3,18 +3,18 @@ using UnityEngine;
 public class BoundsCheck : MonoBehaviour
 {
 
-    public float LowerYAxisBound;
-    public bool ResetOnBoundExit = false;
-    public Vector3 InitialPosition = Vector3.zero;
+    public float lowerYAxisBound;
+    public bool resetOnBoundExit = false;
+    public Vector3 initialPosition = Vector3.zero;
     public Rigidbody rb;
 
     private bool _isOutOfBounds = false;
 
     void Start()
     {
-        if (InitialPosition == Vector3.zero)
+        if (initialPosition == Vector3.zero)
         {
-            InitialPosition = transform.position;
+            initialPosition = transform.position;
         }
     }
 
@@ -26,7 +26,7 @@ public class BoundsCheck : MonoBehaviour
             return;
         }
 
-        if (transform.position.y < LowerYAxisBound)
+        if (transform.position.y < lowerYAxisBound)
         {
             OutOfBounds();
         }
@@ -38,9 +38,9 @@ public class BoundsCheck : MonoBehaviour
         _isOutOfBounds = true;
 
         // "Reset" game object
-        if (ResetOnBoundExit)
+        if (resetOnBoundExit)
         {
-            ResetToPosition(InitialPosition);
+            ResetToPosition(initialPosition);
         }
     }
 
@@ -52,7 +52,7 @@ public class BoundsCheck : MonoBehaviour
             rb.linearVelocity = Vector3.zero;
         }
 
-        transform.position = InitialPosition;
+        transform.position = initialPosition;
         _isOutOfBounds = false;
     }
 }

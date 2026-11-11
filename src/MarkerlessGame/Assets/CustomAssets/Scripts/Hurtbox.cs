@@ -6,22 +6,27 @@ using UnityEngine.Rendering;
 
 public class Hurtbox : MonoBehaviour
 {
-    [SerializeField] private float _damageMultiplier = 1f;
+    public float damageMultiplier = 1f;
 
-    private IHitResponder[] responders;
+    private IHitResponder[] _responders;
 
     private void Awake()
     {
         // Cache all components on this object (or parent) that can respond to hits
-        responders = GetComponentsInParent<IHitResponder>();
+        _responders = GetComponentsInParent<IHitResponder>();
+    }
+
+    public void InitHitResponders()
+    {
+        _responders = GetComponentsInParent<IHitResponder>();
     }
 
     public void RecieveHit(HitContext context)
     {
-        context.BaseDamage *= _damageMultiplier;
+        context.baseDamage *= damageMultiplier;
 
         // Route the hit context to every registered responder
-        foreach (var responder in responders)
+        foreach (var responder in _responders)
         {
             responder.HandleHit(context);
         }
