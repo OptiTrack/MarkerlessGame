@@ -41,3 +41,5 @@ This is an Oregon State University capstone project, developed in collaboration 
 ## License
 
 All non-third-party code in this repository is jointly owned by the team listed above and NaturalPoint Inc. DBA OptiTrack. See `LICENSE.txt` in the [`licenses/`](licenses) folder for full terms; third-party licenses are in the same folder, named accordingly.
+
+3D Assets were purchased off the Unity Asset Store. A copy of their license agreement at the time of purchase is included in the [`licenses/`](licenses) folder. All assets were purchased as "Multi Entity" liceses. Their latest license agreement can be found here.. https://unity.com/legal/as-terms
