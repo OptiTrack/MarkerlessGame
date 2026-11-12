@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9df54d67cfaf8334491149cbc4b947fe
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 6301791199081653808
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 360922
+  packageName: POLYGON - Sci-Fi Outpost Map - Art by Synty
+  packageVersion: 1.0.3
+  assetPath: Assets/Synty/PolygonGeneric/Models/Collision/SM_Gen_Prop_Chest_01_Convex 1.asset
+  uploadId: 1046458
