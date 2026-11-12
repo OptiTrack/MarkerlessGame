@@ -3,7 +3,7 @@ using static Move;
 public class DefaultEnemyBehavior : MonoBehaviour
 {
     //Simple, but useful to override for advanced monsters
-    private Side swapSide(Move m)
+    private Side SwapSide(Move m)
     {
         if(m.side==Side.left)
         {
@@ -13,7 +13,7 @@ public class DefaultEnemyBehavior : MonoBehaviour
             return Side.left;
         }
     }
-    private Height swapHeight(Move m)
+    private Height SwapHeight(Move m)
     {
         if(m.height==Height.high)
         {
@@ -29,15 +29,15 @@ public class DefaultEnemyBehavior : MonoBehaviour
     public Move currentMove;
     // Positive values represent turns without attacking
     // Negative values represent turns without blocking
-    [SerializeField] private float lastAttackCounter;
+    [SerializeField] private float _lastAttackCounter;
 
     public void Start()
     {
         lastMove=new Move(State.idle);
     }
-    private void OnTriggerEnter(GameObject obj)
+    private void OnTriggerEnter(Collider col)
     {
-        if(obj.tag=="player")
+        if(col.gameObject.tag=="player")
         {
             //if force threshold reached
             Debug.Log("I was hit");
@@ -84,36 +84,36 @@ public class DefaultEnemyBehavior : MonoBehaviour
         //calc side
         if(probA < SWAP_LIKELYHOOD)
         {
-            nextMove.side=swapSide(nextMove);
+            nextMove.side=SwapSide(nextMove);
         }
         //calc height
         if(probB < SWAP_LIKELYHOOD)
         {
-            nextMove.height=swapHeight(nextMove);
+            nextMove.height=SwapHeight(nextMove);
         }
 
-
-        if(lastAttackCounter>20)
+        //prevent counter from going beyond the root of the probability function
+        if(_lastAttackCounter>20)
         {
-            lastAttackCounter=20;
+            _lastAttackCounter=20;
         }
         //calc attack or block
         //1/40(50-5x/2)^2
-        if(probC < .025f*Mathf.Pow(50.0f-2.5f*lastAttackCounter,2.0f))
+        if(probC < .025f*Mathf.Pow(50.0f-2.5f*_lastAttackCounter,2.0f))
         {
             nextMove.state=State.attack;
-            if(lastAttackCounter<0)
+            if(_lastAttackCounter<0)
             {
-                lastAttackCounter=0;
+                _lastAttackCounter=0;
             }
-            lastAttackCounter++;
+            _lastAttackCounter++;
         }else
         {
-            if(lastAttackCounter>0)
+            if(_lastAttackCounter>0)
             {
-                lastAttackCounter=0;
+                _lastAttackCounter=0;
             }
-            lastAttackCounter--;
+            _lastAttackCounter--;
             // if the side is changed then dodge
             // otherwise guard
             if(nextMove.side!=lastMove.side)

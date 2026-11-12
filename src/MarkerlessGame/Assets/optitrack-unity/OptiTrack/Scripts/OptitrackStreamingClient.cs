@@ -1,4 +1,4 @@
-﻿/* 
+﻿/*
 Copyright © 2016 NaturalPoint Inc.
 
 Licensed under the Apache License, Version 2.0 (the "License");
@@ -11,7 +11,7 @@ Unless required by applicable law or agreed to in writing, software
 distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
-limitations under the License. 
+limitations under the License.
 */
 
 using System;
@@ -22,9 +22,9 @@ using System.Threading;
 using UnityEngine;
 using NaturalPoint;
 using NaturalPoint.NatNetLib;
-using UnityEditor;
+/*using UnityEditor;
 using UnityEditor.UIElements;
-using UnityEngine;
+using UnityEngine;*/
 using UnityEngine.UIElements;
 using static TMPro.SpriteAssetUtilities.TexturePacker_JsonArray;
 
@@ -320,7 +320,7 @@ public class OptitrackStreamingClient : MonoBehaviour
 
     [Tooltip("Motive will record when the Unity project is played.")]
     public bool RecordOnPlay = false;
-    
+
     [Tooltip("Skips getting data descriptions. Skeletons will not work with this feature turned on, but it will reduce network usage with a large number of rigid bodies.")]
     public bool SkipDataDescriptions = false;
 
@@ -462,7 +462,7 @@ public class OptitrackStreamingClient : MonoBehaviour
         }
 
 
-        //Draw the camera positions once on startup. 
+        //Draw the camera positions once on startup.
         if (DrawCameras && !m_hasDrawnCameras )
         {
             if (m_client.ServerAppVersion >= new Version(3, 0, 0))
@@ -472,7 +472,7 @@ public class OptitrackStreamingClient : MonoBehaviour
                     var cameraGroup = new GameObject("Cameras");
                     //cameraGroup.transform.parent = this.transform; //Adds the camera group as a child of the streaming client
 
-                    // Create the geometry for cameras. 
+                    // Create the geometry for cameras.
                     foreach (OptitrackCameraDefinition camera in m_cameraDefinitions)
                     {
                         var geometry = GameObject.CreatePrimitive(PrimitiveType.Cube);
@@ -495,7 +495,7 @@ public class OptitrackStreamingClient : MonoBehaviour
         }
 
 
-        //Draw the camera positions once on startup. 
+        //Draw the camera positions once on startup.
         if (DrawForcePlates && !m_hasDrawnForcePlates)
         {
             lock (m_frameDataUpdateLock)
@@ -503,10 +503,10 @@ public class OptitrackStreamingClient : MonoBehaviour
                 var cameraGroup = new GameObject("Force Plates");
                 //cameraGroup.transform.parent = this.transform; //Adds the camera group as a child of the streaming client
 
-                // Create the geometry for cameras. 
+                // Create the geometry for cameras.
                 foreach (OptitrackForcePlateDefinition plate in m_forcePlateDefinitions)
                 {
-                    // Corner Locations (Adjusted for Unity world space) 
+                    // Corner Locations (Adjusted for Unity world space)
                     Vector3 p0 = new Vector3(-plate.Corners[0], plate.Corners[1], plate.Corners[2]);
                     Vector3 p1 = new Vector3(-plate.Corners[3], plate.Corners[4], plate.Corners[5]);
                     Vector3 p2 = new Vector3(-plate.Corners[6], plate.Corners[7], plate.Corners[8]);
@@ -526,10 +526,10 @@ public class OptitrackStreamingClient : MonoBehaviour
                 m_hasDrawnForcePlates = true;
             }
 
-            
+
         }
 
-        //if (TimecodeProvider) 
+        //if (TimecodeProvider)
         //{
         //    Debug.Log("");
         //}
@@ -675,7 +675,7 @@ public class OptitrackStreamingClient : MonoBehaviour
             rbState = new OptitrackRigidBodyState();
             RigidBodyDataToState( rbData, OptitrackHiResTimer.Now(), rbState );
 
-            
+
         }
 
         return rbState;
@@ -884,7 +884,7 @@ public class OptitrackStreamingClient : MonoBehaviour
         {
             descriptionTypeMask |= (1 << (int)NatNetDataDescriptionType.NatNetDataDescriptionType_ForcePlate);
         }
-        m_dataDescs = m_client.GetDataDescriptions(descriptionTypeMask); 
+        m_dataDescs = m_client.GetDataDescriptions(descriptionTypeMask);
 
         m_rigidBodyDefinitions.Clear();
         m_skeletonDefinitions.Clear();
@@ -1029,7 +1029,7 @@ public class OptitrackStreamingClient : MonoBehaviour
         // - Get Marker Definitions (ToDo)
         // ----------------------------------
         //for (int markersetNumber = 0; markersetNumber < m_dataDescs.MarkerSetDescriptions.Count; ++markersetNumber)
-        //{ 
+        //{
         //    sMarkerSetDescription markerDescription = m_dataDescs.MarkerSetDescriptions[markersetNumber];
 
         //    if(markerDescription.Name == "all")
@@ -1041,8 +1041,8 @@ public class OptitrackStreamingClient : MonoBehaviour
         //            int nameOffset = i * NatNetConstants.MaxNameLength; //Marshal.SizeOf(typeof(Char**));
         //            IntPtr namePtr = new IntPtr(markerDescription.MarkerNames.ToInt64() + nameOffset);
 
-        //            // FIXME: Need to de-construct the char array of names to use for marker naming later. 
-        //            // This throws an exception, thus doesn't work. 
+        //            // FIXME: Need to de-construct the char array of names to use for marker naming later.
+        //            // This throws an exception, thus doesn't work.
         //            // MarkerNames is a char** of size [MarkerCount][MaxNameLength]
         //            //string nativeLabel = Marshal.PtrToStringAnsi(namePtr);
         //        }
@@ -1189,9 +1189,9 @@ public class OptitrackStreamingClient : MonoBehaviour
         {
             m_client = new NatNetClient();
             m_client.Connect( connType, localAddr, serverAddr );
-            
+
             // Remotely change the Skeleton Coordinate property to Global/Local
-            if (SkeletonCoordinates == StreamingCoordinatesValues.Global) 
+            if (SkeletonCoordinates == StreamingCoordinatesValues.Global)
             {
                 m_client.RequestCommand("SetProperty,,Skeleton Coordinates,false");
             }
@@ -1200,7 +1200,7 @@ public class OptitrackStreamingClient : MonoBehaviour
                 m_client.RequestCommand("SetProperty,,Skeleton Coordinates,true");
             }
 
-            // Remotely change the Bone Naming Convention to Motive/FBX/BVH 
+            // Remotely change the Bone Naming Convention to Motive/FBX/BVH
             if(BoneNamingConvention == OptitrackBoneNameConvention.Motive)
             {
                 m_client.RequestCommand("SetProperty,,Bone Naming Convention,0");
@@ -1214,7 +1214,7 @@ public class OptitrackStreamingClient : MonoBehaviour
                 m_client.RequestCommand("SetProperty,,Bone Naming Convention,2");
             }
 
-            // Make sure that remotely setting the properties has time to complete. 
+            // Make sure that remotely setting the properties has time to complete.
             Thread.Sleep(100);
 
             if (!SkipDataDescriptions)
@@ -1402,7 +1402,7 @@ public class OptitrackStreamingClient : MonoBehaviour
                 NatNetException.ThrowIfNotOK( result, "NatNet_Frame_GetRigidBody failed." );
 
                 bool bTrackedThisFrame = (rbData.Params & 0x01) != 0;
-                
+
                 if (bTrackedThisFrame == false)
                 {
                     continue;
@@ -1623,7 +1623,7 @@ public class OptitrackStreamingClient : MonoBehaviour
         int assetID = marker.Id.GetHashCode() >> 16; // high word = Asset ID Number
         int memberID = marker.Id.GetHashCode() & 0x00ffff; // low word = Member ID Number (constraint number)
 
-        // Figure out the asset name if it exists. 
+        // Figure out the asset name if it exists.
         string assetName = "";
         OptitrackRigidBodyDefinition rigidBodyDef = GetRigidBodyDefinitionById( assetID );
         OptitrackSkeletonDefinition skeletonDef = GetSkeletonDefinitionById( assetID );
@@ -1637,7 +1637,7 @@ public class OptitrackStreamingClient : MonoBehaviour
         {
             assetName = skeletonDef.Name;
         }
-        else if (tmarkersetDef != null) 
+        else if (tmarkersetDef != null)
         {
             assetName = tmarkersetDef.Name;
         }
@@ -1675,7 +1675,7 @@ public class OptitrackStreamingClient : MonoBehaviour
         rbState.Pose = new OptitrackPose
         {
             Position = new Vector3(-rbData.X, rbData.Y, rbData.Z),
-            Orientation = new Quaternion(-rbData.QX, rbData.QY, rbData.QZ, -rbData.QW),                  
+            Orientation = new Quaternion(-rbData.QX, rbData.QY, rbData.QZ, -rbData.QW),
         };
         rbState.IsTracked = (rbData.Params & 0x01) != 0;
     }
@@ -1691,7 +1691,7 @@ public class OptitrackStreamingClient : MonoBehaviour
     {
         if ( m_client != null && ConnectionType == ClientConnectionType.Unicast )
         {
-            // Try subscribing up to 3 times with a 2000 ms timeout before giving up. 
+            // Try subscribing up to 3 times with a 2000 ms timeout before giving up.
             bool subscribeSucceeded = m_client.RequestCommand( "SubscribeByID,RigidBody," + rigidBodyId, 2000, 3 );
 
             // Log a warning on the first failure.
@@ -1727,7 +1727,7 @@ public class OptitrackStreamingClient : MonoBehaviour
         {
             if (m_client.ServerAppVersion >= new Version(2, 2, 1))
             {
-                // Try subscribing up to 3 times with a 2000 ms timeout before giving up. 
+                // Try subscribing up to 3 times with a 2000 ms timeout before giving up.
                 bool subscribeSucceeded = m_client.RequestCommand("SubscribeToData,Skeleton," + name, 2000, 3);
 
                 // Log a warning on the first failure.
@@ -1740,9 +1740,9 @@ public class OptitrackStreamingClient : MonoBehaviour
             else if (m_client.ServerAppVersion == new Version(2, 2, 0, 0))
             {
                 // Motive 2.2.0 has a bug were Motive says it subscribes successfully, but doesn't.
-                // Subscribing to all skeletons still works, so for this version that is done instead. 
+                // Subscribing to all skeletons still works, so for this version that is done instead.
 
-                // Try subscribing up to 3 times with a 2000 ms timeout before giving up. 
+                // Try subscribing up to 3 times with a 2000 ms timeout before giving up.
                 bool subscribeSucceeded = m_client.RequestCommand("SubscribeToData,Skeleton,All" + name, 2000, 3);
 
                 if (!subscribeSucceeded && !m_doneSubscriptionNotice)
@@ -1765,7 +1765,7 @@ public class OptitrackStreamingClient : MonoBehaviour
         {
             if (m_client.ServerAppVersion >= new Version(2, 2, 1))
             {
-                // Try subscribing up to 3 times with a 2000 ms timeout before giving up. 
+                // Try subscribing up to 3 times with a 2000 ms timeout before giving up.
                 bool subscribeSucceeded = m_client.RequestCommand("SubscribeToData,TrainedMarkersets," + name, 2000, 3);
 
                 // Log a warning on the first failure.
@@ -1779,9 +1779,9 @@ public class OptitrackStreamingClient : MonoBehaviour
             else if (m_client.ServerAppVersion == new Version(2, 2, 0, 0))
             {
                 // Motive 2.2.0 has a bug were Motive says it subscribes successfully, but doesn't.
-                // Subscribing to all skeletons still works, so for this version that is done instead. 
+                // Subscribing to all skeletons still works, so for this version that is done instead.
 
-                // Try subscribing up to 3 times with a 2000 ms timeout before giving up. 
+                // Try subscribing up to 3 times with a 2000 ms timeout before giving up.
                 bool subscribeSucceeded = m_client.RequestCommand("SubscribeToData,TrainedMarkersets,All" + name, 2000, 3);
 
                 if (!subscribeSucceeded && !m_doneSubscriptionNotice)
@@ -1838,7 +1838,7 @@ public class OptitrackStreamingClient : MonoBehaviour
     {
         if (m_client != null && ConnectionType == ClientConnectionType.Unicast)
         {
-            // Try subscribing up to 3 times with a 2000 ms timeout before giving up. 
+            // Try subscribing up to 3 times with a 2000 ms timeout before giving up.
             bool subscribeSucceeded = m_client.RequestCommand("SubscribeToData,MarkerSetMarkers,All", 2000, 3);
             bool subscribeSucceeded2 = m_client.RequestCommand("SubscribeToData,LabeledMarkers,All", 2000, 3);
             bool subscribeSucceeded3 = m_client.RequestCommand("SubscribeToData,LegacyUnlabeledMarkers,All", 2000, 3);
