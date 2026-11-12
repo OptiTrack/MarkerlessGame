@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b190578d1999f4941a411dd0409b5159
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 360922
+  packageName: POLYGON - Sci-Fi Outpost Map - Art by Synty
+  packageVersion: 1.0.3
+  assetPath: Assets/Synty/PolygonGeneric/Materials/Gen_Veh_Mat_Taxi_01.mat
+  uploadId: 1046458

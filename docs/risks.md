@@ -1,0 +1,7 @@
+# Risks
+
+R-1 team, H/M (issues filled in after the fact; difficult to coordinate tasks that rely on each other). Github issues are often filled in after the fact or when the task in question is almost complete, so checking what someone is working on or how much progress they have made is often impossible. Owner: Michael. Eliminate: Proactively make github issues during weekly team meetings and after meetings with the project partner. Trigger: Github issues not up to date during weekly meeting 
+
+R-2 technical, M/H (waiting on release of input device; limited testing until device is released). Testing the game with the required input device waits until it is released by our project partner; until then, testing is limited to placeholders that may not find all bugs that are present. Owner: Brett. Mitigate: Test our build as thoroughly as possible using placeholders to minimize the cleanup that is needed after transitioning. Trigger: Many new edge cases come up while integrating the input device 
+
+R-3 team, L/M (Only an issue if half the team is unavailable; would make testing more difficult). Brett and Tiffany can't download Motive on their computers because they use non-windows machines, meaning they are unable to perform tasks that require using motive. Owner: Brett. Accept, because getting access to windows machines for them for development would be more expensive than it's worth, and that was what the project partner recommended. Trigger: Brett or Tiffany are the only people available to work on something that requires Motive access.

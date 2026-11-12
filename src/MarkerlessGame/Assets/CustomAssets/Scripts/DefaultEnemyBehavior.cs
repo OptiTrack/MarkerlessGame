@@ -1,6 +1,7 @@
 using UnityEngine;
+using static GameEventBus;
 using static Move;
-public class DefaultEnemyBehavior : MonoBehaviour
+public class DefaultEnemyBehavior : MonoBehaviour, IHitResponder
 {
     //Simple, but useful to override for advanced monsters
     private Side SwapSide(Move m)
@@ -35,19 +36,23 @@ public class DefaultEnemyBehavior : MonoBehaviour
     {
         lastMove=new Move(State.idle);
     }
-    private void OnTriggerEnter(Collider col)
+    private void OnEnable()
     {
-        if(col.gameObject.tag=="player")
-        {
-            //if force threshold reached
-            Debug.Log("I was hit");
-            if(lastMove.state!=State.stagger)
-            {
+        GameEventBus.Subscribe<HitContext>(HandleHit);
+    }
 
-                Transition(new Move(State.stagger));
-                //Damage math
-                //score
-            }
+    private void OnDisable()
+    {
+        GameEventBus.Unsubcribe<HitContext>(HandleHit);
+    }
+    public void HandleHit(HitContext con)
+    {
+        if(lastMove.state!=State.stagger)
+        {
+            Transition(new Move(State.stagger));
+        }else
+        {
+            Debug.Log("Caught repeat stagger state");
         }
     }
 

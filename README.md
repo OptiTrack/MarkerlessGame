@@ -4,14 +4,14 @@ Track a person markerlessly using OptiTrack, then play a game where the person i
 
 ## Project Description
 
-[Insert Project Description]
+This is a boxing video game where players face off against colossal monsters in their equally colossal mech robot! Control your mech fighter via markerless technology to block, dodge, and strike your foes and prove yourself the mightiest boxer!
 
 ## Key Gameplay Features
 
-- **Feature 1** - Describe Feature
-- **Feature 2** - Describe Feature
-- **Feature 3** - Describe Feature
-- **Feature 4** - Describe Feature
+- **Feature 1** - Markerless controls
+- **Feature 2** - Block, dodge, and punch enemies
+- **Feature 3** - Choose from 3 different difficulties
+- **Feature 4** - Find and exploit an enemy's weakness
 
 [Insert Image of Game]
 
@@ -25,7 +25,7 @@ Track a person markerlessly using OptiTrack, then play a game where the person i
 
 - OptiTrack Motive
 - OptiTrack Tracking Bar and game calibration jigs.
-- Large Diplay
+- Large Display
 - Game Files
 
 ## Team

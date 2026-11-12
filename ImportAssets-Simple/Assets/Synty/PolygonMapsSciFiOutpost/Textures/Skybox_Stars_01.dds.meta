@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: f463f5021091f654d92d279111a43425
+IHVImageFormatImporter:
+  externalObjects: {}
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  isReadable: 0
+  sRGBTexture: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  ignoreMipmapLimit: 0
+  mipmapLimitGroupName: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 360922
+  packageName: POLYGON - Sci-Fi Outpost Map - Art by Synty
+  packageVersion: 1.0.3
+  assetPath: Assets/Synty/PolygonMapsSciFiOutpost/Textures/Skybox_Stars_01.dds
+  uploadId: 1046458
