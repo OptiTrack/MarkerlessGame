@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class HealthComponent : MonoBehaviour, IHitResponder
@@ -5,14 +6,16 @@ public class HealthComponent : MonoBehaviour, IHitResponder
     public bool fireOnDeathEvent = true;
     public bool destroyOnDeath = false;
 
-    public float maxHeatlh;
+    public float maxHealth;
     private float _currentHealth;
+    public event Action<float, float> HealthChanged;
 
-    private void Awake() => SetHealth(maxHeatlh);
+    private void Awake() => SetHealth(maxHealth);
 
     public void SetHealth(float value)
     {
-        _currentHealth = Mathf.Clamp(value, 0, maxHeatlh);
+        _currentHealth = Mathf.Clamp(value, 0, maxHealth);
+        _currentHealth = value;
     }
 
     public float GetCurrentHealth()
