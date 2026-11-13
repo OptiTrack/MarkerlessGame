@@ -1,16 +1,19 @@
+using System;
 using UnityEngine;
 
 public class HealthComponent : MonoBehaviour, IHitResponder
 {
 
-    public float maxHeatlh;
+    public float maxHealth;
     private float _currentHealth;
+    public event Action<float, float> HealthChanged;
 
-    private void Awake() => SetHealth(maxHeatlh);
+    private void Awake() => SetHealth(maxHealth);
 
     public void SetHealth(float value)
     {
         _currentHealth = value;
+        HealthChanged?.Invoke(_currentHealth, maxHealth);
     }
 
     public float GetCurrentHealth()
