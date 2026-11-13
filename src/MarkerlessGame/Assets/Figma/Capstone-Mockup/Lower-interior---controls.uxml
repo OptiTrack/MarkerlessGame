@@ -1,0 +1,119 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <Style src="Lower-interior---controls.uss" />
+    <ui:VisualElement style="width: 920px; height: 260px; flex-shrink: 0;">
+        <ui:VisualElement style="width: 920px; height: 260px; background-color: #060608; position: absolute; left: 0px; top: 0px;" />
+        <ui:VisualElement style="width: 920px; height: 1px; background-color: #311; position: absolute; left: 0px; top: 4px;" />
+        <ui:VisualElement style="width: 920px; height: 2px; background-color: #C11; position: absolute; left: 0px; top: 257px;" />
+        <ui:VisualElement style="width: 920px; height: 1px; background-color: #311; position: absolute; left: 0px; top: 253px;" />
+        <ui:VisualElement style="width: 920px; height: 1px; background-color: #1A1A1A; position: absolute; left: 0px; top: 128px;" />
+        <ui:VisualElement style="width: 1px; height: 244px; background-color: #222; position: absolute; left: 185px; top: 8px;" />
+        <ui:VisualElement style="width: 1px; height: 244px; background-color: #222; position: absolute; left: 365px; top: 8px;" />
+        <ui:VisualElement style="width: 1px; height: 244px; background-color: #222; position: absolute; left: 555px; top: 8px;" />
+        <ui:VisualElement style="width: 1px; height: 244px; background-color: #222; position: absolute; left: 735px; top: 8px;" />
+        <ui:VisualElement style="display: none; width: 920px; height: 260px; background-color: rgba(0, 0, 0, 0.18); position: absolute; left: 0px; top: 0px;" />
+        <ui:VisualElement style="width: 162px; height: 162px; border-radius: 81px; position: absolute; left: 10px; top: 12px;">
+            <ui:VisualElement style="width: 162px; height: 162px; position: absolute; left: 0px; top: 0px; background-image: url(&quot;project://database/Assets/Figma/Capstone-Mockup/images/img-44styl1dmig0t-164724.png?fileID=2800000&amp;guid=54f1826e8cd344dfb8488ff027b8acd9&amp;type=3#img-44styl1dmig0t-164724&quot;); -unity-background-scale-mode: scale-and-crop;" />
+        </ui:VisualElement>
+        <ui:VisualElement style="width: 150px; height: 18px; border-radius: 2px; background-color: #100; position: absolute; left: 16px; top: 178px;" />
+        <ui:Label text="STRUCT INTEGRITY" class="unity-label" style="width: 150px; height: 16px; color: #C22; -unity-font-definition: url(&quot;project://database/Assets/Fonts/IBMPlexMono-Bold.ttf?fileID=12800000&amp;guid=bf329ecad82b440b59a118822592127d&amp;type=3#IBMPlexMono-Bold&quot;); font-size: 9px; -unity-font-style: bold; -unity-text-align: middle-center; white-space: normal; position: absolute; left: 16px; top: 179px;" />
+        <ui:Label text="087%" class="unity-label" style="width: 150px; height: 22px; color: #EEE; -unity-font-definition: url(&quot;project://database/Assets/Fonts/IBMPlexMono-Bold.ttf?fileID=12800000&amp;guid=bf329ecad82b440b59a118822592127d&amp;type=3#IBMPlexMono-Bold&quot;); font-size: 18px; -unity-font-style: bold; -unity-text-align: middle-center; white-space: normal; position: absolute; left: 16px; top: 196px;" />
+        <ui:VisualElement style="width: 6px; height: 6px; border-radius: 6px; background-color: #C22; position: absolute; left: 56px; top: 224px;" />
+        <ui:VisualElement style="width: 6px; height: 6px; border-radius: 6px; background-color: #C22; position: absolute; left: 66px; top: 224px;" />
+        <ui:VisualElement style="width: 6px; height: 6px; border-radius: 6px; background-color: #444; position: absolute; left: 76px; top: 224px;" />
+        <ui:VisualElement style="width: 6px; height: 6px; border-radius: 6px; background-color: #444; position: absolute; left: 86px; top: 224px;" />
+        <ui:VisualElement style="width: 6px; height: 6px; border-radius: 6px; background-color: #444; position: absolute; left: 96px; top: 224px;" />
+        <ui:Label text="SYS A — NOMINAL" class="unity-label" style="width: 150px; height: 12px; color: #555; -unity-font-definition: url(&quot;project://database/Assets/Fonts/IBMPlexMono-Bold.ttf?fileID=12800000&amp;guid=bf329ecad82b440b59a118822592127d&amp;type=3#IBMPlexMono-Bold&quot;); font-size: 8px; -unity-text-align: middle-center; white-space: normal; position: absolute; left: 16px; top: 233px;" />
+        <ui:VisualElement style="width: 158px; height: 158px; border-radius: 79px; position: absolute; left: 196px; top: 12px;">
+            <ui:VisualElement style="width: 158px; height: 158px; position: absolute; left: 0px; top: 0px; background-image: url(&quot;project://database/Assets/Figma/Capstone-Mockup/images/img-i71ut41iwib8o-326045.png?fileID=2800000&amp;guid=b7dd2e171fa09415588985a26112317f&amp;type=3#img-i71ut41iwib8o-326045&quot;); -unity-background-scale-mode: scale-and-crop;" />
+        </ui:VisualElement>
+        <ui:VisualElement style="width: 150px; height: 18px; border-radius: 2px; background-color: #100; position: absolute; left: 200px; top: 174px;" />
+        <ui:Label text="POWER OUTPUT" class="unity-label" style="width: 150px; height: 16px; color: #C22; -unity-font-definition: url(&quot;project://database/Assets/Fonts/IBMPlexMono-Bold.ttf?fileID=12800000&amp;guid=bf329ecad82b440b59a118822592127d&amp;type=3#IBMPlexMono-Bold&quot;); font-size: 9px; -unity-font-style: bold; -unity-text-align: middle-center; white-space: normal; position: absolute; left: 200px; top: 175px;" />
+        <ui:Label text="072%" class="unity-label" style="width: 150px; height: 22px; color: #EEE; -unity-font-definition: url(&quot;project://database/Assets/Fonts/IBMPlexMono-Bold.ttf?fileID=12800000&amp;guid=bf329ecad82b440b59a118822592127d&amp;type=3#IBMPlexMono-Bold&quot;); font-size: 18px; -unity-font-style: bold; -unity-text-align: middle-center; white-space: normal; position: absolute; left: 200px; top: 194px;" />
+        <ui:VisualElement style="width: 12px; height: 28px; border-radius: 1px; background-color: #C22; position: absolute; left: 206px; top: 220px;" />
+        <ui:VisualElement style="width: 12px; height: 24px; border-radius: 1px; background-color: #C22; position: absolute; left: 221px; top: 224px;" />
+        <ui:VisualElement style="width: 12px; height: 29px; border-radius: 1px; background-color: #820; position: absolute; left: 236px; top: 219px;" />
+        <ui:VisualElement style="width: 12px; height: 26px; border-radius: 1px; background-color: #A10; position: absolute; left: 251px; top: 222px;" />
+        <ui:VisualElement style="width: 12px; height: 22px; border-radius: 1px; background-color: #333; position: absolute; left: 266px; top: 226px;" />
+        <ui:VisualElement style="width: 12px; height: 18px; border-radius: 1px; background-color: #333; position: absolute; left: 281px; top: 230px;" />
+        <ui:VisualElement style="width: 12px; height: 20px; border-radius: 1px; background-color: #333; position: absolute; left: 296px; top: 228px;" />
+        <ui:VisualElement style="width: 12px; height: 16px; border-radius: 1px; background-color: #222; position: absolute; left: 311px; top: 232px;" />
+        <ui:Label text="REACTOR CORE" class="unity-label" style="width: 150px; height: 10px; color: #555; -unity-font-definition: url(&quot;project://database/Assets/Fonts/IBMPlexMono-Bold.ttf?fileID=12800000&amp;guid=bf329ecad82b440b59a118822592127d&amp;type=3#IBMPlexMono-Bold&quot;); font-size: 7px; -unity-text-align: middle-center; white-space: normal; position: absolute; left: 200px; top: 249px;" />
+        <ui:VisualElement style="width: 158px; height: 158px; border-radius: 79px; position: absolute; left: 562px; top: 12px;">
+            <ui:VisualElement style="width: 158px; height: 158px; position: absolute; left: 0px; top: 0px; background-image: url(&quot;project://database/Assets/Figma/Capstone-Mockup/images/img-1djdnotc4rnuu-338147.png?fileID=2800000&amp;guid=2f0a28e24825141b6b8cb9d32bf34cd4&amp;type=3#img-1djdnotc4rnuu-338147&quot;); -unity-background-scale-mode: scale-and-crop;" />
+        </ui:VisualElement>
+        <ui:VisualElement style="width: 150px; height: 18px; border-radius: 2px; background-color: #100; position: absolute; left: 566px; top: 174px;" />
+        <ui:Label text="RADAR / THREAT" class="unity-label" style="width: 150px; height: 16px; color: #C22; -unity-font-definition: url(&quot;project://database/Assets/Fonts/IBMPlexMono-Bold.ttf?fileID=12800000&amp;guid=bf329ecad82b440b59a118822592127d&amp;type=3#IBMPlexMono-Bold&quot;); font-size: 9px; -unity-font-style: bold; -unity-text-align: middle-center; white-space: normal; position: absolute; left: 566px; top: 175px;" />
+        <ui:Label text="03 TGT" class="unity-label" style="width: 150px; height: 22px; color: #EEE; -unity-font-definition: url(&quot;project://database/Assets/Fonts/IBMPlexMono-Bold.ttf?fileID=12800000&amp;guid=bf329ecad82b440b59a118822592127d&amp;type=3#IBMPlexMono-Bold&quot;); font-size: 18px; -unity-font-style: bold; -unity-text-align: middle-center; white-space: normal; position: absolute; left: 566px; top: 194px;" />
+        <ui:VisualElement style="width: 14px; height: 6px; border-radius: 1px; background-color: #C22; position: absolute; left: 572px; top: 220px;" />
+        <ui:VisualElement style="width: 14px; height: 6px; border-radius: 1px; background-color: #C22; position: absolute; left: 590px; top: 220px;" />
+        <ui:VisualElement style="width: 14px; height: 6px; border-radius: 1px; background-color: #820; position: absolute; left: 608px; top: 220px;" />
+        <ui:VisualElement style="width: 14px; height: 6px; border-radius: 1px; background-color: #333; position: absolute; left: 626px; top: 220px;" />
+        <ui:VisualElement style="width: 14px; height: 6px; border-radius: 1px; background-color: #222; position: absolute; left: 644px; top: 220px;" />
+        <ui:VisualElement style="width: 14px; height: 6px; border-radius: 1px; background-color: #222; position: absolute; left: 662px; top: 220px;" />
+        <ui:Label text="THREAT LVL: MODERATE" class="unity-label" style="width: 150px; height: 10px; color: #555; -unity-font-definition: url(&quot;project://database/Assets/Fonts/IBMPlexMono-Bold.ttf?fileID=12800000&amp;guid=bf329ecad82b440b59a118822592127d&amp;type=3#IBMPlexMono-Bold&quot;); font-size: 7px; -unity-text-align: middle-center; white-space: normal; position: absolute; left: 566px; top: 228px;" />
+        <ui:Label text="SCAN: 360° — 2.4s" class="unity-label" style="width: 150px; height: 10px; color: #345; -unity-font-definition: url(&quot;project://database/Assets/Fonts/IBMPlexMono-Bold.ttf?fileID=12800000&amp;guid=bf329ecad82b440b59a118822592127d&amp;type=3#IBMPlexMono-Bold&quot;); font-size: 7px; -unity-text-align: middle-center; white-space: normal; position: absolute; left: 566px; top: 240px;" />
+        <ui:VisualElement style="width: 213.053px; height: 46px; border-radius: 2.421px; position: absolute; left: 745px; top: 24px;">
+            <ui:VisualElement style="width: 178px; height: 46px; position: absolute; left: 0px; top: 0px; background-image: url(&quot;project://database/Assets/Figma/Capstone-Mockup/images/img-hst76l1ahj7rz-8891.png?fileID=2800000&amp;guid=eee251ee3553343b8b6bf77eca4ca549&amp;type=3#img-hst76l1ahj7rz-8891&quot;); background-position-x: 0%; background-position-y: 50%; background-size: 98.315% 100%; background-repeat: no-repeat;" />
+        </ui:VisualElement>
+        <ui:VisualElement style="width: 920px; height: 11px; background-color: #0D0000; position: absolute; left: 0px; top: 246px;" />
+        <ui:Label text="MECH-VII // ONLINE // SECTOR 4" class="unity-label" style="width: 200px; height: 9px; color: #822; -unity-font-definition: url(&quot;project://database/Assets/Fonts/IBMPlexMono-Bold.ttf?fileID=12800000&amp;guid=bf329ecad82b440b59a118822592127d&amp;type=3#IBMPlexMono-Bold&quot;); font-size: 7px; white-space: normal; position: absolute; left: 8px; top: 247px;" />
+        <ui:Label text="VER 4.1.2 // SN:MK7-0094" class="unity-label" style="width: 200px; height: 9px; color: #335; -unity-font-definition: url(&quot;project://database/Assets/Fonts/IBMPlexMono-Bold.ttf?fileID=12800000&amp;guid=bf329ecad82b440b59a118822592127d&amp;type=3#IBMPlexMono-Bold&quot;); font-size: 7px; -unity-text-align: middle-right; white-space: normal; position: absolute; left: 712px; top: 247px;" />
+        <ui:VisualElement style="width: 135.611px; height: 124.58px; position: absolute; left: 760px; top: 80px;">
+            <ui:VisualElement style="width: 3.401px; height: 122.45px; background-color: #666; position: absolute; left: 10px; top: 2px;" />
+            <ui:VisualElement style="width: 3.401px; height: 122.45px; background-color: #666; position: absolute; left: 32px; top: 2px;" />
+            <ui:VisualElement style="width: 3.401px; height: 122.45px; background-color: #666; position: absolute; left: 55px; top: 2px;" />
+            <ui:VisualElement style="width: 3.401px; height: 122.45px; background-color: #666; position: absolute; left: 78px; top: 2px;" />
+            <ui:VisualElement style="width: 3.401px; height: 122.45px; background-color: #666; position: absolute; left: 121px; top: 2px;" />
+            <ui:VisualElement style="width: 3.401px; height: 122.45px; background-color: #666; position: absolute; left: 99px; top: 2px;" />
+            <ui:VisualElement style="width: 23.809px; height: 3.622px; position: absolute; left: 22px; top: 96px;">
+                <ui:VisualElement style="width: 23.809px; height: 3.622px; position: absolute; left: 0px; top: 0px; background-image: url(&quot;project://database/Assets/Figma/Capstone-Mockup/images/img-cdfeyp0djox-186.png?fileID=2800000&amp;guid=507471ad2a0e04ed4af49787c1fef2c6&amp;type=3#img-cdfeyp0djox-186&quot;); -unity-background-scale-mode: scale-to-fit;" />
+                <ui:VisualElement style="width: 20.975px; height: 0px; position: absolute; left: 1px; top: 2px; background-image: url(&quot;project://database/Assets/Figma/Capstone-Mockup/images/img-1xzxqj13v8ymn-162.png?fileID=2800000&amp;guid=3b85ae4b3d7364a85a74a25d0fac7857&amp;type=3#img-1xzxqj13v8ymn-162&quot;); -unity-background-scale-mode: scale-to-fit;" />
+            </ui:VisualElement>
+            <ui:VisualElement style="width: 23.809px; height: 3.622px; position: absolute; left: 46px; top: 28px;">
+                <ui:VisualElement style="width: 23.809px; height: 3.622px; position: absolute; left: 0px; top: 0px; background-image: url(&quot;project://database/Assets/Figma/Capstone-Mockup/images/img-cdfeyp0djox-186.png?fileID=2800000&amp;guid=507471ad2a0e04ed4af49787c1fef2c6&amp;type=3#img-cdfeyp0djox-186&quot;); -unity-background-scale-mode: scale-to-fit;" />
+                <ui:VisualElement style="width: 20.975px; height: 0px; position: absolute; left: 1px; top: 2px; background-image: url(&quot;project://database/Assets/Figma/Capstone-Mockup/images/img-1xzxqj13v8ymn-162.png?fileID=2800000&amp;guid=3b85ae4b3d7364a85a74a25d0fac7857&amp;type=3#img-1xzxqj13v8ymn-162&quot;); -unity-background-scale-mode: scale-to-fit;" />
+            </ui:VisualElement>
+            <ui:VisualElement style="width: 23.809px; height: 3.622px; position: absolute; left: 68px; top: 0px;">
+                <ui:VisualElement style="width: 23.809px; height: 3.622px; position: absolute; left: 0px; top: 0px; background-image: url(&quot;project://database/Assets/Figma/Capstone-Mockup/images/img-cdfeyp0djox-186.png?fileID=2800000&amp;guid=507471ad2a0e04ed4af49787c1fef2c6&amp;type=3#img-cdfeyp0djox-186&quot;); -unity-background-scale-mode: scale-to-fit;" />
+                <ui:VisualElement style="width: 20.975px; height: 0px; position: absolute; left: 1px; top: 2px; background-image: url(&quot;project://database/Assets/Figma/Capstone-Mockup/images/img-1xzxqj13v8ymn-162.png?fileID=2800000&amp;guid=3b85ae4b3d7364a85a74a25d0fac7857&amp;type=3#img-1xzxqj13v8ymn-162&quot;); -unity-background-scale-mode: scale-to-fit;" />
+            </ui:VisualElement>
+            <ui:VisualElement style="width: 23.809px; height: 3.622px; position: absolute; left: 89px; top: 63px;">
+                <ui:VisualElement style="width: 23.809px; height: 3.622px; position: absolute; left: 0px; top: 0px; background-image: url(&quot;project://database/Assets/Figma/Capstone-Mockup/images/img-cdfeyp0djox-186.png?fileID=2800000&amp;guid=507471ad2a0e04ed4af49787c1fef2c6&amp;type=3#img-cdfeyp0djox-186&quot;); -unity-background-scale-mode: scale-to-fit;" />
+                <ui:VisualElement style="width: 20.975px; height: 0px; position: absolute; left: 1px; top: 2px; background-image: url(&quot;project://database/Assets/Figma/Capstone-Mockup/images/img-1xzxqj13v8ymn-162.png?fileID=2800000&amp;guid=3b85ae4b3d7364a85a74a25d0fac7857&amp;type=3#img-1xzxqj13v8ymn-162&quot;); -unity-background-scale-mode: scale-to-fit;" />
+            </ui:VisualElement>
+            <ui:VisualElement style="width: 23.809px; height: 3.622px; position: absolute; left: 112px; top: 87px;">
+                <ui:VisualElement style="width: 23.809px; height: 3.622px; position: absolute; left: 0px; top: 0px; background-image: url(&quot;project://database/Assets/Figma/Capstone-Mockup/images/img-cdfeyp0djox-186.png?fileID=2800000&amp;guid=507471ad2a0e04ed4af49787c1fef2c6&amp;type=3#img-cdfeyp0djox-186&quot;); -unity-background-scale-mode: scale-to-fit;" />
+                <ui:VisualElement style="width: 20.975px; height: 0px; position: absolute; left: 1px; top: 2px; background-image: url(&quot;project://database/Assets/Figma/Capstone-Mockup/images/img-1xzxqj13v8ymn-162.png?fileID=2800000&amp;guid=3b85ae4b3d7364a85a74a25d0fac7857&amp;type=3#img-1xzxqj13v8ymn-162&quot;); -unity-background-scale-mode: scale-to-fit;" />
+            </ui:VisualElement>
+            <ui:VisualElement style="width: 22.36px; height: 3.401px; position: absolute; left: 0px; top: 45px;">
+                <ui:VisualElement style="width: 22.36px; height: 3.401px; position: absolute; left: 0px; top: 0px; background-image: url(&quot;project://database/Assets/Figma/Capstone-Mockup/images/img-v45umz1lvnta5-180.png?fileID=2800000&amp;guid=d992bb7b975794c21b2881540290294e&amp;type=3#img-v45umz1lvnta5-180&quot;); -unity-background-scale-mode: scale-to-fit;" />
+                <ui:VisualElement style="width: 19.699px; height: 0px; position: absolute; left: 1px; top: 2px; background-image: url(&quot;project://database/Assets/Figma/Capstone-Mockup/images/img-1a55u6pkc6njk-172.png?fileID=2800000&amp;guid=d7e7410698e9448bf838dc9193db2afd&amp;type=3#img-1a55u6pkc6njk-172&quot;); -unity-background-scale-mode: scale-to-fit;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement style="width: 180px; height: 244px; position: absolute; left: 370px; top: 9px;">
+            <ui:VisualElement style="width: 180px; height: 244px; position: absolute; left: 0px; top: 0px;">
+                <ui:VisualElement style="width: 180px; height: 244px; position: absolute; left: 0px; top: 0px; background-image: url(&quot;project://database/Assets/Figma/Capstone-Mockup/images/img-1c3o0tfew0fqf-9441.png?fileID=2800000&amp;guid=57096f6a36c0d44b5a1b99b8947a5a9f&amp;type=3#img-1c3o0tfew0fqf-9441&quot;); -unity-background-scale-mode: scale-to-fit;" />
+                <ui:VisualElement style="width: 180px; height: 244px; border-radius: 3px; border-width: 1px; border-color: #C11; background-color: rgba(0, 0, 0, 0.00); position: absolute; left: 0px; top: 0px;" />
+            </ui:VisualElement>
+            <ui:VisualElement style="width: 168px; height: 48px; border-radius: 2px; position: absolute; left: 6px; top: 22px;">
+                <ui:VisualElement style="width: 168px; height: 48px; border-radius: 2px; background-color: #0D0000; position: absolute; left: 0px; top: 0px;" />
+                <ui:Label text="087" class="unity-label" style="width: 168px; height: 40px; color: #F22; -unity-font-definition: url(&quot;project://database/Assets/Fonts/IBMPlexMono-Bold.ttf?fileID=12800000&amp;guid=bf329ecad82b440b59a118822592127d&amp;type=3#IBMPlexMono-Bold&quot;); font-size: 36px; -unity-font-style: bold; -unity-text-align: middle-center; white-space: normal; position: absolute; left: 0px; top: 3px;" />
+                <ui:Label text="%" class="unity-label" style="width: 168px; height: 40px; color: #822; -unity-font-definition: url(&quot;project://database/Assets/Fonts/IBMPlexMono-Bold.ttf?fileID=12800000&amp;guid=bf329ecad82b440b59a118822592127d&amp;type=3#IBMPlexMono-Bold&quot;); font-size: 10px; -unity-text-align: middle-right; white-space: normal; position: absolute; left: 0px; top: 3px;" />
+            </ui:VisualElement>
+            <ui:VisualElement style="width: 168px; height: 10px; border-radius: 2px; background-color: #1A0000; position: absolute; left: 6px; top: 74px;" />
+            <ui:VisualElement style="width: 147px; height: 10px; border-radius: 2px; background-color: #C11; position: absolute; left: 6px; top: 74px;" />
+            <ui:Label text="HP 087 / 100" class="unity-label" style="width: 168px; height: 10px; color: #633; -unity-font-definition: url(&quot;project://database/Assets/Fonts/IBMPlexMono-Bold.ttf?fileID=12800000&amp;guid=bf329ecad82b440b59a118822592127d&amp;type=3#IBMPlexMono-Bold&quot;); font-size: 7px; -unity-text-align: middle-center; white-space: normal; position: absolute; left: 6px; top: 86px;" />
+            <ui:VisualElement style="width: 168px; height: 48px; border-radius: 2px; position: absolute; left: 6px; top: 122px;">
+                <ui:VisualElement style="width: 168px; height: 48px; border-radius: 2px; background-color: #000D1A; position: absolute; left: 0px; top: 0px;" />
+                <ui:Label text="14:37:08" class="unity-label" style="width: 168px; height: 40px; color: #17F; -unity-font-definition: url(&quot;project://database/Assets/Fonts/IBMPlexMono-Bold.ttf?fileID=12800000&amp;guid=bf329ecad82b440b59a118822592127d&amp;type=3#IBMPlexMono-Bold&quot;); font-size: 27px; -unity-font-style: bold; -unity-text-align: middle-center; white-space: normal; position: absolute; left: 0px; top: 3px;" />
+            </ui:VisualElement>
+            <ui:VisualElement style="width: 153px; height: 30px; position: absolute; left: 13px; top: 204px;">
+                <ui:VisualElement style="width: 153px; height: 30px; background-color: #000; position: absolute; left: 0px; top: 0px;" />
+                <ui:VisualElement style="width: 30px; height: 30px; position: absolute; left: 2px; top: 0px; background-image: url(&quot;project://database/Assets/Figma/Capstone-Mockup/images/img-u135wc1e8vx34-3959.png?fileID=2800000&amp;guid=25ffc0c8026fb4b88bc74e8d13a070d4&amp;type=3#img-u135wc1e8vx34-3959&quot;); -unity-background-scale-mode: scale-and-crop;" />
+                <ui:VisualElement style="width: 30px; height: 30px; position: absolute; left: 42px; top: 0px; background-image: url(&quot;project://database/Assets/Figma/Capstone-Mockup/images/img-llm1q314ph6uw-3396.png?fileID=2800000&amp;guid=3ba2be19092df450ea7dcd7c8d107af9&amp;type=3#img-llm1q314ph6uw-3396&quot;); -unity-background-scale-mode: scale-and-crop;" />
+                <ui:VisualElement style="width: 30px; height: 30px; position: absolute; left: 82px; top: 0px; background-image: url(&quot;project://database/Assets/Figma/Capstone-Mockup/images/img-11yym0lhya6x2-3416.png?fileID=2800000&amp;guid=8ef73b90388774e788818e0052e2596b&amp;type=3#img-11yym0lhya6x2-3416&quot;); -unity-background-scale-mode: scale-and-crop;" />
+                <ui:VisualElement style="width: 30px; height: 30px; position: absolute; left: 122px; top: 0px; background-image: url(&quot;project://database/Assets/Figma/Capstone-Mockup/images/img-1l4l2pjid9iqk-12044.png?fileID=2800000&amp;guid=87b1e04fa55094525b313816e909ba1f&amp;type=3#img-1l4l2pjid9iqk-12044&quot;); -unity-background-scale-mode: scale-and-crop;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
