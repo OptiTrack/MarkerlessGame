@@ -73,7 +73,7 @@ public class HitDetectionTests
     [UnityTest]
     public IEnumerator Hurtbox_RecievesHitContextAndAppliesDamageMultiplier_UpdatesHealthResponder()
     {
-        _healthComponent.maxHeatlh = 100.0f;
+        _healthComponent.maxHealth = 100.0f;
         _healthComponent.SetHealth(100.0f);
         _hurtbox.damageMultiplier = 1.5f;
 

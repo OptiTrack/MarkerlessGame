@@ -1,0 +1,25 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <Style src="Group-26.uss" />
+    <ui:VisualElement style="width: 180px; height: 244px; flex-shrink: 0;">
+        <ui:VisualElement style="width: 180px; height: 244px; position: absolute; left: 0px; top: 0px; background-image: url(&quot;project://database/Assets/Figma/Capstone-Mockup/images/img-1c3o0tfew0fqf-9441.png?fileID=2800000&amp;guid=57096f6a36c0d44b5a1b99b8947a5a9f&amp;type=3#img-1c3o0tfew0fqf-9441&quot;); -unity-background-scale-mode: scale-to-fit;" />
+        <ui:VisualElement style="width: 168px; height: 48px; border-radius: 2px; position: absolute; left: 6px; top: 22px;">
+            <ui:VisualElement style="width: 168px; height: 48px; border-radius: 2px; background-color: #0D0000; position: absolute; left: 0px; top: 0px;" />
+            <ui:Label text="087" class="unity-label" style="width: 168px; height: 40px; color: #F22; font-size: 36px; -unity-font-style: bold; -unity-text-align: middle-center; white-space: normal; position: absolute; left: 0px; top: 3px;" />
+            <ui:Label text="%" class="unity-label" style="width: 168px; height: 40px; color: #822; font-size: 10px; -unity-text-align: middle-right; white-space: normal; position: absolute; left: 0px; top: 3px;" />
+        </ui:VisualElement>
+        <ui:VisualElement style="width: 168px; height: 10px; border-radius: 2px; background-color: #1A0000; position: absolute; left: 6px; top: 74px;" />
+        <ui:VisualElement style="width: 147px; height: 10px; border-radius: 2px; background-color: #C11; position: absolute; left: 6px; top: 74px;" />
+        <ui:Label text="HP 087 / 100" class="unity-label" style="width: 168px; height: 10px; color: #633; font-size: 7px; -unity-text-align: middle-center; white-space: normal; position: absolute; left: 6px; top: 86px;" />
+        <ui:VisualElement style="width: 168px; height: 48px; border-radius: 2px; position: absolute; left: 6px; top: 122px;">
+            <ui:VisualElement style="width: 168px; height: 48px; border-radius: 2px; background-color: #000D1A; position: absolute; left: 0px; top: 0px;" />
+            <ui:Label text="14:37:08" class="unity-label" style="width: 168px; height: 40px; color: #17F; font-size: 27px; -unity-font-style: bold; -unity-text-align: middle-center; white-space: normal; position: absolute; left: 0px; top: 3px;" />
+        </ui:VisualElement>
+        <ui:VisualElement style="width: 153px; height: 30px; position: absolute; left: 13px; top: 204px;">
+            <ui:VisualElement style="width: 153px; height: 30px; background-color: #000; position: absolute; left: 0px; top: 0px;" />
+            <ui:VisualElement style="width: 30px; height: 30px; position: absolute; left: 2px; top: 0px; background-image: url(&quot;project://database/Assets/Figma/Capstone-Mockup/images/img-u135wc1e8vx34-3959.png?fileID=2800000&amp;guid=25ffc0c8026fb4b88bc74e8d13a070d4&amp;type=3#img-u135wc1e8vx34-3959&quot;); -unity-background-scale-mode: scale-and-crop;" />
+            <ui:VisualElement style="width: 30px; height: 30px; position: absolute; left: 42px; top: 0px; background-image: url(&quot;project://database/Assets/Figma/Capstone-Mockup/images/img-llm1q314ph6uw-3396.png?fileID=2800000&amp;guid=3ba2be19092df450ea7dcd7c8d107af9&amp;type=3#img-llm1q314ph6uw-3396&quot;); -unity-background-scale-mode: scale-and-crop;" />
+            <ui:VisualElement style="width: 30px; height: 30px; position: absolute; left: 82px; top: 0px; background-image: url(&quot;project://database/Assets/Figma/Capstone-Mockup/images/img-11yym0lhya6x2-3416.png?fileID=2800000&amp;guid=8ef73b90388774e788818e0052e2596b&amp;type=3#img-11yym0lhya6x2-3416&quot;); -unity-background-scale-mode: scale-and-crop;" />
+            <ui:VisualElement style="width: 30px; height: 30px; position: absolute; left: 122px; top: 0px; background-image: url(&quot;project://database/Assets/Figma/Capstone-Mockup/images/img-1l4l2pjid9iqk-12044.png?fileID=2800000&amp;guid=87b1e04fa55094525b313816e909ba1f&amp;type=3#img-1l4l2pjid9iqk-12044&quot;); -unity-background-scale-mode: scale-and-crop;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

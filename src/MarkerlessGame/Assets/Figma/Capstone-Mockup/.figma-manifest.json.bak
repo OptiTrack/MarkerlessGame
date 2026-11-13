@@ -1,0 +1,4665 @@
+{
+    "fileName": "Capstone Mockup",
+    "tokens": [],
+    "screens": [
+        {
+            "assetName": "Group-26",
+            "rootNodeId": "88:552",
+            "contentHash": "6d9c26f04e6ff35a",
+            "generated": [
+                "images/img-1c3o0tfew0fqf-9441.png",
+                "images/img-u135wc1e8vx34-3959.png",
+                "images/img-llm1q314ph6uw-3396.png",
+                "images/img-11yym0lhya6x2-3416.png",
+                "images/img-1l4l2pjid9iqk-12044.png",
+                "Group-26.uss",
+                "Group-26.uxml"
+            ],
+            "tokens": [],
+            "nodes": [
+                {
+                    "figmaNodeId": "88:552",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Group-26",
+                    "path": "1",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "180px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "244px"
+                        },
+                        {
+                            "k": "flex-shrink",
+                            "v": "0"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "102:594",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Group-26",
+                    "path": "1/1",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "180px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "244px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "background-image",
+                            "v": "url(\"project://database/Assets/Figma/Capstone-Mockup/images/img-1c3o0tfew0fqf-9441.png?fileID=2800000&guid=57096f6a36c0d44b5a1b99b8947a5a9f&type=3#img-1c3o0tfew0fqf-9441\")"
+                        },
+                        {
+                            "k": "-unity-background-scale-mode",
+                            "v": "scale-to-fit"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "95:590",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Group-26",
+                    "path": "1/2",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "168px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "48px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "2px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "22px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "88:557",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Group-26",
+                    "path": "1/2/1",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "168px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "48px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "2px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#0D0000"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "0px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "88:558",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Group-26",
+                    "path": "1/2/2",
+                    "tag": "Label",
+                    "classes": "unity-label",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "168px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "40px"
+                        },
+                        {
+                            "k": "color",
+                            "v": "#F22"
+                        },
+                        {
+                            "k": "font-size",
+                            "v": "36px"
+                        },
+                        {
+                            "k": "-unity-font-style",
+                            "v": "bold"
+                        },
+                        {
+                            "k": "-unity-text-align",
+                            "v": "middle-center"
+                        },
+                        {
+                            "k": "white-space",
+                            "v": "normal"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "3px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "88:559",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Group-26",
+                    "path": "1/2/3",
+                    "tag": "Label",
+                    "classes": "unity-label",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "168px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "40px"
+                        },
+                        {
+                            "k": "color",
+                            "v": "#822"
+                        },
+                        {
+                            "k": "font-size",
+                            "v": "10px"
+                        },
+                        {
+                            "k": "-unity-text-align",
+                            "v": "middle-right"
+                        },
+                        {
+                            "k": "white-space",
+                            "v": "normal"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "3px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "88:560",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Group-26",
+                    "path": "1/3",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "168px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "10px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "2px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#1A0000"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "74px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "88:561",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Group-26",
+                    "path": "1/4",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "147px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "10px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "2px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#C11"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "74px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "88:562",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Group-26",
+                    "path": "1/5",
+                    "tag": "Label",
+                    "classes": "unity-label",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "168px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "10px"
+                        },
+                        {
+                            "k": "color",
+                            "v": "#633"
+                        },
+                        {
+                            "k": "font-size",
+                            "v": "7px"
+                        },
+                        {
+                            "k": "-unity-text-align",
+                            "v": "middle-center"
+                        },
+                        {
+                            "k": "white-space",
+                            "v": "normal"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "86px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "95:589",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Group-26",
+                    "path": "1/6",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "168px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "48px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "2px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "122px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "88:566",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Group-26",
+                    "path": "1/6/1",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "168px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "48px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "2px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#000D1A"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "0px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "88:567",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Group-26",
+                    "path": "1/6/2",
+                    "tag": "Label",
+                    "classes": "unity-label",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "168px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "40px"
+                        },
+                        {
+                            "k": "color",
+                            "v": "#17F"
+                        },
+                        {
+                            "k": "font-size",
+                            "v": "27px"
+                        },
+                        {
+                            "k": "-unity-font-style",
+                            "v": "bold"
+                        },
+                        {
+                            "k": "-unity-text-align",
+                            "v": "middle-center"
+                        },
+                        {
+                            "k": "white-space",
+                            "v": "normal"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "3px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "102:609",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Group-26",
+                    "path": "1/7",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "153px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "30px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "13px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "204px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "102:600",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Group-26",
+                    "path": "1/7/1",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "153px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "30px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#000"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "0px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "102:603",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Group-26",
+                    "path": "1/7/2",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "30px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "30px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "2px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "background-image",
+                            "v": "url(\"project://database/Assets/Figma/Capstone-Mockup/images/img-u135wc1e8vx34-3959.png?fileID=2800000&guid=25ffc0c8026fb4b88bc74e8d13a070d4&type=3#img-u135wc1e8vx34-3959\")"
+                        },
+                        {
+                            "k": "-unity-background-scale-mode",
+                            "v": "scale-and-crop"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "102:604",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Group-26",
+                    "path": "1/7/3",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "30px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "30px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "42px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "background-image",
+                            "v": "url(\"project://database/Assets/Figma/Capstone-Mockup/images/img-llm1q314ph6uw-3396.png?fileID=2800000&guid=3ba2be19092df450ea7dcd7c8d107af9&type=3#img-llm1q314ph6uw-3396\")"
+                        },
+                        {
+                            "k": "-unity-background-scale-mode",
+                            "v": "scale-and-crop"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "102:605",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Group-26",
+                    "path": "1/7/4",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "30px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "30px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "82px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "background-image",
+                            "v": "url(\"project://database/Assets/Figma/Capstone-Mockup/images/img-11yym0lhya6x2-3416.png?fileID=2800000&guid=8ef73b90388774e788818e0052e2596b&type=3#img-11yym0lhya6x2-3416\")"
+                        },
+                        {
+                            "k": "-unity-background-scale-mode",
+                            "v": "scale-and-crop"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "102:606",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Group-26",
+                    "path": "1/7/5",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "30px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "30px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "122px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "background-image",
+                            "v": "url(\"project://database/Assets/Figma/Capstone-Mockup/images/img-1l4l2pjid9iqk-12044.png?fileID=2800000&guid=87b1e04fa55094525b313816e909ba1f&type=3#img-1l4l2pjid9iqk-12044\")"
+                        },
+                        {
+                            "k": "-unity-background-scale-mode",
+                            "v": "scale-and-crop"
+                        }
+                    ]
+                }
+            ],
+            "components": [],
+            "states": [],
+            "templateNames": [],
+            "classNames": []
+        },
+        {
+            "assetName": "Lower-interior---controls",
+            "rootNodeId": "14:3",
+            "contentHash": "92920ebd2817bbf7",
+            "generated": [
+                "images/img-44styl1dmig0t-164724.png",
+                "images/img-i71ut41iwib8o-326045.png",
+                "images/img-1djdnotc4rnuu-338147.png",
+                "images/img-1k6dtq019rlfss-27369.png",
+                "images/img-cdfeyp0djox-186.png",
+                "images/img-1xzxqj13v8ymn-162.png",
+                "images/img-v45umz1lvnta5-180.png",
+                "images/img-1a55u6pkc6njk-172.png",
+                "images/img-1c3o0tfew0fqf-9441.png",
+                "images/img-u135wc1e8vx34-3959.png",
+                "images/img-llm1q314ph6uw-3396.png",
+                "images/img-11yym0lhya6x2-3416.png",
+                "images/img-1l4l2pjid9iqk-12044.png",
+                "Lower-interior---controls.uss",
+                "Lower-interior---controls.uxml"
+            ],
+            "tokens": [],
+            "nodes": [
+                {
+                    "figmaNodeId": "14:3",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "920px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "260px"
+                        },
+                        {
+                            "k": "flex-shrink",
+                            "v": "0"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "14:7",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/1",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "920px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "260px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#060608"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "0px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "14:9",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/2",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "920px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#311"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "4px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "14:10",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/3",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "920px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "2px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#C11"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "257px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "14:11",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/4",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "920px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#311"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "253px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "14:12",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/5",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "920px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#1A1A1A"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "128px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "14:13",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/6",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "244px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#222"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "185px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "8px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "14:14",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/7",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "244px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#222"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "365px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "8px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "14:15",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/8",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "244px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#222"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "555px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "8px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "14:16",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/9",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "244px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#222"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "735px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "8px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "14:17",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/10",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "display",
+                            "v": "none"
+                        },
+                        {
+                            "k": "width",
+                            "v": "920px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "260px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "rgba(0, 0, 0, 0.18)"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "0px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "14:18",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/11",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "162px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "162px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "81px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "10px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "12px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "14:19",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/11/1",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "162px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "162px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "background-image",
+                            "v": "url(\"project://database/Assets/Figma/Capstone-Mockup/images/img-44styl1dmig0t-164724.png?fileID=2800000&guid=54f1826e8cd344dfb8488ff027b8acd9&type=3#img-44styl1dmig0t-164724\")"
+                        },
+                        {
+                            "k": "-unity-background-scale-mode",
+                            "v": "scale-and-crop"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "14:20",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/12",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "150px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "18px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "2px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#100"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "16px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "178px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "14:21",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/13",
+                    "tag": "Label",
+                    "classes": "unity-label",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "150px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "16px"
+                        },
+                        {
+                            "k": "color",
+                            "v": "#C22"
+                        },
+                        {
+                            "k": "-unity-font-definition",
+                            "v": "url(\"project://database/Assets/Fonts/IBMPlexMono-Bold.ttf?fileID=12800000&guid=bf329ecad82b440b59a118822592127d&type=3#IBMPlexMono-Bold\")"
+                        },
+                        {
+                            "k": "font-size",
+                            "v": "9px"
+                        },
+                        {
+                            "k": "-unity-font-style",
+                            "v": "bold"
+                        },
+                        {
+                            "k": "-unity-text-align",
+                            "v": "middle-center"
+                        },
+                        {
+                            "k": "white-space",
+                            "v": "normal"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "16px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "179px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "14:22",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/14",
+                    "tag": "Label",
+                    "classes": "unity-label",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "150px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "22px"
+                        },
+                        {
+                            "k": "color",
+                            "v": "#EEE"
+                        },
+                        {
+                            "k": "-unity-font-definition",
+                            "v": "url(\"project://database/Assets/Fonts/IBMPlexMono-Bold.ttf?fileID=12800000&guid=bf329ecad82b440b59a118822592127d&type=3#IBMPlexMono-Bold\")"
+                        },
+                        {
+                            "k": "font-size",
+                            "v": "18px"
+                        },
+                        {
+                            "k": "-unity-font-style",
+                            "v": "bold"
+                        },
+                        {
+                            "k": "-unity-text-align",
+                            "v": "middle-center"
+                        },
+                        {
+                            "k": "white-space",
+                            "v": "normal"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "16px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "196px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "14:23",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/15",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#C22"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "56px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "224px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "14:24",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/16",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#C22"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "66px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "224px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "14:25",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/17",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#444"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "76px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "224px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "14:26",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/18",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#444"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "86px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "224px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "14:27",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/19",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#444"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "96px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "224px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "14:28",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/20",
+                    "tag": "Label",
+                    "classes": "unity-label",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "150px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "12px"
+                        },
+                        {
+                            "k": "color",
+                            "v": "#555"
+                        },
+                        {
+                            "k": "-unity-font-definition",
+                            "v": "url(\"project://database/Assets/Fonts/IBMPlexMono-Bold.ttf?fileID=12800000&guid=bf329ecad82b440b59a118822592127d&type=3#IBMPlexMono-Bold\")"
+                        },
+                        {
+                            "k": "font-size",
+                            "v": "8px"
+                        },
+                        {
+                            "k": "-unity-text-align",
+                            "v": "middle-center"
+                        },
+                        {
+                            "k": "white-space",
+                            "v": "normal"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "16px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "233px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "14:29",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/21",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "158px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "158px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "79px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "196px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "12px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "14:30",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/21/1",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "158px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "158px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "background-image",
+                            "v": "url(\"project://database/Assets/Figma/Capstone-Mockup/images/img-i71ut41iwib8o-326045.png?fileID=2800000&guid=b7dd2e171fa09415588985a26112317f&type=3#img-i71ut41iwib8o-326045\")"
+                        },
+                        {
+                            "k": "-unity-background-scale-mode",
+                            "v": "scale-and-crop"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "14:31",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/22",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "150px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "18px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "2px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#100"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "200px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "174px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "14:32",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/23",
+                    "tag": "Label",
+                    "classes": "unity-label",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "150px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "16px"
+                        },
+                        {
+                            "k": "color",
+                            "v": "#C22"
+                        },
+                        {
+                            "k": "-unity-font-definition",
+                            "v": "url(\"project://database/Assets/Fonts/IBMPlexMono-Bold.ttf?fileID=12800000&guid=bf329ecad82b440b59a118822592127d&type=3#IBMPlexMono-Bold\")"
+                        },
+                        {
+                            "k": "font-size",
+                            "v": "9px"
+                        },
+                        {
+                            "k": "-unity-font-style",
+                            "v": "bold"
+                        },
+                        {
+                            "k": "-unity-text-align",
+                            "v": "middle-center"
+                        },
+                        {
+                            "k": "white-space",
+                            "v": "normal"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "200px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "175px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "14:33",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/24",
+                    "tag": "Label",
+                    "classes": "unity-label",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "150px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "22px"
+                        },
+                        {
+                            "k": "color",
+                            "v": "#EEE"
+                        },
+                        {
+                            "k": "-unity-font-definition",
+                            "v": "url(\"project://database/Assets/Fonts/IBMPlexMono-Bold.ttf?fileID=12800000&guid=bf329ecad82b440b59a118822592127d&type=3#IBMPlexMono-Bold\")"
+                        },
+                        {
+                            "k": "font-size",
+                            "v": "18px"
+                        },
+                        {
+                            "k": "-unity-font-style",
+                            "v": "bold"
+                        },
+                        {
+                            "k": "-unity-text-align",
+                            "v": "middle-center"
+                        },
+                        {
+                            "k": "white-space",
+                            "v": "normal"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "200px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "194px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "14:34",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/25",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "12px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "28px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#C22"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "206px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "220px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "14:35",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/26",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "12px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "24px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#C22"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "221px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "224px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "14:36",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/27",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "12px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "29px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#820"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "236px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "219px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "14:37",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/28",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "12px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "26px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#A10"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "251px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "222px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "14:38",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/29",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "12px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "22px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#333"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "266px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "226px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "14:39",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/30",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "12px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "18px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#333"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "281px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "230px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "14:40",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/31",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "12px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "20px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#333"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "296px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "228px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "14:41",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/32",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "12px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "16px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#222"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "311px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "232px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "14:42",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/33",
+                    "tag": "Label",
+                    "classes": "unity-label",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "150px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "10px"
+                        },
+                        {
+                            "k": "color",
+                            "v": "#555"
+                        },
+                        {
+                            "k": "-unity-font-definition",
+                            "v": "url(\"project://database/Assets/Fonts/IBMPlexMono-Bold.ttf?fileID=12800000&guid=bf329ecad82b440b59a118822592127d&type=3#IBMPlexMono-Bold\")"
+                        },
+                        {
+                            "k": "font-size",
+                            "v": "7px"
+                        },
+                        {
+                            "k": "-unity-text-align",
+                            "v": "middle-center"
+                        },
+                        {
+                            "k": "white-space",
+                            "v": "normal"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "200px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "249px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "14:70",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/34",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "158px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "158px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "79px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "562px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "12px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "14:71",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/34/1",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "158px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "158px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "background-image",
+                            "v": "url(\"project://database/Assets/Figma/Capstone-Mockup/images/img-1djdnotc4rnuu-338147.png?fileID=2800000&guid=2f0a28e24825141b6b8cb9d32bf34cd4&type=3#img-1djdnotc4rnuu-338147\")"
+                        },
+                        {
+                            "k": "-unity-background-scale-mode",
+                            "v": "scale-and-crop"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "14:72",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/35",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "150px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "18px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "2px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#100"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "566px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "174px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "14:73",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/36",
+                    "tag": "Label",
+                    "classes": "unity-label",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "150px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "16px"
+                        },
+                        {
+                            "k": "color",
+                            "v": "#C22"
+                        },
+                        {
+                            "k": "-unity-font-definition",
+                            "v": "url(\"project://database/Assets/Fonts/IBMPlexMono-Bold.ttf?fileID=12800000&guid=bf329ecad82b440b59a118822592127d&type=3#IBMPlexMono-Bold\")"
+                        },
+                        {
+                            "k": "font-size",
+                            "v": "9px"
+                        },
+                        {
+                            "k": "-unity-font-style",
+                            "v": "bold"
+                        },
+                        {
+                            "k": "-unity-text-align",
+                            "v": "middle-center"
+                        },
+                        {
+                            "k": "white-space",
+                            "v": "normal"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "566px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "175px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "14:74",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/37",
+                    "tag": "Label",
+                    "classes": "unity-label",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "150px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "22px"
+                        },
+                        {
+                            "k": "color",
+                            "v": "#EEE"
+                        },
+                        {
+                            "k": "-unity-font-definition",
+                            "v": "url(\"project://database/Assets/Fonts/IBMPlexMono-Bold.ttf?fileID=12800000&guid=bf329ecad82b440b59a118822592127d&type=3#IBMPlexMono-Bold\")"
+                        },
+                        {
+                            "k": "font-size",
+                            "v": "18px"
+                        },
+                        {
+                            "k": "-unity-font-style",
+                            "v": "bold"
+                        },
+                        {
+                            "k": "-unity-text-align",
+                            "v": "middle-center"
+                        },
+                        {
+                            "k": "white-space",
+                            "v": "normal"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "566px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "194px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "14:75",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/38",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "14px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#C22"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "572px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "220px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "14:76",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/39",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "14px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#C22"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "590px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "220px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "14:77",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/40",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "14px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#820"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "608px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "220px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "14:78",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/41",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "14px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#333"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "626px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "220px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "14:79",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/42",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "14px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#222"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "644px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "220px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "14:80",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/43",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "14px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#222"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "662px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "220px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "14:81",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/44",
+                    "tag": "Label",
+                    "classes": "unity-label",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "150px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "10px"
+                        },
+                        {
+                            "k": "color",
+                            "v": "#555"
+                        },
+                        {
+                            "k": "-unity-font-definition",
+                            "v": "url(\"project://database/Assets/Fonts/IBMPlexMono-Bold.ttf?fileID=12800000&guid=bf329ecad82b440b59a118822592127d&type=3#IBMPlexMono-Bold\")"
+                        },
+                        {
+                            "k": "font-size",
+                            "v": "7px"
+                        },
+                        {
+                            "k": "-unity-text-align",
+                            "v": "middle-center"
+                        },
+                        {
+                            "k": "white-space",
+                            "v": "normal"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "566px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "228px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "14:82",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/45",
+                    "tag": "Label",
+                    "classes": "unity-label",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "150px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "10px"
+                        },
+                        {
+                            "k": "color",
+                            "v": "#345"
+                        },
+                        {
+                            "k": "-unity-font-definition",
+                            "v": "url(\"project://database/Assets/Fonts/IBMPlexMono-Bold.ttf?fileID=12800000&guid=bf329ecad82b440b59a118822592127d&type=3#IBMPlexMono-Bold\")"
+                        },
+                        {
+                            "k": "font-size",
+                            "v": "7px"
+                        },
+                        {
+                            "k": "-unity-text-align",
+                            "v": "middle-center"
+                        },
+                        {
+                            "k": "white-space",
+                            "v": "normal"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "566px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "240px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "14:83",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/46",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "213.053px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "46px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "2.421px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "745px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "24px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "14:84",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/46/1",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "213.053px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "46px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "background-image",
+                            "v": "url(\"project://database/Assets/Figma/Capstone-Mockup/images/img-1k6dtq019rlfss-27369.png?fileID=2800000&guid=be43167864c124b1184df85b449b67fe&type=3#img-1k6dtq019rlfss-27369\")"
+                        },
+                        {
+                            "k": "-unity-background-scale-mode",
+                            "v": "scale-and-crop"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "14:114",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/47",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "920px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "11px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#0D0000"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "246px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "14:115",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/48",
+                    "tag": "Label",
+                    "classes": "unity-label",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "200px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "9px"
+                        },
+                        {
+                            "k": "color",
+                            "v": "#822"
+                        },
+                        {
+                            "k": "-unity-font-definition",
+                            "v": "url(\"project://database/Assets/Fonts/IBMPlexMono-Bold.ttf?fileID=12800000&guid=bf329ecad82b440b59a118822592127d&type=3#IBMPlexMono-Bold\")"
+                        },
+                        {
+                            "k": "font-size",
+                            "v": "7px"
+                        },
+                        {
+                            "k": "white-space",
+                            "v": "normal"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "8px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "247px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "14:117",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/49",
+                    "tag": "Label",
+                    "classes": "unity-label",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "200px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "9px"
+                        },
+                        {
+                            "k": "color",
+                            "v": "#335"
+                        },
+                        {
+                            "k": "-unity-font-definition",
+                            "v": "url(\"project://database/Assets/Fonts/IBMPlexMono-Bold.ttf?fileID=12800000&guid=bf329ecad82b440b59a118822592127d&type=3#IBMPlexMono-Bold\")"
+                        },
+                        {
+                            "k": "font-size",
+                            "v": "7px"
+                        },
+                        {
+                            "k": "-unity-text-align",
+                            "v": "middle-right"
+                        },
+                        {
+                            "k": "white-space",
+                            "v": "normal"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "712px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "247px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "29:2802",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/50",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "135.611px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "124.58px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "760px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "80px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "29:2803",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/50/1",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "3.401px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "122.45px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#666"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "10px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "2px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "29:2804",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/50/2",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "3.401px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "122.45px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#666"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "32px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "2px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "29:2805",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/50/3",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "3.401px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "122.45px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#666"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "55px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "2px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "29:2806",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/50/4",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "3.401px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "122.45px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#666"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "78px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "2px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "29:2807",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/50/5",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "3.401px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "122.45px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#666"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "121px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "2px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "29:2808",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/50/6",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "3.401px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "122.45px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#666"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "99px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "2px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "34:3742",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/50/7",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "23.809px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "3.622px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "22px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "96px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "34:3743",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/50/7/1",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "23.809px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "3.622px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "background-image",
+                            "v": "url(\"project://database/Assets/Figma/Capstone-Mockup/images/img-cdfeyp0djox-186.png?fileID=2800000&guid=507471ad2a0e04ed4af49787c1fef2c6&type=3#img-cdfeyp0djox-186\")"
+                        },
+                        {
+                            "k": "-unity-background-scale-mode",
+                            "v": "scale-to-fit"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "34:3744",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/50/7/2",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "20.975px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "2px"
+                        },
+                        {
+                            "k": "background-image",
+                            "v": "url(\"project://database/Assets/Figma/Capstone-Mockup/images/img-1xzxqj13v8ymn-162.png?fileID=2800000&guid=3b85ae4b3d7364a85a74a25d0fac7857&type=3#img-1xzxqj13v8ymn-162\")"
+                        },
+                        {
+                            "k": "-unity-background-scale-mode",
+                            "v": "scale-to-fit"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "34:3745",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/50/8",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "23.809px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "3.622px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "46px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "28px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "34:3746",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/50/8/1",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "23.809px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "3.622px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "background-image",
+                            "v": "url(\"project://database/Assets/Figma/Capstone-Mockup/images/img-cdfeyp0djox-186.png?fileID=2800000&guid=507471ad2a0e04ed4af49787c1fef2c6&type=3#img-cdfeyp0djox-186\")"
+                        },
+                        {
+                            "k": "-unity-background-scale-mode",
+                            "v": "scale-to-fit"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "34:3747",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/50/8/2",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "20.975px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "2px"
+                        },
+                        {
+                            "k": "background-image",
+                            "v": "url(\"project://database/Assets/Figma/Capstone-Mockup/images/img-1xzxqj13v8ymn-162.png?fileID=2800000&guid=3b85ae4b3d7364a85a74a25d0fac7857&type=3#img-1xzxqj13v8ymn-162\")"
+                        },
+                        {
+                            "k": "-unity-background-scale-mode",
+                            "v": "scale-to-fit"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "34:3730",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/50/9",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "23.809px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "3.622px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "68px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "0px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "34:3731",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/50/9/1",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "23.809px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "3.622px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "background-image",
+                            "v": "url(\"project://database/Assets/Figma/Capstone-Mockup/images/img-cdfeyp0djox-186.png?fileID=2800000&guid=507471ad2a0e04ed4af49787c1fef2c6&type=3#img-cdfeyp0djox-186\")"
+                        },
+                        {
+                            "k": "-unity-background-scale-mode",
+                            "v": "scale-to-fit"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "34:3732",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/50/9/2",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "20.975px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "2px"
+                        },
+                        {
+                            "k": "background-image",
+                            "v": "url(\"project://database/Assets/Figma/Capstone-Mockup/images/img-1xzxqj13v8ymn-162.png?fileID=2800000&guid=3b85ae4b3d7364a85a74a25d0fac7857&type=3#img-1xzxqj13v8ymn-162\")"
+                        },
+                        {
+                            "k": "-unity-background-scale-mode",
+                            "v": "scale-to-fit"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "34:3736",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/50/10",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "23.809px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "3.622px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "89px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "63px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "34:3737",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/50/10/1",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "23.809px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "3.622px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "background-image",
+                            "v": "url(\"project://database/Assets/Figma/Capstone-Mockup/images/img-cdfeyp0djox-186.png?fileID=2800000&guid=507471ad2a0e04ed4af49787c1fef2c6&type=3#img-cdfeyp0djox-186\")"
+                        },
+                        {
+                            "k": "-unity-background-scale-mode",
+                            "v": "scale-to-fit"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "34:3738",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/50/10/2",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "20.975px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "2px"
+                        },
+                        {
+                            "k": "background-image",
+                            "v": "url(\"project://database/Assets/Figma/Capstone-Mockup/images/img-1xzxqj13v8ymn-162.png?fileID=2800000&guid=3b85ae4b3d7364a85a74a25d0fac7857&type=3#img-1xzxqj13v8ymn-162\")"
+                        },
+                        {
+                            "k": "-unity-background-scale-mode",
+                            "v": "scale-to-fit"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "34:3739",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/50/11",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "23.809px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "3.622px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "112px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "87px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "34:3740",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/50/11/1",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "23.809px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "3.622px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "background-image",
+                            "v": "url(\"project://database/Assets/Figma/Capstone-Mockup/images/img-cdfeyp0djox-186.png?fileID=2800000&guid=507471ad2a0e04ed4af49787c1fef2c6&type=3#img-cdfeyp0djox-186\")"
+                        },
+                        {
+                            "k": "-unity-background-scale-mode",
+                            "v": "scale-to-fit"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "34:3741",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/50/11/2",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "20.975px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "2px"
+                        },
+                        {
+                            "k": "background-image",
+                            "v": "url(\"project://database/Assets/Figma/Capstone-Mockup/images/img-1xzxqj13v8ymn-162.png?fileID=2800000&guid=3b85ae4b3d7364a85a74a25d0fac7857&type=3#img-1xzxqj13v8ymn-162\")"
+                        },
+                        {
+                            "k": "-unity-background-scale-mode",
+                            "v": "scale-to-fit"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "34:3733",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/50/12",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "22.36px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "3.401px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "45px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "34:3734",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/50/12/1",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "22.36px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "3.401px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "background-image",
+                            "v": "url(\"project://database/Assets/Figma/Capstone-Mockup/images/img-v45umz1lvnta5-180.png?fileID=2800000&guid=d992bb7b975794c21b2881540290294e&type=3#img-v45umz1lvnta5-180\")"
+                        },
+                        {
+                            "k": "-unity-background-scale-mode",
+                            "v": "scale-to-fit"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "34:3735",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/50/12/2",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "19.699px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "2px"
+                        },
+                        {
+                            "k": "background-image",
+                            "v": "url(\"project://database/Assets/Figma/Capstone-Mockup/images/img-1a55u6pkc6njk-172.png?fileID=2800000&guid=d7e7410698e9448bf838dc9193db2afd&type=3#img-1a55u6pkc6njk-172\")"
+                        },
+                        {
+                            "k": "-unity-background-scale-mode",
+                            "v": "scale-to-fit"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "88:552",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/51",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "180px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "244px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "370px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "9px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "103:615",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/51/1",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "180px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "244px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "0px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "102:594",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/51/1/1",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "180px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "244px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "background-image",
+                            "v": "url(\"project://database/Assets/Figma/Capstone-Mockup/images/img-1c3o0tfew0fqf-9441.png?fileID=2800000&guid=57096f6a36c0d44b5a1b99b8947a5a9f&type=3#img-1c3o0tfew0fqf-9441\")"
+                        },
+                        {
+                            "k": "-unity-background-scale-mode",
+                            "v": "scale-to-fit"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "103:610",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/51/1/2",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "180px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "244px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "3px"
+                        },
+                        {
+                            "k": "border-width",
+                            "v": "1px"
+                        },
+                        {
+                            "k": "border-color",
+                            "v": "#C11"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "rgba(0, 0, 0, 0.00)"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "0px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "95:590",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/51/2",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "168px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "48px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "2px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "22px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "88:557",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/51/2/1",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "168px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "48px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "2px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#0D0000"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "0px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "88:558",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/51/2/2",
+                    "tag": "Label",
+                    "classes": "unity-label",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "168px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "40px"
+                        },
+                        {
+                            "k": "color",
+                            "v": "#F22"
+                        },
+                        {
+                            "k": "-unity-font-definition",
+                            "v": "url(\"project://database/Assets/Fonts/IBMPlexMono-Bold.ttf?fileID=12800000&guid=bf329ecad82b440b59a118822592127d&type=3#IBMPlexMono-Bold\")"
+                        },
+                        {
+                            "k": "font-size",
+                            "v": "36px"
+                        },
+                        {
+                            "k": "-unity-font-style",
+                            "v": "bold"
+                        },
+                        {
+                            "k": "-unity-text-align",
+                            "v": "middle-center"
+                        },
+                        {
+                            "k": "white-space",
+                            "v": "normal"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "3px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "88:559",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/51/2/3",
+                    "tag": "Label",
+                    "classes": "unity-label",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "168px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "40px"
+                        },
+                        {
+                            "k": "color",
+                            "v": "#822"
+                        },
+                        {
+                            "k": "-unity-font-definition",
+                            "v": "url(\"project://database/Assets/Fonts/IBMPlexMono-Bold.ttf?fileID=12800000&guid=bf329ecad82b440b59a118822592127d&type=3#IBMPlexMono-Bold\")"
+                        },
+                        {
+                            "k": "font-size",
+                            "v": "10px"
+                        },
+                        {
+                            "k": "-unity-text-align",
+                            "v": "middle-right"
+                        },
+                        {
+                            "k": "white-space",
+                            "v": "normal"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "3px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "88:560",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/51/3",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "168px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "10px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "2px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#1A0000"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "74px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "88:561",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/51/4",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "147px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "10px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "2px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#C11"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "74px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "88:562",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/51/5",
+                    "tag": "Label",
+                    "classes": "unity-label",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "168px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "10px"
+                        },
+                        {
+                            "k": "color",
+                            "v": "#633"
+                        },
+                        {
+                            "k": "-unity-font-definition",
+                            "v": "url(\"project://database/Assets/Fonts/IBMPlexMono-Bold.ttf?fileID=12800000&guid=bf329ecad82b440b59a118822592127d&type=3#IBMPlexMono-Bold\")"
+                        },
+                        {
+                            "k": "font-size",
+                            "v": "7px"
+                        },
+                        {
+                            "k": "-unity-text-align",
+                            "v": "middle-center"
+                        },
+                        {
+                            "k": "white-space",
+                            "v": "normal"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "86px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "95:589",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/51/6",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "168px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "48px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "2px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "6px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "122px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "88:566",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/51/6/1",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "168px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "48px"
+                        },
+                        {
+                            "k": "border-radius",
+                            "v": "2px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#000D1A"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "0px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "88:567",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/51/6/2",
+                    "tag": "Label",
+                    "classes": "unity-label",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "168px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "40px"
+                        },
+                        {
+                            "k": "color",
+                            "v": "#17F"
+                        },
+                        {
+                            "k": "-unity-font-definition",
+                            "v": "url(\"project://database/Assets/Fonts/IBMPlexMono-Bold.ttf?fileID=12800000&guid=bf329ecad82b440b59a118822592127d&type=3#IBMPlexMono-Bold\")"
+                        },
+                        {
+                            "k": "font-size",
+                            "v": "27px"
+                        },
+                        {
+                            "k": "-unity-font-style",
+                            "v": "bold"
+                        },
+                        {
+                            "k": "-unity-text-align",
+                            "v": "middle-center"
+                        },
+                        {
+                            "k": "white-space",
+                            "v": "normal"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "3px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "102:609",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/51/7",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "153px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "30px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "13px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "204px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "102:600",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/51/7/1",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "153px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "30px"
+                        },
+                        {
+                            "k": "background-color",
+                            "v": "#000"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "0px"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "102:603",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/51/7/2",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "30px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "30px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "2px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "background-image",
+                            "v": "url(\"project://database/Assets/Figma/Capstone-Mockup/images/img-u135wc1e8vx34-3959.png?fileID=2800000&guid=25ffc0c8026fb4b88bc74e8d13a070d4&type=3#img-u135wc1e8vx34-3959\")"
+                        },
+                        {
+                            "k": "-unity-background-scale-mode",
+                            "v": "scale-and-crop"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "102:604",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/51/7/3",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "30px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "30px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "42px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "background-image",
+                            "v": "url(\"project://database/Assets/Figma/Capstone-Mockup/images/img-llm1q314ph6uw-3396.png?fileID=2800000&guid=3ba2be19092df450ea7dcd7c8d107af9&type=3#img-llm1q314ph6uw-3396\")"
+                        },
+                        {
+                            "k": "-unity-background-scale-mode",
+                            "v": "scale-and-crop"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "102:605",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/51/7/4",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "30px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "30px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "82px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "background-image",
+                            "v": "url(\"project://database/Assets/Figma/Capstone-Mockup/images/img-11yym0lhya6x2-3416.png?fileID=2800000&guid=8ef73b90388774e788818e0052e2596b&type=3#img-11yym0lhya6x2-3416\")"
+                        },
+                        {
+                            "k": "-unity-background-scale-mode",
+                            "v": "scale-and-crop"
+                        }
+                    ]
+                },
+                {
+                    "figmaNodeId": "102:606",
+                    "cssClass": "",
+                    "styleClass": "",
+                    "doc": "Lower-interior---controls",
+                    "path": "1/51/7/5",
+                    "tag": "VisualElement",
+                    "classes": "",
+                    "props": [
+                        {
+                            "k": "width",
+                            "v": "30px"
+                        },
+                        {
+                            "k": "height",
+                            "v": "30px"
+                        },
+                        {
+                            "k": "position",
+                            "v": "absolute"
+                        },
+                        {
+                            "k": "left",
+                            "v": "122px"
+                        },
+                        {
+                            "k": "top",
+                            "v": "0px"
+                        },
+                        {
+                            "k": "background-image",
+                            "v": "url(\"project://database/Assets/Figma/Capstone-Mockup/images/img-1l4l2pjid9iqk-12044.png?fileID=2800000&guid=87b1e04fa55094525b313816e909ba1f&type=3#img-1l4l2pjid9iqk-12044\")"
+                        },
+                        {
+                            "k": "-unity-background-scale-mode",
+                            "v": "scale-and-crop"
+                        }
+                    ]
+                }
+            ],
+            "components": [],
+            "states": [],
+            "templateNames": [],
+            "classNames": []
+        }
+    ],
+    "matchedMappings": [],
+    "foreign": []
+}
