@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 40a1233cf39ffe64e84117e3c45e7eda
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 8574412962073106934
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 360922
+  packageName: POLYGON - Sci-Fi Outpost Map - Art by Synty
+  packageVersion: 1.0.3
+  assetPath: Assets/Synty/PolygonMapsSciFiOutpost/Materials/Terrain/Tyre_Mud_01.terrainlayer
+  uploadId: 1046458

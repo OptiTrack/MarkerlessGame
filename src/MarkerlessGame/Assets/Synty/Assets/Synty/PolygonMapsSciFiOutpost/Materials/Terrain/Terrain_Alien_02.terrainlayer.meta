@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5d0e6d9f0178e9743ae49d984d993e78
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 8574412962073106934
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 360922
+  packageName: POLYGON - Sci-Fi Outpost Map - Art by Synty
+  packageVersion: 1.0.3
+  assetPath: Assets/Synty/PolygonMapsSciFiOutpost/Materials/Terrain/Terrain_Alien_02.terrainlayer
+  uploadId: 1046458
