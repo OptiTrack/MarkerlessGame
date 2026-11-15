@@ -122,19 +122,20 @@ Before submitting a PR, verify:
 - [ ] Application launches without crashes
 - [ ] No compile warnings in your changes
 - [ ] UI elements render correctly
-- [ ] Network connections work (VOXL 2 or simulation mode)
-- [ ] 3D waypoint visualization renders properly
-- [ ] No memory leaks (use Qt Creator's analyzer)
 
 ## Code Quality
 
 ### Code Style
 
-- Use **4 spaces** for indentation (no tabs)
-- Follow **Qt coding conventions** for C++ code
+- Use tabs for indentation
 - Keep lines under **120 characters** where practical
 - Use **meaningful variable and function names**
 - Add **comments** for complex logic
+- PascalCase for Methods and Classes
+- camelCase for variables
+- start booleans with a verb (hasLoaded)
+- other variables are nouns (with or without an adjective)
+- _ prefix for private/local
 
 ### File Organization
 

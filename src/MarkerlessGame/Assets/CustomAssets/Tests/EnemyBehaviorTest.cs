@@ -8,24 +8,24 @@ using static Move;
 
 public class EnemyBehaviorTest
 {
-    private GameObject emptyEnemy;
-    private DefaultEnemyBehavior script;
+    private GameObject _emptyEnemy;
+    private DefaultEnemyBehavior _script;
 
     [SetUp]
     public void SetupScript()
     {
-        emptyEnemy=new GameObject();
-        emptyEnemy.AddComponent<DefaultEnemyBehavior>();
-        script=emptyEnemy.GetComponent<DefaultEnemyBehavior>();
-        script.lastMove=new Move(Height.low,Side.left,State.idle);
+        _emptyEnemy=new GameObject();
+        _emptyEnemy.AddComponent<DefaultEnemyBehavior>();
+        _script=_emptyEnemy.GetComponent<DefaultEnemyBehavior>();
+        _script.lastMove=new Move(Height.low,Side.left,State.idle);
     }
 
     [Test]
     public void SetupTest()
     {
-        Assert.IsNotNull(emptyEnemy);
-        Assert.IsNotNull(emptyEnemy.GetComponent<DefaultEnemyBehavior>());
-        Assert.IsNotNull(script);
+        Assert.IsNotNull(_emptyEnemy);
+        Assert.IsNotNull(_emptyEnemy.GetComponent<DefaultEnemyBehavior>());
+        Assert.IsNotNull(_script);
     }
 
 
@@ -34,9 +34,9 @@ public class EnemyBehaviorTest
     [TestCase(State.idle)]
     public void NoRepeatsAnim(State animName)
     {
-        script.currentMove=new Move(animName);
-        script.OnAnimationEnd();
-        Assert.AreNotEqual(script.currentMove.state,animName);
+        _script.currentMove=new Move(animName);
+        _script.OnAnimationEnd();
+        Assert.AreNotEqual(_script.currentMove.state,animName);
     }
 
     [Test]
@@ -52,7 +52,7 @@ public class EnemyBehaviorTest
     public void SwitchAnim(int heightProb,int sideProb,int atkProb, Height height,Side side,State state)
     {
         var expected=new Move(height,side,state);
-        var actual=script.ChooseNextMove(sideProb,heightProb,atkProb);
+        var actual=_script.ChooseNextMove(sideProb,heightProb,atkProb);
         Assert.AreEqual(expected.state,actual.state);
         Assert.AreEqual(expected.side,actual.side);
         Assert.AreEqual(expected.height,actual.height);
@@ -63,9 +63,9 @@ public class EnemyBehaviorTest
     [TestCase(0,Side.right,State.dodge)]
     public void GuardOrDodge(int sideProb,Side side,State state)
     {
-        script.lastMove=new Move(Side.left,State.idle);
+        _script.lastMove=new Move(Side.left,State.idle);
         var expected=new Move(side,state);
-        var actual=script.ChooseNextMove(sideProb,0,100);
+        var actual=_script.ChooseNextMove(sideProb,0,100);
         Assert.AreEqual(expected.side,actual.side);
         Assert.AreEqual(expected.state,actual.state);
 
@@ -84,9 +84,9 @@ public class EnemyBehaviorTest
         //make i attacks
         for(int i=0;i<atkCounter;i++)
         {
-                script.ChooseNextMove(0,0,0);
+                _script.ChooseNextMove(0,0,0);
         }
-        var actual=script.ChooseNextMove(0,0,atkProb);
+        var actual=_script.ChooseNextMove(0,0,atkProb);
         Assert.AreEqual(expected.state,actual.state);
     }
 }
