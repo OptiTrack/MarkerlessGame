@@ -1,3 +1,6 @@
+using UnityEngine;
+using System;
+[System.Serializable]
 public class Move
 {
     public enum State
@@ -18,15 +21,14 @@ public class Move
     public Height height;
 
     //Allow creating a move with just a state, or a height and a state
-
-    public Move(Height h, Side s2, State s1)
+    public Move(Height _height, Side _side, State _state)
     {
-        state=s1;
-        side=s2;
-        height=h;
+        state=_state;
+        side=_side;
+        height=_height;
     }
-    public Move(Height h, State s1): this(h,Side.none,s1){}
-    public Move(Side s2, State s1): this(Height.none,s2,s1){}
-    public Move(State s1): this(Height.none,Side.none,s1){}
+    public Move(Height _height, State _state): this(_height,Side.none,_state){}
+    public Move(Side _side, State _state): this(Height.none,_side,_state){}
+    public Move(State _state): this(Height.none,Side.none,_state){}
 
 }
