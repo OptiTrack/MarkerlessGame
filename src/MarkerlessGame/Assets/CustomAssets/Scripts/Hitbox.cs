@@ -22,8 +22,8 @@ public class Hitbox : MonoBehaviour
 
         HitContext context = new HitContext
         {
-            Attacker = gameObject,
-            Victim = target.gameObject,
+            attacker = gameObject,
+            victim = target.gameObject,
             baseDamage = attackDamage
         };
 

@@ -25,6 +25,8 @@ public class Hurtbox : MonoBehaviour
     {
         context.baseDamage *= damageMultiplier;
 
+        GameEventBus.Raise(context);
+
         // Route the hit context to every registered responder
         foreach (var responder in _responders)
         {
