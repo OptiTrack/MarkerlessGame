@@ -18,12 +18,12 @@ public class HitDetectionTests
     [SetUp]
     public void Setup()
     {
-        _victim = new GameObject("TestVictim");
+        _victim = new GameObject();
         _hurtbox = _victim.AddComponent<Hurtbox>();
         _healthComponent = _victim.AddComponent<HealthComponent>();
         _hurtbox.InitHitResponders();
 
-        _attacker = new GameObject("TestAttacker");
+        _attacker = new GameObject();
         _hitbox = _attacker.AddComponent<Hitbox>();
         _speedCalculator = _attacker.AddComponent<SpeedCalculator>();
         _hitbox.speedCalculator = _speedCalculator;
@@ -60,8 +60,8 @@ public class HitDetectionTests
 
         HitContext expectedContext = new HitContext
         {
-            Attacker = _attacker,
-            Victim = _victim,
+            attacker = _attacker,
+            victim = _victim,
             baseDamage = 40.0f + 40.0f * 2.0f
         };
 
@@ -81,8 +81,8 @@ public class HitDetectionTests
 
         HitContext context = new HitContext
         {
-            Attacker = _attacker,
-            Victim = _victim,
+            attacker = _attacker,
+            victim = _victim,
             baseDamage = 60.0f
         };
 

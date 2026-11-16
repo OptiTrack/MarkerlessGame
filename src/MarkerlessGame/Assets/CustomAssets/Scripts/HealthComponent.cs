@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class HealthComponent : MonoBehaviour, IHitResponder
 {
+    public bool fireOnDeathEvent = true;
+    public bool destroyOnDeath = false;
 
     public float maxHeatlh;
     private float _currentHealth;
@@ -27,7 +29,7 @@ public class HealthComponent : MonoBehaviour, IHitResponder
 
         Debug.Log("After attack, health now at " + _currentHealth);
 
-        if (_currentHealth <= 0)
+        if (_currentHealth <= 0 && fireOnDeathEvent)
         {
             OnDeath();
         }
@@ -39,9 +41,14 @@ public class HealthComponent : MonoBehaviour, IHitResponder
 
         DefeatEvent defeatEvent = new DefeatEvent
         {
-            Victim = gameObject
+            victim = gameObject
         };
 
         GameEventBus.Raise(defeatEvent);
+
+        if (destroyOnDeath)
+        {
+            Destroy(gameObject);
+        }
     }
 }
