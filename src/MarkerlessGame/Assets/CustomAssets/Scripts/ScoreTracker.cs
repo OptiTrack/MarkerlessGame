@@ -27,7 +27,7 @@ public class ScoreTracker : MonoBehaviour
 
     public void UpdateScoreFromHit(HitContext context)
     {
-        // Only update the score if the player was hit by the enemy
+        // Only update the score if the enemy was hit by the player
         // Self-inflicted player collisions shouldn't occur, but we add the check just in case
         if (context.attacker.CompareTag("Player") && context.victim.CompareTag("Enemy")) // Placeholder, may need to change further into development
         {

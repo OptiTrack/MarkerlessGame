@@ -12,7 +12,7 @@ public class HealthComponent : MonoBehaviour, IHitResponder
 
     public void SetHealth(float value)
     {
-        _currentHealth = value;
+        _currentHealth = Mathf.Clamp(value, 0, maxHeatlh);
     }
 
     public float GetCurrentHealth()
