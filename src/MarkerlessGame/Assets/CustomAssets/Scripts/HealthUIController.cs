@@ -5,14 +5,14 @@ using UnityEngine.UIElements;
 public class HealthUIController : MonoBehaviour
 {
     [Header("UI Settings")]
-    [SerializeField] private float _maxBarWidth = 168f;
+    private float _maxBarWidth = 168f;
+    private float _maxHealth;
 
     [Header("Health Component")]
     [SerializeField] private HealthComponent _playerHealth;
 
 
     private Label _healthValue;
-    private Label _healthText;
     private VisualElement _healthBarFill;
 
     private void OnEnable()
@@ -28,58 +28,57 @@ public class HealthUIController : MonoBehaviour
         VisualElement root = uiDocument.rootVisualElement;
 
         _healthValue = root.Q<Label>("Health_Value");
-        _healthText = root.Q<Label>("Health_Text");
         _healthBarFill = root.Q<VisualElement>("Health_Bar_Fill");
 
-        if (_healthValue == null || _healthText == null || _healthBarFill == null)
+        if (_healthValue == null || _healthBarFill == null)
         {
-            Debug.LogError("HealthController: Could not find UI elements!");
+            Debug.LogError("HealthUIController: Could not find UI elements");
             return;
         }
 
         if (_playerHealth == null)
         {
-            Debug.LogError("HealthController: Player HealthComponent not assigned!");
+            Debug.LogError("HealthUIController: Player HealthComponent not assigned");
             return;
         }
+        _maxHealth = _playerHealth.maxHealth != 0 ? _playerHealth.maxHealth : 100;
 
         // Listen for health changes.
-        _playerHealth.HealthChanged += UpdateHealthUI;
+        GameEventBus.Subscribe<HealthAdjustedContext>(UpdateHealthUI);
+        Debug.Log("HealthUIController subscribed to HealthAdjustedContext");
 
-        // Display the current health immediately.
-        RefreshHealthUI();
     }
-
     private void OnDisable()
     {
-        if (_playerHealth != null)
-        {
-            _playerHealth.HealthChanged -= UpdateHealthUI;
-        }
+        // GameEventBus.Unsubscribe<HealthAdjustedContext>(UpdateHealthUI);
     }
 
-    private void RefreshHealthUI()
-    {
-        UpdateHealthUI(
-            _playerHealth.GetCurrentHealth(),
-            _playerHealth.maxHealth
-        );
-    }
 
-    private void UpdateHealthUI(float currentHealth, float maxHealth)
+
+    private void UpdateHealthUI(HealthAdjustedContext context)
     {
-        if (_healthValue == null || _healthText == null || _healthBarFill == null)
+        if (context.healthComponent != _playerHealth)
             return;
 
-        int displayedHealth = Mathf.RoundToInt(currentHealth);
-        int displayedMaxHealth = Mathf.RoundToInt(maxHealth);
+        DisplayHealth(context.healthComponent.GetCurrentHealth());
+    }
 
-        float healthPercent = maxHealth > 0
-            ? currentHealth / maxHealth
+    public void DisplayHealth(float currentHealth)
+    {
+        Debug.Log("HealthUIController received health event");
+        if (_healthValue == null || _healthBarFill == null)
+            return;
+
+        currentHealth = Mathf.Clamp(currentHealth, 0f, _maxHealth);
+
+        int displayedHealth = Mathf.RoundToInt(currentHealth);
+        int displayedMax = Mathf.RoundToInt(_maxHealth);
+
+        float healthPercent = _maxHealth > 0
+            ? currentHealth / _maxHealth
             : 0f;
 
         _healthValue.text = displayedHealth.ToString("000");
-        _healthText.text = $"HP {displayedHealth:000} / {displayedMaxHealth}";
 
         _healthBarFill.style.width = new Length(
             _maxBarWidth * healthPercent,

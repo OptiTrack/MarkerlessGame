@@ -8,14 +8,22 @@ public class HealthComponent : MonoBehaviour, IHitResponder
 
     public float maxHealth;
     private float _currentHealth;
-    public event Action<float, float> HealthChanged;
 
     private void Awake() => SetHealth(maxHealth);
 
     public void SetHealth(float value)
     {
         _currentHealth = Mathf.Clamp(value, 0, maxHealth);
-        _currentHealth = value;
+        Debug.Log($"Health set to {_currentHealth}");
+
+        HealthAdjustedContext healthAdjustedContext = new HealthAdjustedContext
+        {
+            entity = gameObject,
+            healthComponent = this,
+            newHealth = _currentHealth
+        };
+
+        GameEventBus.Raise(healthAdjustedContext);
     }
 
     public float GetCurrentHealth()
