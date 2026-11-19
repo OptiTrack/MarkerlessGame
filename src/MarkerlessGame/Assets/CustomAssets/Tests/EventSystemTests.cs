@@ -34,7 +34,7 @@ public class EventSystemTests
         Assert.AreEqual(32.5f, _eventDamage, "The event payload data does not match what is expected.");
 
         // Cleanup
-        GameEventBus.Unsubcribe<TestHitContext>(HandleTestEvent);
+        GameEventBus.Unsubscribe<TestHitContext>(HandleTestEvent);
     }
 
     [Test]
@@ -42,7 +42,7 @@ public class EventSystemTests
     {
         // Subscribe and unsubscribe from event on event bus
         GameEventBus.Subscribe<TestHitContext>(HandleTestEvent);
-        GameEventBus.Unsubcribe<TestHitContext>(HandleTestEvent);
+        GameEventBus.Unsubscribe<TestHitContext>(HandleTestEvent);
 
         // Trigger event and expect no listeners to be invoked
         GameEventBus.Raise(new TestHitContext { damage = 20.0f });

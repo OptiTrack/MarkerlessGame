@@ -23,7 +23,7 @@ public class GameEventBus
 
     // When called, replaces generic type 'T' with a struct that extends IEventPayload
     // Takes a method (action) with argument of type 'T' that returns void
-    public static void Unsubcribe<T>(Action<T> listener) where T : struct, IEventPayload
+    public static void Unsubscribe<T>(Action<T> listener) where T : struct, IEventPayload
     {
         Type type = typeof(T);
         if (_eventTable.ContainsKey(type))
