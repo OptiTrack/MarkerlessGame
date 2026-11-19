@@ -5,6 +5,7 @@ using UnityEngine.UIElements;
 public class ScoreUIController : MonoBehaviour
 {
     private Label _scoreLabel;
+    [SerializeField] private ScoreTracker _scoreTracker;
     private void OnEnable()
     {
         UIDocument uiDocument = GetComponent<UIDocument>();
@@ -23,10 +24,10 @@ public class ScoreUIController : MonoBehaviour
             Debug.LogError("ScoreUIController: Could not find UI elements");
             return;
         }
-        DisplayScore(0);
 
         // Listen for score changes.
         GameEventBus.Subscribe<ScoreUpdateContext>(UpdateScoreUI);
+        DisplayScore(_scoreTracker.GetCurrentScore());
 
     }
     private void OnDisable()
@@ -39,11 +40,12 @@ public class ScoreUIController : MonoBehaviour
         DisplayScore(context.newScore);
     }
 
-    public void DisplayScore(float currentScore)
+    public void DisplayScore(int currentScore)
     {
         if (_scoreLabel == null )
             return;
 
-        _scoreLabel.text = currentScore.ToString("0000");
+        int displayedScore = Mathf.Max(0, Mathf.RoundToInt(currentScore));
+        _scoreLabel.text = displayedScore.ToString("0000");
     }
 }

@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 384507}
   m_Layer: 0
   m_Name: Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -163,6 +163,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04b656a83a306894e840575cdf1f4ffe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Scripts::HealthComponent
+  fireOnDeathEvent: 1
+  destroyOnDeath: 0
   maxHealth: 100
 --- !u!1 &9931959
 GameObject:
@@ -174,8 +176,9 @@ GameObject:
   m_Component:
   - component: {fileID: 9931961}
   - component: {fileID: 9931960}
+  - component: {fileID: 9931962}
   m_Layer: 0
-  m_Name: TestHit
+  m_Name: TestUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -193,7 +196,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 619d389e0d23d4781bea491da2d32d90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Scripts::TestHit
-  targetHealthComponent: {fileID: 1047526078}
+  playerHealth: {fileID: 1047526078}
+  enemyHealth: {fileID: 384507}
+  testPlayerHealth: 1
+  testEnemyHealth: 1
+  damagePerHit: 10
+  hitInterval: 1.5
+  maxHits: 10
 --- !u!4 &9931961
 Transform:
   m_ObjectHideFlags: 0
@@ -209,6 +218,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9931962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9931959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b87cd8983c27f4e76a3c73838b51a011, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Scripts::TestScoreControllerUI
+  scoreUIController: {fileID: 589494071}
+  pointsPerUpdate: 250
+  updateInterval: 1.5
+  maxUpdates: 10
 --- !u!1 &589494066
 GameObject:
   m_ObjectHideFlags: 0
@@ -220,6 +245,7 @@ GameObject:
   - component: {fileID: 589494069}
   - component: {fileID: 589494068}
   - component: {fileID: 589494070}
+  - component: {fileID: 589494071}
   m_Layer: 0
   m_Name: UI
   m_TagString: Untagged
@@ -277,7 +303,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f13f93e3737ae4ea1aff485adbd6402a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Scripts::HealthUIController
+  _enemyHealthActive: {r: 1, g: 0, b: 0, a: 1}
+  _enemyHealthInactive: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   _playerHealth: {fileID: 1047526078}
+  _enemyHealth: {fileID: 384507}
+--- !u!114 &589494071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 589494066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 077da34d2d6ef486eb296d3fc5ccd220, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Scripts::ScoreUIController
+  _scoreTracker: {fileID: 0}
 --- !u!1 &1047526077
 GameObject:
   m_ObjectHideFlags: 0
@@ -290,7 +332,7 @@ GameObject:
   - component: {fileID: 1047526078}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -307,6 +349,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04b656a83a306894e840575cdf1f4ffe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Scripts::HealthComponent
+  fireOnDeathEvent: 1
+  destroyOnDeath: 0
   maxHealth: 100
 --- !u!4 &1047526079
 Transform:
@@ -394,6 +438,51 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1196942893}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1464415320
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1464415322}
+  - component: {fileID: 1464415321}
+  m_Layer: 0
+  m_Name: ScoreTracker
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1464415321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1464415320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d8d1da861215324a889bf3e02095311, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Scripts::ScoreTracker
+  currentPlayerScore: 0
+--- !u!4 &1464415322
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1464415320}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -677,3 +766,4 @@ SceneRoots:
   - {fileID: 1047526079}
   - {fileID: 9931961}
   - {fileID: 384506}
+  - {fileID: 1464415322}

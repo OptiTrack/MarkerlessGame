@@ -153,8 +153,6 @@ public class HealthUIControllerTests
         );
     }
 
-    // ENEMY UI TESTS
-
     [Test]
     public void DisplayEnemyHealth_UpdatesHealthLabel()
     {

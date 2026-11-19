@@ -17,12 +17,6 @@ public class ScoreTracker : MonoBehaviour
     {
         GameEventBus.Subscribe<HitContext>(UpdateScoreFromHit);
         GameEventBus.Subscribe<DefeatEvent>(FinalizeScore);
-        ScoreUpdateContext scoreContext = new ScoreUpdateContext
-        {
-            newScore = 0
-        };
-
-        GameEventBus.Raise(scoreContext);
     }
 
     private void OnDisable()
@@ -31,6 +25,10 @@ public class ScoreTracker : MonoBehaviour
         GameEventBus.Unsubscribe<DefeatEvent>(FinalizeScore);
     }
 
+    public int GetCurrentScore()
+        {
+            return currentPlayerScore;
+        }
     public void UpdateScoreFromHit(HitContext context)
     {
         // Only update the score if the enemy was hit by the player
