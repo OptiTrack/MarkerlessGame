@@ -17,12 +17,18 @@ public class ScoreTracker : MonoBehaviour
     {
         GameEventBus.Subscribe<HitContext>(UpdateScoreFromHit);
         GameEventBus.Subscribe<DefeatEvent>(FinalizeScore);
+        ScoreUpdateContext scoreContext = new ScoreUpdateContext
+        {
+            newScore = 0
+        };
+
+        GameEventBus.Raise(scoreContext);
     }
 
     private void OnDisable()
     {
-        GameEventBus.Unsubcribe<HitContext>(UpdateScoreFromHit);
-        GameEventBus.Unsubcribe<DefeatEvent>(FinalizeScore);
+        GameEventBus.Unsubscribe<HitContext>(UpdateScoreFromHit);
+        GameEventBus.Unsubscribe<DefeatEvent>(FinalizeScore);
     }
 
     public void UpdateScoreFromHit(HitContext context)

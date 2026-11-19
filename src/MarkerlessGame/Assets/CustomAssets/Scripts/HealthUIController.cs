@@ -1,19 +1,30 @@
 
 using UnityEngine;
 using UnityEngine.UIElements;
+using System.Collections.Generic;
 
 public class HealthUIController : MonoBehaviour
 {
-    [Header("UI Settings")]
     private float _maxBarWidth = 168f;
-    private float _maxHealth;
+    private const int _maxHealth = 100;
+    private const int _enemyHealthBarCount = 10;
 
-    [Header("Health Component")]
+    [Header("Enemy Health Bar Colors")]
+    [SerializeField] private Color _enemyHealthActive = Color.red;
+    [SerializeField] private Color _enemyHealthInactive = Color.gray;
+
+    [Header("Health Componenets")]
     [SerializeField] private HealthComponent _playerHealth;
+    [SerializeField] private HealthComponent _enemyHealth;
 
-
-    private Label _healthValue;
+    //UI Elements
+    private Label _playerHealthText;
     private VisualElement _healthBarFill;
+    private Label _enemyHealthText;
+    private VisualElement _enemyHealthBarFill;
+
+    private List<VisualElement> _enemyHealthBars = new List<VisualElement>();
+    
 
     private void OnEnable()
     {
@@ -27,10 +38,18 @@ public class HealthUIController : MonoBehaviour
 
         VisualElement root = uiDocument.rootVisualElement;
 
-        _healthValue = root.Q<Label>("Health_Value");
+        _playerHealthText = root.Q<Label>("Health_Value");
+        _enemyHealthText = root.Q<Label>("Enemy_Health");
         _healthBarFill = root.Q<VisualElement>("Health_Bar_Fill");
+        _enemyHealthBarFill = root.Q<VisualElement>("Health_Bar_Fill");
+        for (int i = 0; i < _enemyHealthBarCount; i++)
+        {
+            var bar = root.Q<VisualElement>($"Enemy_Bar_{i}");
+            if (bar != null)
+                _enemyHealthBars.Add(bar);
+        }
 
-        if (_healthValue == null || _healthBarFill == null)
+        if (_playerHealthText == null || _healthBarFill == null || _enemyHealthText == null|| _enemyHealthBarFill == null)
         {
             Debug.LogError("HealthUIController: Could not find UI elements");
             return;
@@ -41,7 +60,11 @@ public class HealthUIController : MonoBehaviour
             Debug.LogError("HealthUIController: Player HealthComponent not assigned");
             return;
         }
-        _maxHealth = _playerHealth.maxHealth != 0 ? _playerHealth.maxHealth : 100;
+        if (_enemyHealth == null)
+        {
+            Debug.LogError("HealthUIController: Enemy HealthComponent not assigned");
+            return;
+        }
 
         // Listen for health changes.
         GameEventBus.Subscribe<HealthAdjustedContext>(UpdateHealthUI);
@@ -50,39 +73,62 @@ public class HealthUIController : MonoBehaviour
     }
     private void OnDisable()
     {
-        // GameEventBus.Unsubscribe<HealthAdjustedContext>(UpdateHealthUI);
+        GameEventBus.Unsubscribe<HealthAdjustedContext>(UpdateHealthUI);
     }
-
-
 
     private void UpdateHealthUI(HealthAdjustedContext context)
     {
-        if (context.healthComponent != _playerHealth)
+        if (context.healthComponent != _playerHealth && context.healthComponent != _enemyHealth)
             return;
 
-        DisplayHealth(context.healthComponent.GetCurrentHealth());
-    }
-
-    public void DisplayHealth(float currentHealth)
-    {
-        Debug.Log("HealthUIController received health event");
-        if (_healthValue == null || _healthBarFill == null)
-            return;
-
-        currentHealth = Mathf.Clamp(currentHealth, 0f, _maxHealth);
-
-        int displayedHealth = Mathf.RoundToInt(currentHealth);
-        int displayedMax = Mathf.RoundToInt(_maxHealth);
-
+        string tag = context.entity.tag;
+        float newHealth = Mathf.Clamp(context.healthComponent.GetCurrentHealth(), 0f, _maxHealth);
         float healthPercent = _maxHealth > 0
-            ? currentHealth / _maxHealth
+            ? newHealth / _maxHealth
             : 0f;
 
-        _healthValue.text = displayedHealth.ToString("000");
+        if (tag == "Player"){
+            DisplayPlayerHealth(healthPercent);
+        } else {
+            DisplayEnemyHealth(healthPercent);
+        }
+    }
+
+    public void DisplayPlayerHealth(float healthPercent)
+    {
+        Debug.Log("HealthUIController received health event");
+        if (_playerHealthText == null || _healthBarFill == null)
+            return;
+
+        healthPercent = Mathf.Clamp01(healthPercent);
+        int displayedHealth = Mathf.RoundToInt(healthPercent * 100f);
+        _playerHealthText.text = displayedHealth.ToString("000");
 
         _healthBarFill.style.width = new Length(
             _maxBarWidth * healthPercent,
             LengthUnit.Pixel
         );
+    }
+
+    public void DisplayEnemyHealth(float healthPercent)
+    {
+        if (_enemyHealthText == null || _enemyHealthBars == null)
+            return;
+
+        healthPercent = Mathf.Clamp01(healthPercent);
+        int displayedHealth = Mathf.RoundToInt(healthPercent * 100f);
+        _enemyHealthText.text = displayedHealth.ToString("000");
+
+        int filledBars = Mathf.RoundToInt(
+            healthPercent * _enemyHealthBarCount
+        );
+
+        for (int i = 0; i < _enemyHealthBars.Count; i++)
+        {
+            _enemyHealthBars[i].style.backgroundColor =
+                i < filledBars
+                    ? _enemyHealthActive
+                    : _enemyHealthInactive;
+        }
     }
 }
