@@ -6,7 +6,7 @@ public class HealthComponent : MonoBehaviour, IHitResponder
     public bool fireOnDeathEvent = true;
     public bool destroyOnDeath = false;
 
-    public float maxHealth;
+    public float maxHealth = 100f;
     private float _currentHealth;
 
     private void Awake() => SetHealth(maxHealth);

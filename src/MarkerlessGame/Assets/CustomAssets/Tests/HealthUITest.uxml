@@ -1,4 +1,0 @@
-<ui:UXML xmlns:ui="UnityEngine.UIElements">
-    <ui:Label name="Health_Value" />
-    <ui:VisualElement name="Health_Bar_Fill" />
-</ui:UXML>

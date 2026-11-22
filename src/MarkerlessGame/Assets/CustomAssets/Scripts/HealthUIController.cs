@@ -13,10 +13,6 @@ public class HealthUIController : MonoBehaviour
     [SerializeField] private Color _enemyHealthActive = Color.red;
     [SerializeField] private Color _enemyHealthInactive = Color.gray;
 
-    [Header("Health Componenets")]
-    [SerializeField] private HealthComponent _playerHealth;
-    [SerializeField] private HealthComponent _enemyHealth;
-
     //UI Elements
     private Label _playerHealthText;
     private VisualElement _healthBarFill;
@@ -55,16 +51,6 @@ public class HealthUIController : MonoBehaviour
             return;
         }
 
-        if (_playerHealth == null)
-        {
-            Debug.LogError("HealthUIController: Player HealthComponent not assigned");
-            return;
-        }
-        if (_enemyHealth == null)
-        {
-            Debug.LogError("HealthUIController: Enemy HealthComponent not assigned");
-            return;
-        }
 
         // Listen for health changes.
         GameEventBus.Subscribe<HealthAdjustedContext>(UpdateHealthUI);
@@ -78,8 +64,6 @@ public class HealthUIController : MonoBehaviour
 
     private void UpdateHealthUI(HealthAdjustedContext context)
     {
-        if (context.healthComponent != _playerHealth && context.healthComponent != _enemyHealth)
-            return;
 
         string tag = context.entity.tag;
         float newHealth = Mathf.Clamp(context.healthComponent.GetCurrentHealth(), 0f, _maxHealth);
@@ -89,7 +73,7 @@ public class HealthUIController : MonoBehaviour
 
         if (tag == "Player"){
             DisplayPlayerHealth(healthPercent);
-        } else {
+        } else if (tag == "Player"){
             DisplayEnemyHealth(healthPercent);
         }
     }
