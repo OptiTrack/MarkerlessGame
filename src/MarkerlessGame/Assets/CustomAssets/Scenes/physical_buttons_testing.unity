@@ -260,7 +260,7 @@ GameObject:
   - component: {fileID: 898884233}
   - component: {fileID: 898884234}
   m_Layer: 0
-  m_Name: LeftHandHurtbox
+  m_Name: LeftHandHitbox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -315,7 +315,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 741cf744761d30f4c97c2e6becb9d8d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: CustomAssets::Hurtbox
-  _attack: {fileID: 11400000, guid: e303dfde78ec8a3438b936948a84c544, type: 2}
+  attack: {fileID: 11400000, guid: e303dfde78ec8a3438b936948a84c544, type: 2}
+  speedCalculator: {fileID: 898884234}
 --- !u!114 &898884234
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -328,7 +329,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0335fe2f83e47244dab2fb55dc2aae42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: CustomAssets::SpeedCalculator
-  ObjectSpeed: 0
+  currentSpeed: 0
 --- !u!54 &898884235
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -352,7 +353,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 0
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -742,7 +743,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46c857d5ed27ebe489f29dd316c17e7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: CustomAssets::Hitbox
-  _damageMultiplier: 1
+  damageMultiplier: 1
 --- !u!1 &1454287222
 GameObject:
   m_ObjectHideFlags: 0
@@ -937,21 +938,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a7191d84472da240be1874813493514, type: 3}
   m_Name: 
   m_EditorClassIdentifier: CustomAssets::PhysicalButton
-  PhysicalButtonPressed:
+  physicalButtonPressed:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 936242876}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &2115070798
 GameObject:
   m_ObjectHideFlags: 0
@@ -998,7 +987,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 741cf744761d30f4c97c2e6becb9d8d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: CustomAssets::Hurtbox
-  _attack: {fileID: 0}
+  attack: {fileID: 0}
+  speedCalculator: {fileID: 0}
 --- !u!135 &2115070801
 SphereCollider:
   m_ObjectHideFlags: 0
