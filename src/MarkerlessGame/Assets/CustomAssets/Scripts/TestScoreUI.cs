@@ -17,7 +17,7 @@ public class TestScoreUI : MonoBehaviour
 
     private void OnDisable()
     {
-        GameEventBus.Unsubcribe<ScoreUpdateContext>(UpdateScoreUI);
+        GameEventBus.Unsubscribe<ScoreUpdateContext>(UpdateScoreUI);
     }
 
     private void UpdateScoreUI(ScoreUpdateContext context)

@@ -26,3 +26,10 @@ public struct ScoreUpdateContext : IEventPayload
 {
     public int newScore;
 }
+
+public struct HealthAdjustedContext : IEventPayload
+{
+    public GameObject entity;
+    public HealthComponent healthComponent;
+    public float newHealth;
+}
