@@ -6,93 +6,78 @@ using System.Reflection;
 
 public class HealthUIControllerTests
 {
-    private GameObject testObject;
-    private HealthUIController uiController;
+    private GameObject _testObject;
+    private HealthUIController _uiController;
 
-    private Label playerHealthText;
-    private Label enemyHealthText;
+    private Label _playerHealthText;
+    private Label _enemyHealthText;
 
-    private VisualElement healthBarFill;
-    private List<VisualElement> enemyHealthBars;
+    private VisualElement _healthBarFill;
+    private List<VisualElement> _enemyHealthBars;
 
-    private const float MaxBarWidth = 168f;
-    private const int EnemyBarCount = 10;
+    private const float _maxBarWidth = 168f;
+    private const int _enemyBarCount = 10;
 
-    private Color activeColor = Color.red;
-    private Color inactiveColor = Color.gray;
+    private Color _activeColor = Color.red;
+    private Color _inactiveColor = Color.gray;
 
     [SetUp]
     public void Setup()
     {
-        testObject = new GameObject("TestHealthUI");
-        testObject.SetActive(false);
+        _testObject = new GameObject("TestHealthUI");
+        _testObject.SetActive(false);
 
-        uiController = testObject.AddComponent<HealthUIController>();
+        _uiController = _testObject.AddComponent<HealthUIController>();
 
         // Create mock player UI.
-        playerHealthText = new Label();
-        healthBarFill = new VisualElement();
+        _playerHealthText = new Label();
+        _healthBarFill = new VisualElement();
 
         // Create mock enemy UI.
-        enemyHealthText = new Label();
-        enemyHealthBars = new List<VisualElement>();
+        _enemyHealthText = new Label();
+        _enemyHealthBars = new List<VisualElement>();
 
-        for (int i = 0; i < EnemyBarCount; i++)
+        for (int i = 0; i < _enemyBarCount; i++)
         {
-            enemyHealthBars.Add(new VisualElement());
+            _enemyHealthBars.Add(new VisualElement());
         }
 
         // Inject mock UI elements into controller.
-        SetPrivateField("_playerHealthText", playerHealthText);
-        SetPrivateField("_healthBarFill", healthBarFill);
+        TestHelpers.SetPrivateField(_uiController, "_playerHealthText", _playerHealthText);
+        TestHelpers.SetPrivateField(_uiController, "_healthBarFill", _healthBarFill);
 
-        SetPrivateField("_enemyHealthText", enemyHealthText);
-        SetPrivateField("_enemyHealthBars", enemyHealthBars);
+        TestHelpers.SetPrivateField(_uiController, "_enemyHealthText", _enemyHealthText);
+        TestHelpers.SetPrivateField(_uiController, "_enemyHealthBars", _enemyHealthBars);
 
-        SetPrivateField("_enemyHealthActive", activeColor);
-        SetPrivateField("_enemyHealthInactive", inactiveColor);
+        TestHelpers.SetPrivateField(_uiController, "_enemyHealthActive", _activeColor);
+        TestHelpers.SetPrivateField(_uiController, "_enemyHealthInactive", _inactiveColor);
     }
 
     [TearDown]
     public void TearDown()
     {
-        Object.DestroyImmediate(testObject);
+        Object.DestroyImmediate(_testObject);
     }
 
-    private void SetPrivateField(string fieldName, object value)
-    {
-        FieldInfo field = typeof(HealthUIController).GetField(
-            fieldName,
-            BindingFlags.NonPublic | BindingFlags.Instance
-        );
-
-        if (field == null)
-        {
-            Assert.Fail($"Could not find private field '{fieldName}' in HealthUIController.");
-            return;
-        }
-
-        field.SetValue(uiController, value);
-    }
 
     [Test]
     public void DisplayPlayerHealth_UpdatesHealthLabel()
     {
-        uiController.DisplayPlayerHealth(0.65f);
+        _uiController.DisplayPlayerHealth(0.65f);
 
-        Assert.AreEqual("065", playerHealthText.text);
+        Assert.AreEqual("065", _playerHealthText.text);
     }
 
     [Test]
     public void DisplayPlayerHealth_UpdatesHealthBarWidth()
     {
-        uiController.DisplayPlayerHealth(0.65f);
+        _uiController.DisplayPlayerHealth(0.65f);
 
-        float expectedWidth = MaxBarWidth * 0.65f;
+        float expectedWidth = _maxBarWidth * 0.65f;
 
         Assert.AreEqual(
             expectedWidth,
-            healthBarFill.style.width.value.value,
+            _healthBarFill.style.width.value.value,
             0.01f
         );
     }
@@ -100,13 +85,13 @@ public class HealthUIControllerTests
     [Test]
     public void DisplayPlayerHealth_AtZero_ShowsEmptyHealth()
     {
-        uiController.DisplayPlayerHealth(0f);
+        _uiController.DisplayPlayerHealth(0f);
 
-        Assert.AreEqual("000", playerHealthText.text);
+        Assert.AreEqual("000", _playerHealthText.text);
 
         Assert.AreEqual(
             0f,
-            healthBarFill.style.width.value.value,
+            _healthBarFill.style.width.value.value,
             0.01f
         );
     }
@@ -114,13 +99,13 @@ public class HealthUIControllerTests
     [Test]
     public void DisplayPlayerHealth_AtFullHealth_ShowsFullHealth()
     {
-        uiController.DisplayPlayerHealth(1f);
+        _uiController.DisplayPlayerHealth(1f);
 
-        Assert.AreEqual("100", playerHealthText.text);
+        Assert.AreEqual("100", _playerHealthText.text);
 
         Assert.AreEqual(
-            MaxBarWidth,
-            healthBarFill.style.width.value.value,
+            _maxBarWidth,
+            _healthBarFill.style.width.value.value,
             0.01f
         );
     }
@@ -128,13 +113,13 @@ public class HealthUIControllerTests
     [Test]
     public void DisplayPlayerHealth_AboveMaximum_ClampsToFullHealth()
     {
-        uiController.DisplayPlayerHealth(1.2f);
+        _uiController.DisplayPlayerHealth(1.2f);
 
-        Assert.AreEqual("100", playerHealthText.text);
+        Assert.AreEqual("100", _playerHealthText.text);
 
         Assert.AreEqual(
-            MaxBarWidth,
-            healthBarFill.style.width.value.value,
+            _maxBarWidth,
+            _healthBarFill.style.width.value.value,
             0.01f
         );
     }
@@ -142,13 +127,13 @@ public class HealthUIControllerTests
     [Test]
     public void DisplayPlayerHealth_BelowZero_ClampsToZero()
     {
-        uiController.DisplayPlayerHealth(-0.2f);
+        _uiController.DisplayPlayerHealth(-0.2f);
 
-        Assert.AreEqual("000", playerHealthText.text);
+        Assert.AreEqual("000", _playerHealthText.text);
 
         Assert.AreEqual(
             0f,
-            healthBarFill.style.width.value.value,
+            _healthBarFill.style.width.value.value,
             0.01f
         );
     }
@@ -156,26 +141,26 @@ public class HealthUIControllerTests
     [Test]
     public void DisplayEnemyHealth_UpdatesHealthLabel()
     {
-        uiController.DisplayEnemyHealth(0.65f);
+        _uiController.DisplayEnemyHealth(0.65f);
 
-        Assert.AreEqual("065", enemyHealthText.text);
+        Assert.AreEqual("065", _enemyHealthText.text);
     }
 
     [Test]
     public void DisplayEnemyHealth_ActivatesCorrectNumberOfBars()
     {
-        uiController.DisplayEnemyHealth(0.7f);
+        _uiController.DisplayEnemyHealth(0.7f);
 
         // 70% of 10 bars = 7 active bars.
-        for (int i = 0; i < EnemyBarCount; i++)
+        for (int i = 0; i < _enemyBarCount; i++)
         {
             Color expectedColor = i < 7
-                ? activeColor
-                : inactiveColor;
+                ? _activeColor
+                : _inactiveColor;
 
             Assert.AreEqual(
                 expectedColor,
-                enemyHealthBars[i].style.backgroundColor.value,
+                _enemyHealthBars[i].style.backgroundColor.value,
                 $"Enemy health bar {i} has an incorrect color."
             );
         }
@@ -184,48 +169,48 @@ public class HealthUIControllerTests
     [Test]
     public void DisplayEnemyHealth_AtZero_DeactivatesAllBars()
     {
-        uiController.DisplayEnemyHealth(0f);
+        _uiController.DisplayEnemyHealth(0f);
 
-        foreach (VisualElement bar in enemyHealthBars)
+        foreach (VisualElement bar in _enemyHealthBars)
         {
             Assert.AreEqual(
-                inactiveColor,
+                _inactiveColor,
                 bar.style.backgroundColor.value
             );
         }
 
-        Assert.AreEqual("000", enemyHealthText.text);
+        Assert.AreEqual("000", _enemyHealthText.text);
     }
 
     [Test]
     public void DisplayEnemyHealth_AtFullHealth_ActivatesAllBars()
     {
-        uiController.DisplayEnemyHealth(1f);
+        _uiController.DisplayEnemyHealth(1f);
 
-        foreach (VisualElement bar in enemyHealthBars)
+        foreach (VisualElement bar in _enemyHealthBars)
         {
             Assert.AreEqual(
-                activeColor,
+                _activeColor,
                 bar.style.backgroundColor.value
             );
         }
 
-        Assert.AreEqual("100", enemyHealthText.text);
+        Assert.AreEqual("100", _enemyHealthText.text);
     }
 
     [Test]
     public void DisplayEnemyHealth_AboveMaximum_ClampsToFullHealth()
     {
-        uiController.DisplayEnemyHealth(1.5f);
+        _uiController.DisplayEnemyHealth(1.5f);
 
-        Assert.AreEqual("100", enemyHealthText.text);
+        Assert.AreEqual("100", _enemyHealthText.text);
     }
 
     [Test]
     public void DisplayEnemyHealth_BelowZero_ClampsToZero()
     {
-        uiController.DisplayEnemyHealth(-0.5f);
+        _uiController.DisplayEnemyHealth(-0.5f);
 
-        Assert.AreEqual("000", enemyHealthText.text);
+        Assert.AreEqual("000", _enemyHealthText.text);
     }
 }

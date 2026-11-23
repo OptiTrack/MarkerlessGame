@@ -73,7 +73,7 @@ public class HealthUIController : MonoBehaviour
 
         if (tag == "Player"){
             DisplayPlayerHealth(healthPercent);
-        } else if (tag == "Player"){
+        } else if (tag == "Enemy"){
             DisplayEnemyHealth(healthPercent);
         }
     }

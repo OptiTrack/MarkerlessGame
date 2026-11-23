@@ -196,13 +196,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 619d389e0d23d4781bea491da2d32d90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Scripts::TestHit
-  playerHealth: {fileID: 1047526078}
-  enemyHealth: {fileID: 384507}
-  testPlayerHealth: 1
-  testEnemyHealth: 1
-  damagePerHit: 10
-  hitInterval: 1.5
-  maxHits: 10
+  _playerHealth: {fileID: 1047526078}
+  _enemyHealth: {fileID: 384507}
+  _testPlayerHealth: 1
+  _testEnemyHealth: 1
+  _damagePerHit: 10
+  _hitInterval: 1.5
+  _maxHits: 5
 --- !u!4 &9931961
 Transform:
   m_ObjectHideFlags: 0
@@ -230,10 +230,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b87cd8983c27f4e76a3c73838b51a011, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Scripts::TestScoreControllerUI
-  scoreUIController: {fileID: 589494071}
-  pointsPerUpdate: 250
-  updateInterval: 1.5
-  maxUpdates: 10
+  _scoreUIController: {fileID: 589494071}
+  _pointsPerUpdate: 250
+  _updateInterval: 1.5
+  _maxUpdates: 10
 --- !u!1 &589494066
 GameObject:
   m_ObjectHideFlags: 0
@@ -305,8 +305,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Scripts::HealthUIController
   _enemyHealthActive: {r: 1, g: 0, b: 0, a: 1}
   _enemyHealthInactive: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-  _playerHealth: {fileID: 1047526078}
-  _enemyHealth: {fileID: 384507}
 --- !u!114 &589494071
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -5,32 +5,32 @@ public class TestHealthUI : MonoBehaviour
 {
 
     [Header("Health Components")]
-    [SerializeField] private HealthComponent playerHealth;
-    [SerializeField] private HealthComponent enemyHealth;
+    [SerializeField] private HealthComponent _playerHealth;
+    [SerializeField] private HealthComponent _enemyHealth;
 
     [Header("Test Settings")]
-    [SerializeField] private bool testPlayerHealth = true;
-    [SerializeField] private bool testEnemyHealth = true;
+    [SerializeField] private bool _testPlayerHealth = true;
+    [SerializeField] private bool _testEnemyHealth = true;
 
     [Header("Damage Settings")]
-    [SerializeField] private float damagePerHit = 10f;
-    [SerializeField] private float hitInterval = 1.5f;
-    [SerializeField] private int maxHits = 5;
+    [SerializeField] private float _damagePerHit = 10f;
+    [SerializeField] private float _hitInterval = 1.5f;
+    [SerializeField] private int _maxHits = 5;
 
     private void Start()
     {
-        if (testPlayerHealth)
+        if (_testPlayerHealth)
         {
-            if (playerHealth != null)
-                StartCoroutine(TestHealthChanges(playerHealth));
+            if (_playerHealth != null)
+                StartCoroutine(TestHealthChanges(_playerHealth));
             else
                 Debug.LogWarning("TestHealthUI: Player HealthComponent not assigned.");
         }
 
-        if (testEnemyHealth)
+        if (_testEnemyHealth)
         {
-            if (enemyHealth != null)
-                StartCoroutine(TestHealthChanges(enemyHealth));
+            if (_enemyHealth != null)
+                StartCoroutine(TestHealthChanges(_enemyHealth));
             else
                 Debug.LogWarning("TestHealthUI: Enemy HealthComponent not assigned.");
         }
@@ -38,9 +38,9 @@ public class TestHealthUI : MonoBehaviour
 
     private IEnumerator TestHealthChanges(HealthComponent target)
     {
-        for (int i = 0; i < maxHits; i++)
+        for (int i = 0; i < _maxHits; i++)
         {
-            yield return new WaitForSeconds(hitInterval);
+            yield return new WaitForSeconds(_hitInterval);
 
             if (target == null)
             {
@@ -51,7 +51,7 @@ public class TestHealthUI : MonoBehaviour
             float currentHealth = target.GetCurrentHealth();
 
             target.SetHealth(
-                Mathf.Max(0, currentHealth - damagePerHit)
+                Mathf.Max(0, currentHealth - _damagePerHit)
             );
         }
     }
