@@ -180,6 +180,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: Scripts::LeaderboardManager
   leaderboard:
     entries: []
+  editorSavePath: CustomAssets/Data/EditorLeaderboardData.json
+  loadFromEditorPath: 1
+  saveToEditorPath: 1
+  loadFromLocalPath: 0
+  saveToLocalPath: 0
+  saveOnExit: 1
 --- !u!1 &17712448
 GameObject:
   m_ObjectHideFlags: 0

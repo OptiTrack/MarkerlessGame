@@ -49,7 +49,7 @@ public class ScoreTracker : MonoBehaviour
     {
         GameObject player = GameObject.FindGameObjectWithTag("Player"); // Could move reference to start if needed elsewhere
         
-        if (player.TryGetComponent<HealthComponent>(out HealthComponent healthComponent))
+        if (player != null && player.TryGetComponent<HealthComponent>(out HealthComponent healthComponent))
         {
             currentPlayerScore += ScoreValues.remainingHealth * (int)healthComponent.GetCurrentHealth();
         }
