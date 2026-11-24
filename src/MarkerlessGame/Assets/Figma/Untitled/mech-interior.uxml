@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <Style src="mech-interior.uss" />
+    <ui:VisualElement style="width: 960px; height: 1442px; background-image: url(&quot;project://database/Assets/Figma/Untitled/images/img-lpxg7up9d5q7-38089.png?fileID=2800000&amp;guid=b0293ac7e44ad41c1b7fee10ef4b3ea2&amp;type=3#img-lpxg7up9d5q7-38089&quot;); background-position-x: 50%; background-position-y: 50%; background-size: 100% 99.861%; background-repeat: no-repeat; flex-shrink: 0;" />
+</ui:UXML>

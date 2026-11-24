@@ -9,12 +9,27 @@ public interface IHitResponder
 
 public struct HitContext : IEventPayload
 {
-    public GameObject Attacker;
-    public GameObject Victim;
+    public GameObject attacker;
+    public GameObject victim;
     public float baseDamage;
 }
 
 public struct DefeatEvent : IEventPayload
 {
-    public GameObject Victim;
+    public GameObject victim; // Easier to track than "winner" in health components
+    public float timeLeft;
+
+    // Change or add data as needed
+}
+
+public struct ScoreUpdateContext : IEventPayload
+{
+    public int newScore;
+}
+
+public struct HealthAdjustedContext : IEventPayload
+{
+    public GameObject entity;
+    public HealthComponent healthComponent;
+    public float newHealth;
 }

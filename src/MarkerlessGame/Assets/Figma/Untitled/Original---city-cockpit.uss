@@ -1,0 +1,6 @@
+.rectangle-3 {
+    width: 212.5px;
+    height: 464.5px;
+    opacity: 0.65;
+}
+

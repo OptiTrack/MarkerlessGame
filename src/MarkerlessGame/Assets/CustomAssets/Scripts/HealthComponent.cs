@@ -1,16 +1,29 @@
+using System;
 using UnityEngine;
 
 public class HealthComponent : MonoBehaviour, IHitResponder
 {
+    public bool fireOnDeathEvent = true;
+    public bool destroyOnDeath = false;
 
-    public float maxHeatlh;
+    public float maxHealth = 100f;
     private float _currentHealth;
 
-    private void Awake() => SetHealth(maxHeatlh);
+    private void Awake() => SetHealth(maxHealth);
 
     public void SetHealth(float value)
     {
-        _currentHealth = value;
+        _currentHealth = Mathf.Clamp(value, 0, maxHealth);
+        Debug.Log($"Health set to {_currentHealth}");
+
+        HealthAdjustedContext healthAdjustedContext = new HealthAdjustedContext
+        {
+            entity = gameObject,
+            healthComponent = this,
+            newHealth = _currentHealth
+        };
+
+        GameEventBus.Raise(healthAdjustedContext);
     }
 
     public float GetCurrentHealth()
@@ -27,7 +40,7 @@ public class HealthComponent : MonoBehaviour, IHitResponder
 
         Debug.Log("After attack, health now at " + _currentHealth);
 
-        if (_currentHealth <= 0)
+        if (_currentHealth <= 0 && fireOnDeathEvent)
         {
             OnDeath();
         }
@@ -39,9 +52,14 @@ public class HealthComponent : MonoBehaviour, IHitResponder
 
         DefeatEvent defeatEvent = new DefeatEvent
         {
-            Victim = gameObject
+            victim = gameObject
         };
 
         GameEventBus.Raise(defeatEvent);
+
+        if (destroyOnDeath)
+        {
+            Destroy(gameObject);
+        }
     }
 }

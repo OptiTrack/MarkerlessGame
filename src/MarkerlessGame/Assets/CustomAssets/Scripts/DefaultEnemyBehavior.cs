@@ -48,7 +48,7 @@ public class DefaultEnemyBehavior : MonoBehaviour, IHitResponder
 
     private void OnDisable()
     {
-        GameEventBus.Unsubcribe<HitContext>(HandleHit);
+        GameEventBus.Unsubscribe<HitContext>(HandleHit);
     }
     public void HandleHit(HitContext con)
     {
