@@ -31,4 +31,42 @@ public class Move
     public Move(Side _side, State _state): this(Height.none,_side,_state){}
     public Move(State _state): this(Height.none,Side.none,_state){}
 
+    public override String ToString()
+    {
+        String height="";
+        String side="";
+        switch(this.height)
+        {
+            case Height.high:
+                height="high";
+                break;
+            case Height.low:
+                height+="low";
+                break;
+        }
+        switch(this.side)
+        {
+            case Side.left:
+                side="Left";
+                break;
+            case Side.right:
+                side="Right";
+                break;
+        }
+        switch(this.state)
+        {
+            case State.idle:
+                return "idle";
+            case State.attack:
+                return side+height+"Attack";
+            case State.guard:
+                return height+"Guard";
+            case State.dodge:
+                return side+"Dodge";
+            case State.stagger:
+                return "stagger";
+        }
+        return "none";
+    }
+
 }
