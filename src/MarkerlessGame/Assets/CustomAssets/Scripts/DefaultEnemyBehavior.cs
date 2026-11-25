@@ -31,10 +31,15 @@ public class DefaultEnemyBehavior : MonoBehaviour, IHitResponder
     // Positive values represent turns without attacking
     // Negative values represent turns without blocking
     [SerializeField] private float _lastAttackCounter;
+    private Animator _animController;
 
     public void Start()
     {
         lastMove=new Move(State.idle);
+    }
+    public void Awake()
+    {
+        _animController=gameObject.GetComponent<Animator>();
     }
     private void OnEnable()
     {
@@ -56,22 +61,22 @@ public class DefaultEnemyBehavior : MonoBehaviour, IHitResponder
         }
     }
 
-    private void Transition(Move m)
+    public void Transition(Move m)
     {
-        //gradually switch to anim
         lastMove=currentMove;
         currentMove=m;
+        _animController.SetBool("doesActLeft",m.side==Side.left);
+        _animController.SetBool("doesActHigh",m.height==Height.high);
+        _animController.SetBool("doesActAttack",m.state==State.attack);
     }
+
+
     public void OnAnimationEnd()
     {
-        if(currentMove.state==State.stagger||currentMove.state==State.idle)
-            {
-                Move nextMove=ChooseNextMove();
-                Transition(nextMove);
-            }else
-            {
-                Transition(new Move(State.idle));
-            }
+        if(this==null) return;
+        Move nextMove=ChooseNextMove();
+        Transition(nextMove);
+
     }
     // Calling without arguments generates 3 pseudo random numbers to pass in
     private Move ChooseNextMove(){

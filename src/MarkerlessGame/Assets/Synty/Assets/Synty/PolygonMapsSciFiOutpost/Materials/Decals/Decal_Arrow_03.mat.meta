@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ab7a214adbd0f074cba5fee1b6c8c7ff
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 360922
+  packageName: POLYGON - Sci-Fi Outpost Map - Art by Synty
+  packageVersion: 1.0.3
+  assetPath: Assets/Synty/PolygonMapsSciFiOutpost/Materials/Decals/Decal_Arrow_03.mat
+  uploadId: 1046458

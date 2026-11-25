@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 43facbb23a5b76741994fcf1d59c13cc
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 360922
+  packageName: POLYGON - Sci-Fi Outpost Map - Art by Synty
+  packageVersion: 1.0.3
+  assetPath: Assets/Synty/PolygonMapsSciFiOutpost/Materials/FX/Dome_Fog_Day_01.mat
+  uploadId: 1046458
