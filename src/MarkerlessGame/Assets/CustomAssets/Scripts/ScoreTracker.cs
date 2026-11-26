@@ -31,6 +31,18 @@ public class ScoreTracker : MonoBehaviour
         }
     public void UpdateScoreFromHit(HitContext context)
     {
+        GameObject attacker = context.attacker;
+        GameObject victim = context.victim;
+
+        // Return if an attacker or victim game object is missing
+        if (attacker == null || victim == null)
+        {
+            Debug.LogWarning("Hit Context was passed with a missing attacker or victim reference; " +
+                             "WARNING: improper use of context, both references should always be included. " +
+                             $"Attacker game object: {attacker} | Victim game object: {victim}");
+            return;
+        }
+
         // Only update the score if the enemy was hit by the player
         // Self-inflicted player collisions shouldn't occur, but we add the check just in case
         if (context.attacker.CompareTag("Player") && context.victim.CompareTag("Enemy")) // Placeholder, may need to change further into development
@@ -53,7 +65,7 @@ public class ScoreTracker : MonoBehaviour
     {
         GameObject player = GameObject.FindGameObjectWithTag("Player"); // Could move reference to start if needed elsewhere
         
-        if (player.TryGetComponent<HealthComponent>(out HealthComponent healthComponent))
+        if (player != null && player.TryGetComponent<HealthComponent>(out HealthComponent healthComponent))
         {
             currentPlayerScore += ScoreValues.remainingHealth * (int)healthComponent.GetCurrentHealth();
         }
